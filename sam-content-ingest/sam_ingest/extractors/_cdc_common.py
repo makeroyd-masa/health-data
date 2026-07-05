@@ -12,6 +12,60 @@ from .base import RunContext
 _DEFAULT_PUBLISHER = "Centers for Disease Control and Prevention (CDC)"
 
 
+def _direct_item_context(ref, *, use_case: UseCase, extractor: str,
+                         audience: Audience) -> ItemContext:
+    title = ref.title or ref.source_id.replace("-", " ").title()
+    return ItemContext(
+        source=Source.cdc,
+        source_id=ref.source_id,
+        source_url=ref.url,
+        title=title,
+        publisher=_DEFAULT_PUBLISHER,
+        attribution_text="Content from the U.S. Centers for Disease Control and Prevention (CDC).",
+        default_license=License.us_gov,
+        default_audience=audience,
+        adapter_name="cdc_pages",
+        extractor_name=extractor,
+        use_case=use_case,
+        id_stem=slugify(title),
+    )
+
+
+def run_cdc_direct_pages(ctx: RunContext, cdc_seed: dict, *, use_case: UseCase,
+                         extractor: str, default_audience: Audience) -> list[KnowledgeBlock]:
+    """Fetch + ingest the specific CDC pages listed under `direct_pages` (the content
+    HHS syndication lacks). Per-page audience honored via seed `audience`."""
+    import itertools
+
+    from ..adapters.cdc_pages import CdcPagesAdapter
+    from ..core.schema import SeedConfig
+
+    if not cdc_seed.get("direct_pages"):
+        return []
+    adapter = CdcPagesAdapter(ctx.client)
+    seed = SeedConfig(use_case=extractor, raw=cdc_seed)
+    discovered = adapter.discover(seed)
+    refs = list(itertools.islice(discovered, ctx.limit) if ctx.limit else discovered)
+
+    blocks: list[KnowledgeBlock] = []
+    for ref in refs:
+        try:
+            sections = adapter.parse(adapter.fetch(ref, refresh=ctx.refresh))
+        except Exception as e:  # noqa: BLE001 - log + skip (PRD §4.8)
+            ctx.log.warning("cdc page fetch/parse failed for %s: %s", ref.url, e)
+            continue
+        if not sections:
+            ctx.log.info("no content sections for %s", ref.url)
+            continue
+        audience = Audience(ref.meta.get("audience", default_audience.value))
+        item_ctx = _direct_item_context(ref, use_case=use_case, extractor=extractor,
+                                        audience=audience)
+        item_blocks = build_blocks(item_ctx, sections, ctx.state, ctx.run_ts)
+        ctx.log.info("cdc page %s -> %d blocks", ref.source_id, len(item_blocks))
+        blocks.extend(item_blocks)
+    return blocks
+
+
 def cdc_item_context(ref, *, use_case: UseCase, extractor: str,
                      audience: Audience) -> ItemContext:
     return ItemContext(

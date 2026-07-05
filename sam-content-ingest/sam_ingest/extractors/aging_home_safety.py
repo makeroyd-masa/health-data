@@ -11,7 +11,7 @@ import itertools
 from ..adapters.medlineplus import MedlinePlusAdapter
 from ..core.pipeline import build_blocks
 from ..core.schema import Audience, KnowledgeBlock, SeedConfig, UseCase
-from ._cdc_common import run_cdc_queries
+from ._cdc_common import run_cdc_direct_pages, run_cdc_queries
 from .base import RunContext, register
 from .condition_explainer import medlineplus_item_context
 
@@ -25,6 +25,8 @@ class AgingHomeSafetyExtractor:
         blocks += self._medlineplus(ctx)
         cdc_seed = ctx.seed.get("cdc")
         if cdc_seed:
+            blocks += run_cdc_direct_pages(ctx, cdc_seed, use_case=UseCase.aging_home_safety,
+                                           extractor=self.use_case, default_audience=Audience.patient)
             blocks += run_cdc_queries(ctx, cdc_seed, use_case=UseCase.aging_home_safety,
                                       extractor=self.use_case, audience=Audience.general)
         return blocks

@@ -8,7 +8,7 @@ and is fixture-tested; run live from an unblocked network.
 from __future__ import annotations
 
 from ..core.schema import Audience, KnowledgeBlock, UseCase
-from ._cdc_common import run_cdc_queries
+from ._cdc_common import run_cdc_direct_pages, run_cdc_queries
 from .base import RunContext, register
 
 
@@ -23,5 +23,9 @@ class TravelHealthExtractor:
             return []
         if not cdc_seed.get("include_notices", False):
             ctx.log.info("travel_health: excluding time-sensitive travel notices (default)")
-        return run_cdc_queries(ctx, cdc_seed, use_case=UseCase.travel_health,
-                               extractor=self.use_case, audience=Audience.general)
+        blocks: list[KnowledgeBlock] = []
+        blocks += run_cdc_direct_pages(ctx, cdc_seed, use_case=UseCase.travel_health,
+                                       extractor=self.use_case, default_audience=Audience.general)
+        blocks += run_cdc_queries(ctx, cdc_seed, use_case=UseCase.travel_health,
+                                  extractor=self.use_case, audience=Audience.general)
+        return blocks

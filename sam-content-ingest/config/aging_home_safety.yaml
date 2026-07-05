@@ -10,6 +10,10 @@ medlineplus_topics:
 cdc:
   base_url: https://api.digitalmedia.hhs.gov/api/v2/resources
   max: 50
-  queries:
-    - {sourceUrlContains: "cdc.gov/steadi"}
-    - {sourceUrlContains: "cdc.gov/falls"}
+  # Evergreen STEADI/older-adult fall content isn't in HHS syndication — fetch the pages
+  # directly (cdc.gov/falls). URLs verified 2026-07-05.
+  direct_pages:
+    - {id: falls-prevention, title: "Older Adult Fall Prevention", url: "https://www.cdc.gov/falls/prevention/index.html", audience: patient, keywords: [falls, older adults]}
+    - {id: falls-about, title: "About Older Adult Falls", url: "https://www.cdc.gov/falls/about/index.html", audience: patient, keywords: [falls, older adults]}
+  # Syndication queries kept as a fallback; catalog is thin for this use case.
+  queries: []

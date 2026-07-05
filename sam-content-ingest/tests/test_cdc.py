@@ -36,6 +36,23 @@ def test_discover_maps_fields_and_filters_language():
     assert "falls" in ref.meta["keywords"]
 
 
+def test_direct_page_parse_splits_sections():
+    from sam_ingest.adapters.cdc_pages import CdcPagesAdapter
+
+    html = (FIXTURES / "falls_prevention.html").read_bytes()
+    ref = SourceRef(url="https://www.cdc.gov/falls/prevention/index.html",
+                    source_id="falls-prevention", title="Older Adult Fall Prevention",
+                    meta={"audience": "patient", "keywords": ["falls"]})
+    sections = CdcPagesAdapter(client=None).parse(RawItem(ref=ref, content=html))
+
+    titles = [s.section_title for s in sections]
+    assert len(sections) >= 3                      # split into multiple h2 sections
+    assert any("prevent" in t.lower() for t in titles)
+    assert "On This Page" not in titles            # TOC boilerplate skipped
+    assert all(s.license == License.us_gov for s in sections)
+    assert all(len(s.body_markdown) >= 40 for s in sections)  # min-length filter
+
+
 def test_parse_syndicated_html():
     html = (FIXTURES / "syndicate_steadi.html").read_bytes()
     ref = SourceRef(url="x", source_id="456789", title="Prevent Falls",

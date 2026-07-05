@@ -9,7 +9,7 @@ from __future__ import annotations
 
 import re
 
-from bs4 import BeautifulSoup, NavigableString, Tag
+from bs4 import BeautifulSoup, Tag
 from markdownify import markdownify as _md
 
 # Tags that are never content.
@@ -26,6 +26,7 @@ _CHROME_HINTS = (
 _HEADING_LEVELS = ("h2", "h3")
 _SENTENCE_SPLIT = re.compile(r"(?<=[.!?])\s+")
 _LIST_LINE = re.compile(r"^\s*([-*+]|\d+[.)])\s+")
+_MD_HEADING = re.compile(r"^(#{1,6})\s+(.*)$")
 
 
 def clean_soup(soup: BeautifulSoup) -> None:
@@ -33,6 +34,10 @@ def clean_soup(soup: BeautifulSoup) -> None:
     for tag in soup.find_all(_CHROME_TAGS):
         tag.decompose()
     for el in soup.find_all(True):
+        # Decomposing a parent detaches its descendants, which remain in this list with
+        # attrs=None — skip anything already removed.
+        if el.decomposed or el.attrs is None:
+            continue
         role = (el.get("role") or "").lower()
         if role in {"navigation", "banner", "contentinfo", "complementary", "search"}:
             el.decompose()
@@ -56,25 +61,6 @@ def _tidy(md: str) -> str:
     return md.strip()
 
 
-def _content_children(container: Tag) -> list[Tag]:
-    """Return block-level children, descending through single-child wrappers.
-
-    Handles parser-inserted html/body wrappers and CMS wrapper divs: descend while the
-    node has exactly one element child and this level contains no split headings yet.
-    """
-    node = container
-    while True:
-        elem_children = [c for c in node.children if isinstance(c, Tag)]
-        if any(c.name in _HEADING_LEVELS for c in elem_children):
-            break
-        if len(elem_children) == 1:
-            node = elem_children[0]
-            continue
-        break
-    return [c for c in node.children if isinstance(c, Tag) or
-            (isinstance(c, NavigableString) and c.strip())]
-
-
 def split_by_headings(
     container: Tag, levels: tuple[str, ...] = _HEADING_LEVELS
 ) -> list[tuple[str, str]]:
@@ -83,31 +69,32 @@ def split_by_headings(
     Content before the first heading becomes an untitled ("") lead section. If no
     headings are present, returns a single ("", body) — the PRD's "Overview block" norm.
     """
-    sections: list[tuple[str, list]] = []
+    depths = {int(lvl[1:]) for lvl in levels}  # ("h2","h3") -> {2, 3}
+    md = html_to_markdown(container)
+
+    sections: list[tuple[str, str]] = []
     current_title = ""
-    current_nodes: list = []
+    current: list[str] = []
 
     def flush():
-        if current_nodes:
-            frag = "".join(str(n) for n in current_nodes)
-            body = html_to_markdown(frag)
-            if body.strip():
-                sections.append((current_title, body))
+        body = "\n".join(current).strip()
+        if body:
+            sections.append((current_title, body))
 
-    for child in _content_children(container):
-        if isinstance(child, Tag) and child.name in levels:
+    for line in md.split("\n"):
+        m = _MD_HEADING.match(line)
+        if m and len(m.group(1)) in depths:
             flush()
-            current_title = child.get_text(" ", strip=True)
-            current_nodes = []
+            current_title = m.group(2).strip()
+            current = []
         else:
-            current_nodes.append(child)
+            current.append(line)
     flush()
 
-    # Collapse to a single untitled section if nothing split out.
     if not sections:
-        body = html_to_markdown(container)
-        return [("", body)] if body.strip() else []
-    return [(t, b) for t, b in sections]
+        body = md.strip()
+        return [("", body)] if body else []
+    return sections
 
 
 def make_summary(body_markdown: str, section_title: str = "", limit: int = 300) -> str:

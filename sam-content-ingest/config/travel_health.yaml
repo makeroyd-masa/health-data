@@ -4,5 +4,13 @@ cdc:
   base_url: https://api.digitalmedia.hhs.gov/api/v2/resources
   max: 50
   include_notices: false
-  queries:
-    - {sourceUrlContains: "wwwnc.cdc.gov/travel/page"}
+  # Evergreen prep content isn't in HHS syndication — fetch Travelers' Health pages
+  # directly (wwwnc.cdc.gov/travel/page). URLs verified 2026-07-05.
+  direct_pages:
+    - {id: pack-smart, title: "Pack Smart", url: "https://wwwnc.cdc.gov/travel/page/pack-smart", keywords: [travel, packing, travel health kit]}
+    - {id: food-water-safety, title: "Food and Water Safety", url: "https://wwwnc.cdc.gov/travel/page/food-water-safety", keywords: [travel, food, water]}
+    - {id: travelers-diarrhea, title: "Travelers' Diarrhea", url: "https://wwwnc.cdc.gov/travel/page/travelers-diarrhea", keywords: [travel, diarrhea]}
+    - {id: avoid-bug-bites, title: "Avoid Bug Bites", url: "https://wwwnc.cdc.gov/travel/page/avoid-bug-bites", keywords: [travel, insects, bug bites]}
+    - {id: health-care-abroad, title: "Getting Health Care During Travel", url: "https://wwwnc.cdc.gov/travel/page/getting-health-care-abroad", keywords: [travel, care abroad]}
+    - {id: travel-vaccines, title: "Travel Vaccines", url: "https://wwwnc.cdc.gov/travel/page/travel-vaccines", keywords: [travel, vaccines]}
+  queries: []
