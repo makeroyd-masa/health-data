@@ -4,3 +4,6 @@ __pycache__/
 out/
 *.egg-info/
 .pytest_cache/
+# Manually-captured source files are local inputs (keep the READMEs)
+local_capture/**/*.html
+local_capture/**/*.pdf

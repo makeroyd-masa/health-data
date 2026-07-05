@@ -15,7 +15,7 @@ from markdownify import markdownify as _md
 # Tags that are never content.
 _CHROME_TAGS = [
     "script", "style", "noscript", "nav", "header", "footer", "aside",
-    "form", "button", "svg", "iframe", "template",
+    "form", "button", "svg", "iframe", "template", "img", "figure", "picture",
 ]
 # Substrings in class/id/role that mark chrome to drop.
 _CHROME_HINTS = (

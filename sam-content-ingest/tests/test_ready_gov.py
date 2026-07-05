@@ -51,6 +51,32 @@ def test_pdf_parse_handles_garbage_gracefully():
     assert ReadyGovAdapter(client=None).parse(raw) == []  # logged + skipped, no crash
 
 
+def test_local_dir_mode_reads_captured_files(tmp_path):
+    # Simulate a manual capture: place hurricanes.html as the captured file.
+    cap = tmp_path / "cap"
+    cap.mkdir()
+    (cap / "hurricanes.html").write_bytes((FIXTURES / "hurricanes.html").read_bytes())
+
+    adapter = ReadyGovAdapter(client=None, local_dir=cap)
+    ref = SourceRef(url="https://www.ready.gov/hurricanes", source_id="hurricanes",
+                    title="Hurricanes", meta={"kind": "html", "hazard": "hurricane"})
+    raw = adapter.fetch(ref)  # no network
+    assert raw.from_cache
+    sections = adapter.parse(raw)
+    assert any(s.section_title == "Before a Hurricane" for s in sections)
+
+
+def test_local_dir_missing_file_raises(tmp_path):
+    adapter = ReadyGovAdapter(client=None, local_dir=tmp_path)
+    ref = SourceRef(url="https://www.ready.gov/kit", source_id="build-a-kit",
+                    title="Build A Kit", meta={"kind": "html"})
+    try:
+        adapter.fetch(ref)
+        assert False, "expected FileNotFoundError"
+    except FileNotFoundError as e:
+        assert "build-a-kit.html" in str(e)
+
+
 def test_extractor_e2e_against_fixture(tmp_path, monkeypatch):
     seed = SeedConfig(
         use_case="household_readiness",

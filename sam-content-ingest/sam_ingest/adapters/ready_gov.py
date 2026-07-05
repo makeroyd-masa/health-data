@@ -10,6 +10,7 @@ from __future__ import annotations
 
 import io
 import logging
+from pathlib import Path
 from typing import Iterable
 
 import pdfplumber
@@ -39,6 +40,12 @@ _CONTENT_SELECTORS = [
 class ReadyGovAdapter(BaseAdapter):
     name = "ready_gov"
 
+    def __init__(self, client, local_dir: Path | None = None):
+        super().__init__(client)
+        # When set, fetch reads pre-captured <id>.html / <id>.pdf files instead of the
+        # network — the sanctioned way to ingest from an Akamai-blocked egress (PRD §6.1).
+        self.local_dir = Path(local_dir) if local_dir else None
+
     def discover(self, seed: SeedConfig) -> Iterable[SourceRef]:
         for page in seed.get("pages", []):
             yield SourceRef(
@@ -54,6 +61,8 @@ class ReadyGovAdapter(BaseAdapter):
 
     def fetch(self, ref: SourceRef, *, refresh: bool = False) -> RawItem:
         is_pdf = ref.meta.get("kind") == "pdf"
+        if self.local_dir is not None:
+            return self._fetch_local(ref, is_pdf)
         resp = self.client.get(
             ref.url,
             ttl=_PDF_TTL if is_pdf else _HTML_TTL,
@@ -63,21 +72,38 @@ class ReadyGovAdapter(BaseAdapter):
         return RawItem(ref=ref, content=resp.content, content_type=resp.content_type,
                        from_cache=resp.from_cache)
 
+    def _fetch_local(self, ref: SourceRef, is_pdf: bool) -> RawItem:
+        path = self.local_dir / f"{ref.source_id}.{'pdf' if is_pdf else 'html'}"
+        if not path.exists():
+            raise FileNotFoundError(
+                f"expected captured file {path} (save {ref.url} there)")
+        return RawItem(ref=ref, content=path.read_bytes(),
+                       content_type="application/pdf" if is_pdf else "text/html",
+                       from_cache=True)
+
     def parse(self, raw: RawItem) -> list[ParsedSection]:
         if raw.ref.meta.get("kind") == "pdf":
             return self._parse_pdf(raw)
         return self._parse_html(raw)
 
     # ------------------------------------------------------------------ html
+    @staticmethod
+    def _pick_content(soup: BeautifulSoup):
+        """Pick the richest content region. Ready.gov pages carry several
+        `field--name-body` blocks (hero, summary, main body) — choose the one with the
+        most text rather than the first, then fall back to main/article/body."""
+        bodies = soup.select("div.field--name-body")
+        if bodies:
+            return max(bodies, key=lambda c: len(c.get_text(" ", strip=True)))
+        for sel in _CONTENT_SELECTORS[1:]:  # skip field--name-body (handled above)
+            el = soup.select_one(sel)
+            if el is not None:
+                return el
+        return soup.body or soup
+
     def _parse_html(self, raw: RawItem) -> list[ParsedSection]:
         soup = BeautifulSoup(raw.text(), "lxml")
-        container = None
-        for sel in _CONTENT_SELECTORS:
-            container = soup.select_one(sel)
-            if container is not None:
-                break
-        if container is None:
-            container = soup.body or soup
+        container = self._pick_content(soup)
         clean_soup(container)
 
         hazard = raw.ref.meta.get("hazard")

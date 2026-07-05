@@ -1,6 +1,11 @@
 # Household Emergency Readiness seed (PRD §6.1). Source: Ready.gov / FEMA.
 # Slugs verified live 2026-07-05. Editable — add/remove pages freely.
 # kind: html | pdf   hazard: keyword for the flow's geo-risk branch
+#
+# local_dir: ready.gov is behind Akamai bot management that blocks automated clients.
+# Capture the pages/PDFs once in a browser and save them as <id>.html / <id>.pdf here,
+# then this reads them instead of fetching. Uncomment to enable:
+local_dir: local_capture/ready_gov
 pages:
   # --- core pages ---
   - id: build-a-kit

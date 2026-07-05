@@ -28,7 +28,18 @@ class HouseholdReadinessExtractor:
     use_case = "household_readiness"
 
     def run(self, ctx: RunContext) -> list[KnowledgeBlock]:
-        adapter = ReadyGovAdapter(ctx.client)
+        # local_dir (optional): read pre-captured files instead of fetching live —
+        # for running from an Akamai-blocked egress. Relative paths resolve to the
+        # project root (config_dir's parent).
+        local = ctx.seed.get("local_dir")
+        if local:
+            local_path = local if str(local).startswith(("/", "\\")) or ":" in str(local) \
+                else ctx.config_dir.parent / local
+            ctx.log.info("ready_gov: reading captured files from %s", local_path)
+        else:
+            local_path = None
+
+        adapter = ReadyGovAdapter(ctx.client, local_dir=local_path)
         discovered = adapter.discover(ctx.seed)
         refs = list(itertools.islice(discovered, ctx.limit) if ctx.limit else discovered)
 
