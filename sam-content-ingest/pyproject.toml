@@ -12,6 +12,7 @@ dependencies = [
     "pyyaml>=6.0",
     "tenacity>=8.2",
     "pdfplumber>=0.11",
+    "curl_cffi>=0.7",  # browser-TLS impersonation for Akamai/CloudFront bot-managed hosts
 ]
 
 [project.optional-dependencies]

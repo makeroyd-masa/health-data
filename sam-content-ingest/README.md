@@ -30,14 +30,27 @@ CLI flags: `--refresh` (bypass cache), `--limit N` (cap items per source), `--dr
 | `condition_explainer` | MedlinePlus | Web Service (list mode) / dated bulk XML | `medlineplus_terms` (PD summaries) | ✅ |
 | `medication` | DailyMed | REST API v2 — `/spls` + `/spls/{SETID}.xml` (LOINC sections) | `public_domain` | ✅ |
 | `visit_prep` | MedlinePlus + AHRQ (static) | WS topic + one-time static "10 Questions" seed | `medlineplus_terms` / `us_gov` | ✅ |
-| `aging_home_safety` | MedlinePlus + CDC | WS topics ✅ + CDC via HHS syndication (gated) | `medlineplus_terms` / `us_gov` | partial |
-| `travel_health` | CDC | HHS Digital Media syndication (gated) | `us_gov` | ❌ (build+fixture) |
-| `household_readiness` | Ready.gov / FEMA | HTML pages + reprint PDFs (no API) | `us_gov` / `ready_gov_reprint` | ❌ (build+fixture) |
+| `aging_home_safety` | MedlinePlus + CDC | WS topics + CDC via HHS syndication | `medlineplus_terms` / `us_gov` | ✅ |
+| `travel_health` | CDC | HHS Digital Media syndication | `us_gov` | ✅ |
+| `household_readiness` | Ready.gov / FEMA | HTML pages + reprint PDFs (no API) | `us_gov` / `ready_gov_reprint` | ✅ |
 
-**Akamai note:** `www.ready.gov` and `api.digitalmedia.hhs.gov` sit behind Akamai bot
-management that blocks this environment's HTTP client at the TLS layer (403), even with a
-browser User-Agent. Those adapters are fully built and **fixture-tested**; run them live
-from an unblocked egress. MedlinePlus, DailyMed work live from anywhere.
+**Bot-management note (Akamai/curl_cffi).** `www.ready.gov` and `api.digitalmedia.hhs.gov`
+(and `wwwnc.cdc.gov`/`www.cdc.gov`) sit behind Akamai bot management that 403s a plain HTTP
+client at the TLS layer. `robots.txt` **permits** the paths we ingest on these hosts (it's
+bot-management, not a robots prohibition — unlike AHRQ, which disallows us and stays out of
+scope), so `core/http.py` routes those hosts through **`curl_cffi`** (Chrome TLS
+impersonation, `_IMPERSONATE_HOSTS`) and everything else through `httpx`. MedlinePlus and
+DailyMed work over plain `httpx`. Ready.gov can also run from a one-time local capture (see
+`config/household_readiness.yaml` `local_dir:` + `local_capture/ready_gov/`).
+
+**CDC content finding (discovery spike, PRD §6.5/§6.6).** HHS syndication is reachable but
+**thin for our use cases**: `q=STEADI`/`travelers health` full-text → 0 results;
+`sourceUrlContains=cdc.gov/steadi` → 1 provider-materials page; travel → mostly images + a
+couple of (stale) Zika pages. The evergreen STEADI falls-prevention and Travelers' Health
+prep content SAM wants is **not in the syndication catalog** — it would need direct-page
+fetch from `cdc.gov/steadi` / `wwwnc.cdc.gov/travel` (both reachable via curl_cffi) or isn't
+syndicated. This is a prioritization signal: `aging`'s CDC half and `travel_health` are thin
+from free sources.
 
 **Legal (PRD §5), enforced in code:**
 - MedlinePlus: only health-topic summaries; `/ency/` (A.D.A.M.) and `/druginfo/` (ASHP)

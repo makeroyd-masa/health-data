@@ -28,6 +28,8 @@ log = logging.getLogger("sam_ingest.adapters.cdc")
 _DEFAULT_BASE = "https://api.digitalmedia.hhs.gov/api/v2/resources"
 _TTL = 24 * 3600
 _SYNDICATE_PARAMS = {"stripScripts": "true", "stripStyles": "true", "stripImages": "true"}
+# The API reports ISO 639-2 codes ("eng"/"spa"), not 639-1 ("en"/"es").
+_LANG_ALIASES = {"en": {"en", "eng", "english"}, "es": {"es", "spa", "spanish"}}
 
 
 class CdcSyndicationAdapter(BaseAdapter):
@@ -42,12 +44,26 @@ class CdcSyndicationAdapter(BaseAdapter):
         self.base_url = base.rstrip("/")
         max_items = str(seed.get("max", 50))
         lang = seed.get("language", "en")
+        want_lang = _LANG_ALIASES.get(lang, {lang})
+        exclude_notices = not seed.get("include_notices", False)
         for query in seed.get("queries", []):
-            params = {**query, "mediatypes": "html", "max": max_items}
-            resp = self.client.get(f"{self.base_url}/media", params=params, ttl=_TTL)
+            # Route by query kind: free-text `q` -> searchResults.json; structured
+            # filters (sourceUrlContains, sourceAcronym, tagIds, ...) -> media.json.
+            if "q" in query:
+                path, params = "/media/searchResults.json", {**query}
+            else:
+                path, params = "/media.json", {**query}
+            params["max"] = max_items
+            resp = self.client.get(f"{self.base_url}{path}", params=params, ttl=_TTL)
             for item in _results(resp.text()):
-                if item.get("language", {}).get("isoCode", lang) != lang:
+                if (item.get("mediaType") or "").lower() != "html":
+                    continue  # skip images/video — we ingest text
+                iso = (item.get("language") or {}).get("isoCode", "").lower()
+                if iso and iso not in want_lang:
                     continue
+                src_url = item.get("sourceUrl", "")
+                if exclude_notices and "/notices/" in src_url:
+                    continue  # time-sensitive travel notices excluded by default (§6.6)
                 mid = item.get("id")
                 if mid is None:
                     continue

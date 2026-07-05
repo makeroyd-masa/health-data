@@ -11,5 +11,5 @@ cdc:
   base_url: https://api.digitalmedia.hhs.gov/api/v2/resources
   max: 50
   queries:
-    - {q: "STEADI"}
-    - {topic: "older adult fall prevention"}
+    - {sourceUrlContains: "cdc.gov/steadi"}
+    - {sourceUrlContains: "cdc.gov/falls"}

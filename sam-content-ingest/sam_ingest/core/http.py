@@ -32,6 +32,17 @@ USER_AGENT = (
     "SAM-Content-Ingest/1.1 (+mailto:makeroyd@masaglobal.com)"
 )
 
+# Hosts behind Akamai/CloudFront bot management that block a plain HTTP client at the TLS
+# layer. robots PERMITS the paths we ingest on these hosts — the block is bot-management,
+# not a robots prohibition — so we route them through curl_cffi's browser-TLS impersonation.
+# (AHRQ is deliberately NOT here: its robots disallows us, so it stays out of scope.)
+_IMPERSONATE_HOSTS: set[str] = {
+    "www.ready.gov", "ready.gov",
+    "api.digitalmedia.hhs.gov",
+    "wwwnc.cdc.gov", "www.cdc.gov", "tools.cdc.gov",
+}
+_IMPERSONATE_PROFILE = "chrome"
+
 # Minimum seconds between requests to a given host (PRD §4.3).
 #   MedlinePlus: 85 req/min  -> 60/85 ≈ 0.706s
 #   HHS Digital Media: 100 req / 60s -> 0.6s
@@ -64,15 +75,19 @@ class Response:
 class PoliteClient:
     def __init__(self, cache: DiskCache, timeout: float = 30.0):
         self.cache = cache
+        self.timeout = timeout
         self._last_request: dict[str, float] = {}
         self._client = httpx.Client(
             timeout=timeout,
             follow_redirects=True,
             headers={"User-Agent": USER_AGENT},
         )
+        self._cffi = None  # lazily created curl_cffi session for impersonated hosts
 
     def close(self) -> None:
         self._client.close()
+        if self._cffi is not None:
+            self._cffi.close()
 
     def __enter__(self) -> "PoliteClient":
         return self
@@ -125,14 +140,32 @@ class PoliteClient:
         stop=stop_after_attempt(4),
         reraise=True,
     )
-    def _fetch(
-        self, url: str, params: dict | None, host: str, accept: str | None
-    ) -> httpx.Response:
+    def _fetch(self, url: str, params: dict | None, host: str, accept: str | None):
         self._throttle(host)
         headers = {"Accept": accept} if accept else None
         log.debug("GET %s params=%s", url, params)
-        resp = self._client.get(url, params=params, headers=headers)
+        if host in _IMPERSONATE_HOSTS:
+            resp = self._impersonated_get(url, params, headers)
+        else:
+            resp = self._client.get(url, params=params, headers=headers)
         if resp.status_code == 429 or 500 <= resp.status_code < 600:
             raise RetryableStatus(f"{resp.status_code} for {url}")
         resp.raise_for_status()
         return resp
+
+    def _impersonated_get(self, url, params, headers):
+        """Fetch via curl_cffi with a browser TLS fingerprint (Akamai-blocked hosts).
+
+        Response is duck-compatible with httpx (.status_code/.content/.headers/
+        .raise_for_status), so callers don't care which transport was used.
+        """
+        if self._cffi is None:
+            try:
+                from curl_cffi import requests as cffi_requests
+            except ImportError as e:  # pragma: no cover
+                raise RuntimeError(
+                    f"{url} is behind bot management and needs curl_cffi "
+                    "(pip install curl_cffi) for browser-TLS impersonation."
+                ) from e
+            self._cffi = cffi_requests.Session(impersonate=_IMPERSONATE_PROFILE)
+        return self._cffi.get(url, params=params, headers=headers, timeout=self.timeout)

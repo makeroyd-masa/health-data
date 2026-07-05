@@ -5,5 +5,4 @@ cdc:
   max: 50
   include_notices: false
   queries:
-    - {topic: "travelers health"}
-    - {sourceurl: "wwwnc.cdc.gov/travel"}
+    - {sourceUrlContains: "wwwnc.cdc.gov/travel/page"}
