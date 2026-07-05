@@ -1,0 +1,47 @@
+# Condition explainer seed (PRD §6.2). Source: MedlinePlus health topics.
+# mode: list  -> resolve each term via the MedlinePlus Web Service (targeted lookups)
+# mode: bulk  -> ingest the full date-stamped bulk health-topic XML (optionally filtered
+#                to titles containing one of `topics`)
+mode: list
+retmax: 8
+topics:
+  - Diabetes
+  - High blood pressure
+  - Asthma
+  - Depression
+  - Anxiety
+  - Coronary artery disease
+  - Stroke
+  - COPD
+  - Arthritis
+  - Osteoporosis
+  - Migraine
+  - Alzheimer's disease
+  - Parkinson's disease
+  - Chronic kidney disease
+  - Anemia
+  - Hypothyroidism
+  - Gout
+  - Psoriasis
+  - Eczema
+  - Heartburn
+  - Irritable bowel syndrome
+  - Celiac disease
+  - Hepatitis
+  - Pneumonia
+  - Bronchitis
+  - Sinusitis
+  - Urinary tract infections
+  - Kidney stones
+  - Gallstones
+  - Glaucoma
+  - Hearing loss
+  - Obesity
+  - Cholesterol
+  - Sleep apnea
+  - Insomnia
+  - Shingles
+  - Influenza
+  - COVID-19
+  - Heart failure
+  - Atrial fibrillation

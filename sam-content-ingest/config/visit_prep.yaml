@@ -1,0 +1,6 @@
+# Appointment / visit prep seed (PRD §6.3).
+# AHRQ is NOT crawled — its "10 Questions" content is a static seed under
+# config/visit_prep_static/. MedlinePlus supplies the ingestible narrative half.
+medlineplus_topics:
+  - Talking With Your Doctor
+static_dir: visit_prep_static

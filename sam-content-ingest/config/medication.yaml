@@ -1,0 +1,46 @@
+# Medication seed (PRD §6.4). Source: DailyMed SPL labels.
+# Selection: one SPL per drug — latest spl_version, generic preferred.
+# Production sourcing: derive this list from RxNorm's Current Prescribable Content and
+# pin by `rxcui` for precision. `name` uses drug_name search; add `rxcui:` to pin exactly.
+prefer_generic: true
+drugs:
+  - name: ibuprofen
+  - name: acetaminophen
+  - name: aspirin
+  - name: naproxen
+  - name: metformin
+  - name: lisinopril
+  - name: atorvastatin
+  - name: amlodipine
+  - name: metoprolol
+  - name: omeprazole
+  - name: losartan
+  - name: albuterol
+  - name: gabapentin
+  - name: hydrochlorothiazide
+  - name: sertraline
+  - name: levothyroxine
+  - name: simvastatin
+  - name: montelukast
+  - name: escitalopram
+  - name: amoxicillin
+  - name: azithromycin
+  - name: prednisone
+  - name: trazodone
+  - name: furosemide
+  - name: pantoprazole
+  - name: citalopram
+  - name: fluoxetine
+  - name: warfarin
+  - name: clopidogrel
+  - name: duloxetine
+  - name: rosuvastatin
+  - name: cetirizine
+  - name: loratadine
+  - name: famotidine
+  - name: meloxicam
+  - name: bupropion
+  - name: venlafaxine
+  - name: tamsulosin
+  - name: pravastatin
+  - name: glipizide

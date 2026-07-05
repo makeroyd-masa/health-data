@@ -1,0 +1,9 @@
+# Travel health readiness seed (PRD §6.6). Source: CDC Travelers' Health via HHS syndication.
+# Evergreen travel-prep only; time-sensitive notices excluded unless include_notices: true.
+cdc:
+  base_url: https://api.digitalmedia.hhs.gov/api/v2/resources
+  max: 50
+  include_notices: false
+  queries:
+    - {topic: "travelers health"}
+    - {sourceurl: "wwwnc.cdc.gov/travel"}

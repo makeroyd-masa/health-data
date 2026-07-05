@@ -1,0 +1,15 @@
+# Aging / caregiving / home safety seed (PRD §6.5).
+# MedlinePlus topics ingest live; CDC STEADI is via HHS syndication (gated on availability).
+medlineplus_topics:
+  - Falls
+  - Home Safety
+  - Caregivers
+  - Assistive Devices
+  - Older Adult Health
+  - Alzheimer's Caregivers
+cdc:
+  base_url: https://api.digitalmedia.hhs.gov/api/v2/resources
+  max: 50
+  queries:
+    - {q: "STEADI"}
+    - {topic: "older adult fall prevention"}

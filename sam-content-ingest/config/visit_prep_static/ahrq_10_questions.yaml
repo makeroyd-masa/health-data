@@ -1,0 +1,22 @@
+# One-time static capture of AHRQ's public-domain "10 Questions You Should Know"
+# (PRD §6.3). AHRQ's site blocks crawlers (CloudFront 403 + robots disallows Claude/AI
+# agents), and the per-encounter question sets are app-only — so this canonical list is
+# captured once here as a static seed rather than crawled. US-Gov public domain.
+source_url: https://www.ahrq.gov/questions/10questions.html
+title: Questions To Ask Your Doctor
+section: "10 Questions You Should Know"
+attribution_text: >-
+  The 10 Questions You Should Know. Content last reviewed November 2020.
+  Agency for Healthcare Research and Quality, Rockville, MD.
+source_last_updated: "2020-11-01"
+questions:
+  - What is the test for?
+  - When will I get the results?
+  - How do you spell the name of that drug?
+  - Are there any side effects?
+  - Will this medicine interact with medicines that I'm already taking?
+  - Why do I need this treatment?
+  - Are there any alternatives?
+  - What are the possible complications?
+  - Which hospital is best for my needs?
+  - How many times have you done this procedure?

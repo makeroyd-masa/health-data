@@ -1,0 +1,31 @@
+[project]
+name = "sam-content-ingest"
+version = "1.1.0"
+description = "SAM evergreen content ingestion pipelines — normalize public-domain health/gov content into KnowledgeBlocks"
+requires-python = ">=3.11"
+dependencies = [
+    "pydantic>=2.6",
+    "httpx>=0.27",
+    "beautifulsoup4>=4.12",
+    "lxml>=5.0",
+    "markdownify>=0.12",
+    "pyyaml>=6.0",
+    "tenacity>=8.2",
+    "pdfplumber>=0.11",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+
+[project.scripts]
+sam-ingest = "sam_ingest.core.cli:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["sam_ingest*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

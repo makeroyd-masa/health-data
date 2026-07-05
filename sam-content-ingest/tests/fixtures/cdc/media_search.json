@@ -1,0 +1,29 @@
+{
+  "meta": {"status": 200, "pagination": {"total": 2, "max": 50, "offset": 0}},
+  "results": [
+    {
+      "id": 456789,
+      "name": "Prevent Falls: What You Can Do",
+      "sourceUrl": "https://www.cdc.gov/steadi/patient-education.html",
+      "targetUrl": "https://www.cdc.gov/steadi/patient-education.html",
+      "mediaType": "html",
+      "language": {"name": "English", "isoCode": "en"},
+      "dateContentUpdated": "2025-08-15",
+      "dateModified": "2025-08-20",
+      "attribution": "Centers for Disease Control and Prevention (CDC)",
+      "source": {"name": "Centers for Disease Control and Prevention", "acronym": "CDC"},
+      "tags": ["falls", "older adults", "STEADI", "home safety"]
+    },
+    {
+      "id": 999001,
+      "name": "Prevenga las caídas",
+      "sourceUrl": "https://www.cdc.gov/steadi/es/patient-education.html",
+      "mediaType": "html",
+      "language": {"name": "Spanish", "isoCode": "es"},
+      "dateContentUpdated": "2025-08-15",
+      "attribution": "Centers for Disease Control and Prevention (CDC)",
+      "source": {"name": "Centers for Disease Control and Prevention", "acronym": "CDC"},
+      "tags": ["falls"]
+    }
+  ]
+}

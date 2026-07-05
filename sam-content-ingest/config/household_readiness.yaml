@@ -1,0 +1,65 @@
+# Household Emergency Readiness seed (PRD §6.1). Source: Ready.gov / FEMA.
+# Slugs verified live 2026-07-05. Editable — add/remove pages freely.
+# kind: html | pdf   hazard: keyword for the flow's geo-risk branch
+pages:
+  # --- core pages ---
+  - id: build-a-kit
+    title: Build A Kit
+    url: https://www.ready.gov/kit
+    kind: html
+  - id: make-a-plan
+    title: Make A Plan
+    url: https://www.ready.gov/plan
+    kind: html
+  - id: communication-plan
+    title: Family Emergency Communication Plan
+    url: https://www.ready.gov/plan-form
+    kind: html
+  - id: evacuation
+    title: Evacuation
+    url: https://www.ready.gov/evacuation
+    kind: html
+  - id: financial-preparedness
+    title: Financial Preparedness
+    url: https://www.ready.gov/financial-preparedness
+    kind: html
+
+  # --- publication PDFs (reprint terms; frozen as of 2025-09-30) ---
+  # Emergency Supply List has no standalone HTML page — its checklist is this PDF.
+  - id: supply-kit-checklist
+    title: Emergency Supply Kit Checklist
+    url: https://www.ready.gov/sites/default/files/2024-05/ready_supply-kit-checklist.pdf
+    kind: pdf
+    source_last_updated: "2025-09-30"
+  - id: communication-plan-card
+    title: Family Emergency Communication Plan (Fillable Card)
+    url: https://www.ready.gov/sites/default/files/2025-06/family-communication-plan_fillable-card.pdf
+    kind: pdf
+    source_last_updated: "2025-09-30"
+
+  # --- hazard pages (Before/During/After) ---
+  - id: hurricanes
+    title: Hurricanes
+    url: https://www.ready.gov/hurricanes
+    kind: html
+    hazard: hurricane
+  - id: floods
+    title: Floods
+    url: https://www.ready.gov/floods
+    kind: html
+    hazard: flood
+  - id: wildfires
+    title: Wildfires
+    url: https://www.ready.gov/wildfires
+    kind: html
+    hazard: wildfire
+  - id: power-outages
+    title: Power Outages
+    url: https://www.ready.gov/power-outages
+    kind: html
+    hazard: power_outage
+  - id: extreme-heat
+    title: Extreme Heat
+    url: https://www.ready.gov/heat
+    kind: html
+    hazard: extreme_heat
