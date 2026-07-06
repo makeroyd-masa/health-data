@@ -1,0 +1,5 @@
+# The pipeline writes LF-only output; pin it so checkout doesn't rewrite to CRLF
+# (which would make a re-run's byte-identical output show as "modified").
+out/blocks/*.jsonl text eol=lf
+out/manifest.json text eol=lf
+out/markdown/** text eol=lf

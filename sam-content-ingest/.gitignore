@@ -1,9 +1,12 @@
 .venv/
 __pycache__/
 *.pyc
-out/
 *.egg-info/
 .pytest_cache/
+# Generated content pack (out/blocks, out/markdown, out/manifest.json) IS tracked —
+# it's the deliverable. Only the raw HTTP cache and incremental state stay local.
+out/.cache/
+out/state.json
 # Manually-captured source files are local inputs (keep the READMEs)
 local_capture/**/*.html
 local_capture/**/*.pdf

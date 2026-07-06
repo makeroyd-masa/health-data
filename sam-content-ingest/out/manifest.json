@@ -1,0 +1,2293 @@
+{
+  "blocks": [
+    {
+      "content_hash": "sha256:fb9b1b0b8af7edeb7b8473fdd42b94789f79615fa20a94be1e83c4d78d26c8b5",
+      "id": "ahrq:10-questions-you-should-know:10-questions-you-should-know",
+      "source_url": "https://www.ahrq.gov/questions/10questions.html"
+    },
+    {
+      "content_hash": "sha256:c17c136bb075670a398de7f3fc99c5ac52dd6b71513aef601139ae56bd5b1f8a",
+      "id": "cdc:about-older-adult-falls:falls-can-be-prevented",
+      "source_url": "https://www.cdc.gov/falls/about/index.html"
+    },
+    {
+      "content_hash": "sha256:bf0f4f226b5d0b8942cb71422f7dfe49b58950ea0a3ef688d9d31829133adfb0",
+      "id": "cdc:about-older-adult-falls:overview",
+      "source_url": "https://www.cdc.gov/falls/about/index.html"
+    },
+    {
+      "content_hash": "sha256:96f9ddd4cafc048204975dc8a37ca78bac03a0d37c2ac05236d5155b6a81ea5e",
+      "id": "cdc:about-older-adult-falls:resources",
+      "source_url": "https://www.cdc.gov/falls/about/index.html"
+    },
+    {
+      "content_hash": "sha256:60f004166b724af423bd06572be4c8af012c466fb21dd345f5360c543a06690e",
+      "id": "cdc:about-older-adult-falls:take-the-falls-free-checkup",
+      "source_url": "https://www.cdc.gov/falls/about/index.html"
+    },
+    {
+      "content_hash": "sha256:2aa62d31c33ed6dfbc7b6d5c38ef5245c5e789a39216112b0a42059a6ef9f2da",
+      "id": "cdc:avoid-bug-bites:after-travel",
+      "source_url": "https://wwwnc.cdc.gov/travel/page/avoid-bug-bites"
+    },
+    {
+      "content_hash": "sha256:93d37afd368dee808c92599bd45dad2514c51eda814d388073694da97b357810",
+      "id": "cdc:avoid-bug-bites:avoid-bug-bites",
+      "source_url": "https://wwwnc.cdc.gov/travel/page/avoid-bug-bites"
+    },
+    {
+      "content_hash": "sha256:a896d409cb692f15c5f51e1d83c6e1913b3aa7fb90e938fd667ad4a3997edfd7",
+      "id": "cdc:food-and-water-safety:food-and-drink-considerations-when-traveling",
+      "source_url": "https://wwwnc.cdc.gov/travel/page/food-water-safety"
+    },
+    {
+      "content_hash": "sha256:7aa8d62f05715beaaf0b3bbd613eda6957e236b864aa015f84a61ed7da556194",
+      "id": "cdc:getting-health-care-during-travel:getting-health-care-during-travel",
+      "source_url": "https://wwwnc.cdc.gov/travel/page/getting-health-care-abroad"
+    },
+    {
+      "content_hash": "sha256:76861b75a89eb74bce2a7360579913d96a803ab4acfad52dc3912ed3ab4fdf51",
+      "id": "cdc:getting-health-care-during-travel:health-care-resources-for-travelers",
+      "source_url": "https://wwwnc.cdc.gov/travel/page/getting-health-care-abroad"
+    },
+    {
+      "content_hash": "sha256:a1accde8ab37f446afc0d7c6fc937537e3b2156ae27330447dc51b3950e0f1d3",
+      "id": "cdc:getting-health-care-during-travel:make-a-plan",
+      "source_url": "https://wwwnc.cdc.gov/travel/page/getting-health-care-abroad"
+    },
+    {
+      "content_hash": "sha256:0823eee54b8e458099f8eda83ef5413016be478e5abcc4944f852b00480889ec",
+      "id": "cdc:getting-health-care-during-travel:more-information",
+      "source_url": "https://wwwnc.cdc.gov/travel/page/getting-health-care-abroad"
+    },
+    {
+      "content_hash": "sha256:a183af2de6a6cdb819235bcfa29e55df3476e260d6e045f95ec7ef6fa327d249",
+      "id": "cdc:older-adult-fall-prevention:overview",
+      "source_url": "https://www.cdc.gov/falls/prevention/index.html"
+    },
+    {
+      "content_hash": "sha256:13ca74eb36014fc8b8a2d2d8e89b5c35560cac31d02e3be7a9976345fd3c2fc2",
+      "id": "cdc:older-adult-fall-prevention:preventing-a-fall-or-hip-fracture",
+      "source_url": "https://www.cdc.gov/falls/prevention/index.html"
+    },
+    {
+      "content_hash": "sha256:eb0f51ff49252da3ff276e3f023dd7f2002bf8bad02f94ef6a578cb101438a77",
+      "id": "cdc:older-adult-fall-prevention:resources",
+      "source_url": "https://www.cdc.gov/falls/prevention/index.html"
+    },
+    {
+      "content_hash": "sha256:6c6c3343dbba3a0f5ceb6d186e80884048163403c4b47e18ae247d2a3e83a007",
+      "id": "cdc:older-adult-fall-prevention:why-prevention-is-important",
+      "source_url": "https://www.cdc.gov/falls/prevention/index.html"
+    },
+    {
+      "content_hash": "sha256:b4aa8bcf913e9c92a33f3f97d58665a07933da26732d98e92bcb11c52ef180d1",
+      "id": "cdc:pack-smart:additional-resources",
+      "source_url": "https://wwwnc.cdc.gov/travel/page/pack-smart"
+    },
+    {
+      "content_hash": "sha256:225cc0b066605ae59e78ec56741fa74cc7e3c3d9ea75be33da9f090857aa4f3a",
+      "id": "cdc:pack-smart:documents",
+      "source_url": "https://wwwnc.cdc.gov/travel/page/pack-smart"
+    },
+    {
+      "content_hash": "sha256:fdd4b7f5da4dcb9d460d1353215b6024b0e1ab3a250884b0393bf6984c1cf50c",
+      "id": "cdc:pack-smart:medicines",
+      "source_url": "https://wwwnc.cdc.gov/travel/page/pack-smart"
+    },
+    {
+      "content_hash": "sha256:171ac7cb345f726113ef200b8cf83b87008803d3ff64fff3bc440eff7f738fe9",
+      "id": "cdc:pack-smart:pack-smart",
+      "source_url": "https://wwwnc.cdc.gov/travel/page/pack-smart"
+    },
+    {
+      "content_hash": "sha256:2df45e2e862e4ee51d59916c8b32d22231861eb95a2fadbd87b4de403266b153",
+      "id": "cdc:pack-smart:supplies",
+      "source_url": "https://wwwnc.cdc.gov/travel/page/pack-smart"
+    },
+    {
+      "content_hash": "sha256:b5e1516e1386a9c045a3e25511f8bcae428da7c93ab736e1d48ad3e0d0790719",
+      "id": "cdc:travel-vaccines:before-travel",
+      "source_url": "https://wwwnc.cdc.gov/travel/page/travel-vaccines"
+    },
+    {
+      "content_hash": "sha256:2aca9d52129d0520040e669c474ac8455626b191816e084751de5864c6b2cf2d",
+      "id": "cdc:travel-vaccines:more-information",
+      "source_url": "https://wwwnc.cdc.gov/travel/page/travel-vaccines"
+    },
+    {
+      "content_hash": "sha256:f6fc4143f4f5c18acdd5e0c75f085dd10e250470452d71a9e8a79e09068fe924",
+      "id": "cdc:travel-vaccines:need-travel-vaccines-plan-ahead",
+      "source_url": "https://wwwnc.cdc.gov/travel/page/travel-vaccines"
+    },
+    {
+      "content_hash": "sha256:02435e733a1fed30f13550f6815ab2b84c498cf25df8e6695039d30267d77166",
+      "id": "cdc:travel-vaccines:where-can-i-get-travel-vaccines",
+      "source_url": "https://wwwnc.cdc.gov/travel/page/travel-vaccines"
+    },
+    {
+      "content_hash": "sha256:b8de0b052bc1a95b882ab915a5b42b79c916e620734075cc7dca24a578811ab6",
+      "id": "cdc:travelers-diarrhea:more-information",
+      "source_url": "https://wwwnc.cdc.gov/travel/page/travelers-diarrhea"
+    },
+    {
+      "content_hash": "sha256:4529ae22f13c12d05f4117e0488f5300f26aba982bbc38c46f1d2daff819848f",
+      "id": "cdc:travelers-diarrhea:travelers-diarrhea",
+      "source_url": "https://wwwnc.cdc.gov/travel/page/travelers-diarrhea"
+    },
+    {
+      "content_hash": "sha256:93131d32e9429883e29a94cfd7f91b58d093f38408863a900aecec0154a9b918",
+      "id": "dailymed:acetaminophen:adverse-reactions",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=25c03c47-0057-41b6-a530-c6ea85eb750f"
+    },
+    {
+      "content_hash": "sha256:bb48dd2de8a1dbca6d748d857b51ecc598c7b066bbebee061b38586395127f31",
+      "id": "dailymed:acetaminophen:boxed-warning",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=25c03c47-0057-41b6-a530-c6ea85eb750f"
+    },
+    {
+      "content_hash": "sha256:da53283c4b8c7e130792e4abe3af44c5126e22b5f4db012832d21437e2746167",
+      "id": "dailymed:acetaminophen:contraindications",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=25c03c47-0057-41b6-a530-c6ea85eb750f"
+    },
+    {
+      "content_hash": "sha256:b64266540c8473201c9c7e44ec152075d521be1a857218173ff2857ae602ac08",
+      "id": "dailymed:acetaminophen:dosage-administration",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=25c03c47-0057-41b6-a530-c6ea85eb750f"
+    },
+    {
+      "content_hash": "sha256:62f1e3279deb69c333e4a33bfae228efa5beb0a5a761a9a835f9ba6cd690c370",
+      "id": "dailymed:acetaminophen:drug-interactions",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=25c03c47-0057-41b6-a530-c6ea85eb750f"
+    },
+    {
+      "content_hash": "sha256:c03d2d09d19e9366020c13219184921481898fe2f02ef988640181d630b8b2b1",
+      "id": "dailymed:acetaminophen:indications-usage",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=25c03c47-0057-41b6-a530-c6ea85eb750f"
+    },
+    {
+      "content_hash": "sha256:c139a9467efb4e7b7aa73b6916bf621f968844a0714a6c99fd7873680fd48841",
+      "id": "dailymed:acetaminophen:information-for-patients",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=25c03c47-0057-41b6-a530-c6ea85eb750f"
+    },
+    {
+      "content_hash": "sha256:5d36f00accfa181ad891969c7b0d0f4a62b400279a9fb819fcfe39cf30cbbb59",
+      "id": "dailymed:acetaminophen:medication-guide",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=25c03c47-0057-41b6-a530-c6ea85eb750f"
+    },
+    {
+      "content_hash": "sha256:df887e1a6bdc6516ff0319e93b496f4a20f934b9a0e5651f96a60794dc48b44d",
+      "id": "dailymed:acetaminophen:warnings",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=25c03c47-0057-41b6-a530-c6ea85eb750f"
+    },
+    {
+      "content_hash": "sha256:3433f66ea74c00c666b43381527d84874c5f497e6f72a64397defb9d69070752",
+      "id": "dailymed:albuterol:adverse-reactions",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=601a18ed-d66e-498f-a804-f1a3330827d4"
+    },
+    {
+      "content_hash": "sha256:df4f5c94d9e80e81aa7ab86248e777763ce4a2f65fa5361dc3b8496ede42a1be",
+      "id": "dailymed:albuterol:contraindications",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=601a18ed-d66e-498f-a804-f1a3330827d4"
+    },
+    {
+      "content_hash": "sha256:634fdfedaa890424df26ba3bb44159a9a618db110dcc1434f8ff148422b2fe8c",
+      "id": "dailymed:albuterol:dosage-administration",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=601a18ed-d66e-498f-a804-f1a3330827d4"
+    },
+    {
+      "content_hash": "sha256:8831d0a70c862fe28f0826734865348ca77e5ce40bf9cf9d90efa81e3a811c81",
+      "id": "dailymed:albuterol:indications-usage",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=601a18ed-d66e-498f-a804-f1a3330827d4"
+    },
+    {
+      "content_hash": "sha256:a56e1bc90aa74723a40b4b41439b848e6c9781288574333aa0fde6f69cae798f",
+      "id": "dailymed:albuterol:warnings",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=601a18ed-d66e-498f-a804-f1a3330827d4"
+    },
+    {
+      "content_hash": "sha256:1c03257b2e14c3a35fee8636f717528cd977d027a4508f9d218e863ace6f183b",
+      "id": "dailymed:amlodipine:adverse-reactions",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=50112e22-5a69-47c9-90cd-82bbacae7418"
+    },
+    {
+      "content_hash": "sha256:2b4a68c8406e0ca6da2c7cb3e7118b37a0e95959298d49a09253697da1058e9e",
+      "id": "dailymed:amlodipine:contraindications",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=50112e22-5a69-47c9-90cd-82bbacae7418"
+    },
+    {
+      "content_hash": "sha256:449a9ea5a3bd7db20f1fbb21464f364cabc152628e6d5d4142429561ad823af9",
+      "id": "dailymed:amlodipine:dosage-administration",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=50112e22-5a69-47c9-90cd-82bbacae7418"
+    },
+    {
+      "content_hash": "sha256:d1cac917f154945ae588dd04c2577d3f4ae3b1ea85904852d7e7f4893db161c9",
+      "id": "dailymed:amlodipine:drug-interactions",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=50112e22-5a69-47c9-90cd-82bbacae7418"
+    },
+    {
+      "content_hash": "sha256:5032f4d504abc98d7d48c64b03cbb035afb38f1c89d8324b9ffcbb0f72bfef7c",
+      "id": "dailymed:amlodipine:indications-usage",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=50112e22-5a69-47c9-90cd-82bbacae7418"
+    },
+    {
+      "content_hash": "sha256:5a412fec4ae5d119ee2fc75309b99641ce083c241a086e2114c2bdbdd09d2dc2",
+      "id": "dailymed:amlodipine:information-for-patients",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=50112e22-5a69-47c9-90cd-82bbacae7418"
+    },
+    {
+      "content_hash": "sha256:c9f024922860036aa4fc33313d2ebb6331d9eaa6375658af3f76c5622dabbc36",
+      "id": "dailymed:amlodipine:patient-package-insert",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=50112e22-5a69-47c9-90cd-82bbacae7418"
+    },
+    {
+      "content_hash": "sha256:d6c5dfb7af05d446ead52fb41bda34fd9bcb4b38d41c8dd98262ef0faad54f28",
+      "id": "dailymed:amlodipine:warnings-and-precautions",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=50112e22-5a69-47c9-90cd-82bbacae7418"
+    },
+    {
+      "content_hash": "sha256:28400b52289dae6d30c9ecae109c775a7342f71a8cd78388dc72c7c80b04ee39",
+      "id": "dailymed:amoxicillin:adverse-reactions",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0c2d1fbc-f80c-4737-a15e-9cfa6bf99769"
+    },
+    {
+      "content_hash": "sha256:6ccacb12550fa2bad32982fc9c90dcf5b858bdb9b20fccdbb2b03f4476338b5f",
+      "id": "dailymed:amoxicillin:contraindications",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0c2d1fbc-f80c-4737-a15e-9cfa6bf99769"
+    },
+    {
+      "content_hash": "sha256:5a4857b824d422ca6399c0e21642ad37a6b93052d43fd6e71c3f7ead45f60fa6",
+      "id": "dailymed:amoxicillin:dosage-administration",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0c2d1fbc-f80c-4737-a15e-9cfa6bf99769"
+    },
+    {
+      "content_hash": "sha256:98b1eab5f4bc5f0f7143984c3e179ce35aac061c9b0aff23bf346d81b8df5b97",
+      "id": "dailymed:amoxicillin:drug-interactions",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0c2d1fbc-f80c-4737-a15e-9cfa6bf99769"
+    },
+    {
+      "content_hash": "sha256:9da7363e3900d0e54dc1b979f63c28fb3e92e39321d455ef9133d98dc6d37b1e",
+      "id": "dailymed:amoxicillin:indications-usage",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0c2d1fbc-f80c-4737-a15e-9cfa6bf99769"
+    },
+    {
+      "content_hash": "sha256:362a07f5597bda32415f6d6d9cebbbd9c313f6f4e17d3bc7444f5237f6904e86",
+      "id": "dailymed:amoxicillin:information-for-patients",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0c2d1fbc-f80c-4737-a15e-9cfa6bf99769"
+    },
+    {
+      "content_hash": "sha256:48a6b12e0290a7f48a907a70bc21f4947d2150c3650987d0f6e8cec6c8abe660",
+      "id": "dailymed:amoxicillin:warnings-and-precautions",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0c2d1fbc-f80c-4737-a15e-9cfa6bf99769"
+    },
+    {
+      "content_hash": "sha256:edc0f67a91458e2ffdb3c661cbce75f9a3bc7b25826dba0e8a4ea52ab0807701",
+      "id": "dailymed:aspirin:dosage-administration",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=82cc404b-fcf5-4e48-ab1a-09d8c47f9e04"
+    },
+    {
+      "content_hash": "sha256:124c72d2ce2851700470d856c6e0fef90d5716e1231ac291def07707c761df06",
+      "id": "dailymed:aspirin:indications-usage",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=82cc404b-fcf5-4e48-ab1a-09d8c47f9e04"
+    },
+    {
+      "content_hash": "sha256:138c6750ea556417dcd8651f6817588cda22ca9bb61af8eb142a9ad55658c819",
+      "id": "dailymed:aspirin:warnings",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=82cc404b-fcf5-4e48-ab1a-09d8c47f9e04"
+    },
+    {
+      "content_hash": "sha256:83b082abf127b1f6d135d30911c62ebe7caa030d7b28596141ea8562f2274387",
+      "id": "dailymed:atorvastatin:adverse-reactions",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=112ae40c-b612-405b-8f68-6d4bf09f9440"
+    },
+    {
+      "content_hash": "sha256:e2a16b11a7e55db1b23c1eeb13c338b3aea121c3072ad5cbd89ce86d1da778c6",
+      "id": "dailymed:atorvastatin:contraindications",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=112ae40c-b612-405b-8f68-6d4bf09f9440"
+    },
+    {
+      "content_hash": "sha256:31bedab7879e3421d68f0155f8a0272c46f47d9ed98ef8f7f51a2eb77ad4fabf",
+      "id": "dailymed:atorvastatin:dosage-administration",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=112ae40c-b612-405b-8f68-6d4bf09f9440"
+    },
+    {
+      "content_hash": "sha256:96c4cc4a35686d9f14cd2feb761984b28e6aae0cd3e9cbb62e8b246cd739d888",
+      "id": "dailymed:atorvastatin:drug-interactions",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=112ae40c-b612-405b-8f68-6d4bf09f9440"
+    },
+    {
+      "content_hash": "sha256:10d4f6bddee456af51b487fa0485de38acd3a6fd7c5647d054eae07604421b53",
+      "id": "dailymed:atorvastatin:indications-usage",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=112ae40c-b612-405b-8f68-6d4bf09f9440"
+    },
+    {
+      "content_hash": "sha256:62dc2a23fa9f884fa773a253e5418573d006f6653cc796cf38a0f4d5dcc2ff02",
+      "id": "dailymed:atorvastatin:information-for-patients",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=112ae40c-b612-405b-8f68-6d4bf09f9440"
+    },
+    {
+      "content_hash": "sha256:b5224b06c05d51109f6c4b3089c6004f236222d6eb7bf994bf7ecfe36168d983",
+      "id": "dailymed:atorvastatin:patient-package-insert",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=112ae40c-b612-405b-8f68-6d4bf09f9440"
+    },
+    {
+      "content_hash": "sha256:4afcaed66d307df7053765866d729f79e467cb3dbb160c675b78527488f79e0d",
+      "id": "dailymed:atorvastatin:warnings-and-precautions",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=112ae40c-b612-405b-8f68-6d4bf09f9440"
+    },
+    {
+      "content_hash": "sha256:bb3d262b053e6fc8e98e85311e264b16503e3b13c9023cd6bb8e69f333676d17",
+      "id": "dailymed:azithromycin:adverse-reactions",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b5d79719-b1dc-469f-a19c-f8ba615138f0"
+    },
+    {
+      "content_hash": "sha256:c38e654093bc9a56fe592e989d05bc07a67d237dbd941198f72d589fda53473c",
+      "id": "dailymed:azithromycin:contraindications",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b5d79719-b1dc-469f-a19c-f8ba615138f0"
+    },
+    {
+      "content_hash": "sha256:0885c23ad97f2ab13a9f85c1c47647caac6d8c049f98bcbd3fd7f67777411fdc",
+      "id": "dailymed:azithromycin:dosage-administration",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b5d79719-b1dc-469f-a19c-f8ba615138f0"
+    },
+    {
+      "content_hash": "sha256:6ad5b9a1d7793818cf4e9d3be148115ca02e7f585fa6aee0184cceb09de5f4f9",
+      "id": "dailymed:azithromycin:drug-interactions",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b5d79719-b1dc-469f-a19c-f8ba615138f0"
+    },
+    {
+      "content_hash": "sha256:ed93ea823c4a451385083cd37b4f22a20c2321a5fdb3951268ae3e166df12314",
+      "id": "dailymed:azithromycin:indications-usage",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b5d79719-b1dc-469f-a19c-f8ba615138f0"
+    },
+    {
+      "content_hash": "sha256:7ef8e8cc3f4879fd456e2753d106b58f62384d2c70dfe0d656d8ad783105bb65",
+      "id": "dailymed:azithromycin:information-for-patients",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b5d79719-b1dc-469f-a19c-f8ba615138f0"
+    },
+    {
+      "content_hash": "sha256:7b3b409085ead24033b34ad48dc63e4a7376b0241ff4c8303a521f488648966b",
+      "id": "dailymed:azithromycin:patient-package-insert",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b5d79719-b1dc-469f-a19c-f8ba615138f0"
+    },
+    {
+      "content_hash": "sha256:730da60d345e873ecfe46f83641882764a9fa6a398b52452bd327453af69528f",
+      "id": "dailymed:azithromycin:warnings-and-precautions",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b5d79719-b1dc-469f-a19c-f8ba615138f0"
+    },
+    {
+      "content_hash": "sha256:ae0ae8e81d0736fcfc041f4e904b649fa8076b10593a5ea3d70b8dfad24d302f",
+      "id": "dailymed:bupropion:adverse-reactions",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=a72db723-df4b-4bf4-9bdc-05ae82058696"
+    },
+    {
+      "content_hash": "sha256:de0578b02b8f06d1e4fb14fa866da9ffd143ecfa1d4c0d34563026305a14d2fe",
+      "id": "dailymed:bupropion:boxed-warning",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=a72db723-df4b-4bf4-9bdc-05ae82058696"
+    },
+    {
+      "content_hash": "sha256:d71b696b62812dd299bd1d520e4db6431936f420a111fc4c9a7a0a59cf35bbff",
+      "id": "dailymed:bupropion:contraindications",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=a72db723-df4b-4bf4-9bdc-05ae82058696"
+    },
+    {
+      "content_hash": "sha256:cefea9424ed87bf398f0de1f38701b2e25b71c7199b54b88f7921bb51e33ec71",
+      "id": "dailymed:bupropion:dosage-administration",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=a72db723-df4b-4bf4-9bdc-05ae82058696"
+    },
+    {
+      "content_hash": "sha256:c88a65ae321d7183251c3f83ba90ac59a1ae69cdff71dd0ce42888a6214ec704",
+      "id": "dailymed:bupropion:drug-interactions",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=a72db723-df4b-4bf4-9bdc-05ae82058696"
+    },
+    {
+      "content_hash": "sha256:225625e7dce925c7f16f2f211687a9c9f65613b191f50893d792ce19288bb6e8",
+      "id": "dailymed:bupropion:indications-usage",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=a72db723-df4b-4bf4-9bdc-05ae82058696"
+    },
+    {
+      "content_hash": "sha256:eb52c89357ffc7909cbb664da23741e8251e059d96a1403554b209c52698cc28",
+      "id": "dailymed:bupropion:information-for-patients",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=a72db723-df4b-4bf4-9bdc-05ae82058696"
+    },
+    {
+      "content_hash": "sha256:799c7f29c4e6fed3f0bd6a62038dd759163bcc67e685a9b91281a2c66c7f8560",
+      "id": "dailymed:bupropion:medication-guide",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=a72db723-df4b-4bf4-9bdc-05ae82058696"
+    },
+    {
+      "content_hash": "sha256:bd9fccf93f32df37370714193a58056c3793e626213ae464286667691ca256b2",
+      "id": "dailymed:bupropion:warnings-and-precautions",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=a72db723-df4b-4bf4-9bdc-05ae82058696"
+    },
+    {
+      "content_hash": "sha256:5d200f27c491c9f3bec900285402b2a584d108d02cabcfcdf8442c640199d1ea",
+      "id": "dailymed:cetirizine:dosage-administration",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9c11dd22-cb17-4179-8c54-1d515bf662d2"
+    },
+    {
+      "content_hash": "sha256:6f526aed195591bfc42770145e268412e19d8bc84035020e7e4fab603689fad0",
+      "id": "dailymed:cetirizine:indications-usage",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9c11dd22-cb17-4179-8c54-1d515bf662d2"
+    },
+    {
+      "content_hash": "sha256:8c3a1fc0a9a66f8acc8374f0b2d75a880d93822853c8d0a804af228bac97c31f",
+      "id": "dailymed:cetirizine:warnings",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=9c11dd22-cb17-4179-8c54-1d515bf662d2"
+    },
+    {
+      "content_hash": "sha256:02f7690cd1c9598bb3d2c0cb203e0108709ba52d7c5d617574531c8b50a78bff",
+      "id": "dailymed:citalopram:adverse-reactions",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=15cb00da-4435-4930-90d0-faadf2739a5c"
+    },
+    {
+      "content_hash": "sha256:8c545c2821646393f0acf76e76539aa5605c9860e1935596bd39e440cd2071a7",
+      "id": "dailymed:citalopram:boxed-warning",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=15cb00da-4435-4930-90d0-faadf2739a5c"
+    },
+    {
+      "content_hash": "sha256:430e05949efdc7b00ed512d60f4e91250829f3941e8a02ef83cdccc80c8361ff",
+      "id": "dailymed:citalopram:contraindications",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=15cb00da-4435-4930-90d0-faadf2739a5c"
+    },
+    {
+      "content_hash": "sha256:75a61a5ed79130ef13182b5fe4aad238f6a0d6c5416c52a73e43e93be6d38c08",
+      "id": "dailymed:citalopram:dosage-administration",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=15cb00da-4435-4930-90d0-faadf2739a5c"
+    },
+    {
+      "content_hash": "sha256:771bc5052ea73fce708e6edda93809907c2f7cee01e43607ab34da945b9bd98e",
+      "id": "dailymed:citalopram:drug-interactions",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=15cb00da-4435-4930-90d0-faadf2739a5c"
+    },
+    {
+      "content_hash": "sha256:bf05c0222fd546039d2fb300e1ed005b88d1404e3f07414ec86365d7a4ad03ee",
+      "id": "dailymed:citalopram:indications-usage",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=15cb00da-4435-4930-90d0-faadf2739a5c"
+    },
+    {
+      "content_hash": "sha256:1d7e1dae968eff106d0a9951554f750260ec8982e42237c9c796d6b84d7d2c72",
+      "id": "dailymed:citalopram:information-for-patients",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=15cb00da-4435-4930-90d0-faadf2739a5c"
+    },
+    {
+      "content_hash": "sha256:ffeb119b346365f8150df5549452cd21c7c6f9f4ef75dde369ceb701faaf4fc3",
+      "id": "dailymed:citalopram:medication-guide",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=15cb00da-4435-4930-90d0-faadf2739a5c"
+    },
+    {
+      "content_hash": "sha256:47f76d9f12a765bdd269f650863b5164bdb9c1078b0ae6b150c12d6e88bbb854",
+      "id": "dailymed:citalopram:warnings-and-precautions",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=15cb00da-4435-4930-90d0-faadf2739a5c"
+    },
+    {
+      "content_hash": "sha256:50559d46a01af5c9e9a9650c3514ca4c49dcfd1c84580d79ed5c395bc5774510",
+      "id": "dailymed:clopidogrel:adverse-reactions",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=4a22874a-ae21-4da8-b1c5-6732e9b00825"
+    },
+    {
+      "content_hash": "sha256:8199bb8ba4085b76929dba3e3803190beb2aa35218f6e45c57ac3c74bf54298d",
+      "id": "dailymed:clopidogrel:boxed-warning",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=4a22874a-ae21-4da8-b1c5-6732e9b00825"
+    },
+    {
+      "content_hash": "sha256:00f1b93f15e46005d6675a800ae7a4c09a93816dc15c81395f239e7dc315809f",
+      "id": "dailymed:clopidogrel:contraindications",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=4a22874a-ae21-4da8-b1c5-6732e9b00825"
+    },
+    {
+      "content_hash": "sha256:3315bc1ee66f06d845bd7824c210ff561a3dd35c04f520af0d35fc1f73f8cc00",
+      "id": "dailymed:clopidogrel:dosage-administration",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=4a22874a-ae21-4da8-b1c5-6732e9b00825"
+    },
+    {
+      "content_hash": "sha256:d04e33d72c05c5bf4d0f927edf8b56fb1059b72b7ac3fcaaee123d0e220e844c",
+      "id": "dailymed:clopidogrel:drug-interactions",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=4a22874a-ae21-4da8-b1c5-6732e9b00825"
+    },
+    {
+      "content_hash": "sha256:ade4662dd7bb62a25504217b23405a178b013467d90e549f1c804734d5193337",
+      "id": "dailymed:clopidogrel:indications-usage",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=4a22874a-ae21-4da8-b1c5-6732e9b00825"
+    },
+    {
+      "content_hash": "sha256:8dca5ca9ad929110a7127d5da43790f7513b3e46e4889838a9bdadb5e609aff5",
+      "id": "dailymed:clopidogrel:information-for-patients",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=4a22874a-ae21-4da8-b1c5-6732e9b00825"
+    },
+    {
+      "content_hash": "sha256:4387a814321e0e8069ded40115ed4a033af95651a03b2fbc5437e1969f593698",
+      "id": "dailymed:clopidogrel:medication-guide",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=4a22874a-ae21-4da8-b1c5-6732e9b00825"
+    },
+    {
+      "content_hash": "sha256:9bc90200ad2d7db03bf76b1a60079dc376d07292d93425418261c6870d425672",
+      "id": "dailymed:clopidogrel:warnings-and-precautions",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=4a22874a-ae21-4da8-b1c5-6732e9b00825"
+    },
+    {
+      "content_hash": "sha256:1822ab9f117d78114c5545c4fa19e9cdd55d4975df4fd8fdee3afadb9ccd2138",
+      "id": "dailymed:duloxetine:adverse-reactions",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=675f999d-46b2-45da-b17e-58cc2ba180b1"
+    },
+    {
+      "content_hash": "sha256:f7c3dc027db77d459f0dec7fb6663fca804680b1166b2d380fb63eedcb9ce060",
+      "id": "dailymed:duloxetine:boxed-warning",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=675f999d-46b2-45da-b17e-58cc2ba180b1"
+    },
+    {
+      "content_hash": "sha256:8c76d7738c2cc98ac82664644f5afdc127a0da5bac4b505597ba856419e19357",
+      "id": "dailymed:duloxetine:contraindications",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=675f999d-46b2-45da-b17e-58cc2ba180b1"
+    },
+    {
+      "content_hash": "sha256:51bebd76d9d2249357db7489c75444077c313458816d2ce7e953d53386598188",
+      "id": "dailymed:duloxetine:dosage-administration",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=675f999d-46b2-45da-b17e-58cc2ba180b1"
+    },
+    {
+      "content_hash": "sha256:6df55e16400e928dee922f50f01980eda577a2c8a2f3f5a7713d96b617af5498",
+      "id": "dailymed:duloxetine:drug-interactions",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=675f999d-46b2-45da-b17e-58cc2ba180b1"
+    },
+    {
+      "content_hash": "sha256:a139161d9b9ff901e776ca7ef9659b9f7ef9767c273c8b0cad5e85776fc9a98f",
+      "id": "dailymed:duloxetine:indications-usage",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=675f999d-46b2-45da-b17e-58cc2ba180b1"
+    },
+    {
+      "content_hash": "sha256:9d31938fba2d71b4313a955c97041e977c12277697bec9dd34e6e9721a24afc5",
+      "id": "dailymed:duloxetine:information-for-patients",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=675f999d-46b2-45da-b17e-58cc2ba180b1"
+    },
+    {
+      "content_hash": "sha256:a42ffaf1bc95771c668be1035b6b4aeae6ae8ba682473db84e552b3bd83be408",
+      "id": "dailymed:duloxetine:medication-guide",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=675f999d-46b2-45da-b17e-58cc2ba180b1"
+    },
+    {
+      "content_hash": "sha256:ef477744d26daef4c7e2f42069f50f07333d85acb7f1202a037f0f47a339fe79",
+      "id": "dailymed:duloxetine:warnings-and-precautions",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=675f999d-46b2-45da-b17e-58cc2ba180b1"
+    },
+    {
+      "content_hash": "sha256:b30ce0bf2f992584b7f64c30437d5959d44657d59f81d36be1a32ed13e91cb4e",
+      "id": "dailymed:escitalopram:adverse-reactions",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=86cfcd96-6397-42ef-8a79-f62706f0aca6"
+    },
+    {
+      "content_hash": "sha256:37c0ff2e6f3a94245c393086615fbca6a457042212df5fec5a4f50413870f003",
+      "id": "dailymed:escitalopram:boxed-warning",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=86cfcd96-6397-42ef-8a79-f62706f0aca6"
+    },
+    {
+      "content_hash": "sha256:49e60e39b3bc69e09d154f77d8942c9d90fd9d2bc332c557c41caa3a43b17677",
+      "id": "dailymed:escitalopram:contraindications",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=86cfcd96-6397-42ef-8a79-f62706f0aca6"
+    },
+    {
+      "content_hash": "sha256:02534592551ed985225fdfd3db19174e4aff92488eeec37fde1a4a3b9eb5009e",
+      "id": "dailymed:escitalopram:dosage-administration",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=86cfcd96-6397-42ef-8a79-f62706f0aca6"
+    },
+    {
+      "content_hash": "sha256:ff3746a3b667260d983d506f21f3da7541872be2fea933aee61f1ccf62b96b6b",
+      "id": "dailymed:escitalopram:drug-interactions",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=86cfcd96-6397-42ef-8a79-f62706f0aca6"
+    },
+    {
+      "content_hash": "sha256:1b5e04a195e6170b7ea36ec28cdf71311726ff2fadf9acd65b434a34dd659b5f",
+      "id": "dailymed:escitalopram:indications-usage",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=86cfcd96-6397-42ef-8a79-f62706f0aca6"
+    },
+    {
+      "content_hash": "sha256:c8ad043aefd6613c92027674e246dc20b600482543a2cfeed4ae9a5ac5058dd7",
+      "id": "dailymed:escitalopram:information-for-patients",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=86cfcd96-6397-42ef-8a79-f62706f0aca6"
+    },
+    {
+      "content_hash": "sha256:34be49c3ee4633e7dc843db9362bbcb782540a9aeba2f698fc51d272a0f3c0a0",
+      "id": "dailymed:escitalopram:medication-guide",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=86cfcd96-6397-42ef-8a79-f62706f0aca6"
+    },
+    {
+      "content_hash": "sha256:108ed9e2824ec525276f6eb2b3cf1bb42a3ac8c1fe0640f53f7038944adc1145",
+      "id": "dailymed:escitalopram:warnings-and-precautions",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=86cfcd96-6397-42ef-8a79-f62706f0aca6"
+    },
+    {
+      "content_hash": "sha256:1d940d942e4f20fbd2c42a03f5e95276b9329505a9cdd56429b1ceac773ef0fd",
+      "id": "dailymed:famotidine:adverse-reactions",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cf2cd30e-9a0f-4b63-975c-5b551691cda9"
+    },
+    {
+      "content_hash": "sha256:6607101232522be3929c0195253e6b0388ab714f556ece7eac93355fe0e5a340",
+      "id": "dailymed:famotidine:contraindications",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cf2cd30e-9a0f-4b63-975c-5b551691cda9"
+    },
+    {
+      "content_hash": "sha256:6a5ab3f3028c1134655b6c05036e66307d102fd0da7c282c8b592b3e52e4a6f7",
+      "id": "dailymed:famotidine:dosage-administration",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cf2cd30e-9a0f-4b63-975c-5b551691cda9"
+    },
+    {
+      "content_hash": "sha256:c9ce9b6797b4808e264b5006454298384ceb86f97019f489a68b0d2c532c96a1",
+      "id": "dailymed:famotidine:drug-interactions",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cf2cd30e-9a0f-4b63-975c-5b551691cda9"
+    },
+    {
+      "content_hash": "sha256:d7c944add85d4ac6f7ee4127e6392d61eb163e61d0eb20c858aec5c8bb961c92",
+      "id": "dailymed:famotidine:indications-usage",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cf2cd30e-9a0f-4b63-975c-5b551691cda9"
+    },
+    {
+      "content_hash": "sha256:ab0348b21acac3f21f6ac806afa547df884ef784d3b08c151ef8737cef4c0087",
+      "id": "dailymed:famotidine:information-for-patients",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cf2cd30e-9a0f-4b63-975c-5b551691cda9"
+    },
+    {
+      "content_hash": "sha256:1d0dc799ffadca2c6908e8525cf4feff67b1e1d8d672fe826d20f1deda81282a",
+      "id": "dailymed:famotidine:warnings-and-precautions",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cf2cd30e-9a0f-4b63-975c-5b551691cda9"
+    },
+    {
+      "content_hash": "sha256:c58f418e8ae9645731ab501907f8209289296f9288deaea6dce64f76ca0854e6",
+      "id": "dailymed:fluoxetine:adverse-reactions",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=77d5c10a-0cfc-4b89-942c-0fb5c67ae409"
+    },
+    {
+      "content_hash": "sha256:188a4ca8163fd8f057add55aa4ec31ce5e60911df33c532214bfe12c5ad418d4",
+      "id": "dailymed:fluoxetine:boxed-warning",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=77d5c10a-0cfc-4b89-942c-0fb5c67ae409"
+    },
+    {
+      "content_hash": "sha256:36221155f6d65af76066c74a6dcc9986d898cc92c4134df353f8282c76f33fd8",
+      "id": "dailymed:fluoxetine:contraindications",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=77d5c10a-0cfc-4b89-942c-0fb5c67ae409"
+    },
+    {
+      "content_hash": "sha256:51ce1806e090881ba6ea589cbf48819fa97ac0cb3b9724c360e10d88b3b5397d",
+      "id": "dailymed:fluoxetine:dosage-administration",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=77d5c10a-0cfc-4b89-942c-0fb5c67ae409"
+    },
+    {
+      "content_hash": "sha256:d461193a6e881742c858460674bcef700a6fb9229e49d66de5fe7bf0368f3b55",
+      "id": "dailymed:fluoxetine:drug-interactions",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=77d5c10a-0cfc-4b89-942c-0fb5c67ae409"
+    },
+    {
+      "content_hash": "sha256:ef4be953b956ddddfe5893519c11a5f95f1d3584b90b66c460ea31de74c270bc",
+      "id": "dailymed:fluoxetine:indications-usage",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=77d5c10a-0cfc-4b89-942c-0fb5c67ae409"
+    },
+    {
+      "content_hash": "sha256:2f2841efae45d0c7b4f57fb7e86772480052364d334c00f512b583595ceed181",
+      "id": "dailymed:fluoxetine:information-for-patients",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=77d5c10a-0cfc-4b89-942c-0fb5c67ae409"
+    },
+    {
+      "content_hash": "sha256:284eaca679089cd34ab7732fffe83708328d1c8347462c2efa0384682897818a",
+      "id": "dailymed:fluoxetine:medication-guide",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=77d5c10a-0cfc-4b89-942c-0fb5c67ae409"
+    },
+    {
+      "content_hash": "sha256:5dd4e04c2083db63510ce0d4114321d18fa0e08eff95b74732b112a22cf7cfef",
+      "id": "dailymed:fluoxetine:warnings-and-precautions",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=77d5c10a-0cfc-4b89-942c-0fb5c67ae409"
+    },
+    {
+      "content_hash": "sha256:8800bbe657d9f55d592414a9439ece8884d8a8ac1e2a9e3d2143e00706feaa88",
+      "id": "dailymed:furosemide:adverse-reactions",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=53c3f50f-57c6-441b-afea-ec43d7943d1a"
+    },
+    {
+      "content_hash": "sha256:a6e20b817e4ae6060d16c2eafd2f02f78fcd046b7f1d61fa96cbd718aee858e6",
+      "id": "dailymed:furosemide:contraindications",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=53c3f50f-57c6-441b-afea-ec43d7943d1a"
+    },
+    {
+      "content_hash": "sha256:8635266d6cffe0b26035bc2cf333d04edae11d49dbf1a1c8b7b31a2d8b2a0a16",
+      "id": "dailymed:furosemide:dosage-administration",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=53c3f50f-57c6-441b-afea-ec43d7943d1a"
+    },
+    {
+      "content_hash": "sha256:34f47c128667db16956376fe1fe21f6310135e2189951f87cf44ad85861bca60",
+      "id": "dailymed:furosemide:indications-usage",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=53c3f50f-57c6-441b-afea-ec43d7943d1a"
+    },
+    {
+      "content_hash": "sha256:ab67c9ace0f4d6cbca7581bb1ccac92a159822f7828602e46cd88f28ba91f5c9",
+      "id": "dailymed:furosemide:warnings-and-precautions",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=53c3f50f-57c6-441b-afea-ec43d7943d1a"
+    },
+    {
+      "content_hash": "sha256:9231a33e45d57f6f53fd6bca0a3da75d051bd633e813c68467f97a3d817fbd33",
+      "id": "dailymed:gabapentin:adverse-reactions",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=97e47698-97c9-4eb5-a108-5850c2aa2818"
+    },
+    {
+      "content_hash": "sha256:bd12ee4d669f94b114e74c3bf770afb97ce26b9017a9dbe387a4408324cab534",
+      "id": "dailymed:gabapentin:contraindications",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=97e47698-97c9-4eb5-a108-5850c2aa2818"
+    },
+    {
+      "content_hash": "sha256:ceacb77529308a3967dc656d82d8371e7786b1a24efc5526329dc8aff01a72d0",
+      "id": "dailymed:gabapentin:dosage-administration",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=97e47698-97c9-4eb5-a108-5850c2aa2818"
+    },
+    {
+      "content_hash": "sha256:be951a4c5ce2d2267572fa3e833ad15058c02831705e0017ddfd60ae38313c31",
+      "id": "dailymed:gabapentin:drug-interactions",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=97e47698-97c9-4eb5-a108-5850c2aa2818"
+    },
+    {
+      "content_hash": "sha256:ec7f7d25c5655947982b5f8c8a95e603bac4c96c271f4e4c6bf5c36766c1289e",
+      "id": "dailymed:gabapentin:indications-usage",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=97e47698-97c9-4eb5-a108-5850c2aa2818"
+    },
+    {
+      "content_hash": "sha256:45b8a03d4002832cfaf30b78ed928a0101de70bbf296b555298ed8f7d619ff89",
+      "id": "dailymed:gabapentin:information-for-patients",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=97e47698-97c9-4eb5-a108-5850c2aa2818"
+    },
+    {
+      "content_hash": "sha256:ae3c3c64adde6e72bdba13ce8004092937acc2b1f362eada39da89475fe2e7d8",
+      "id": "dailymed:gabapentin:medication-guide",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=97e47698-97c9-4eb5-a108-5850c2aa2818"
+    },
+    {
+      "content_hash": "sha256:87a5faf40a1530b4297ccc54e89ed4259c4c6f71b138327fbd094f5e59776f84",
+      "id": "dailymed:gabapentin:warnings-and-precautions",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=97e47698-97c9-4eb5-a108-5850c2aa2818"
+    },
+    {
+      "content_hash": "sha256:2e7e8bdbd6d34a1177383dc7688b718ab838cad91b2388f7d7b51fb89c4b5a3d",
+      "id": "dailymed:glipizide:adverse-reactions",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=afb65cc1-a4fb-4771-b09c-dcf6e8c5786e"
+    },
+    {
+      "content_hash": "sha256:c222b3fbc2679a69bd72f6a476a4108bed0890e5db60625b0a115ad9b864d561",
+      "id": "dailymed:glipizide:contraindications",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=afb65cc1-a4fb-4771-b09c-dcf6e8c5786e"
+    },
+    {
+      "content_hash": "sha256:3eac026364d2f204e39e438ac5b1dfaab66466b049db976d9f2bbcb5c8336ffc",
+      "id": "dailymed:glipizide:dosage-administration",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=afb65cc1-a4fb-4771-b09c-dcf6e8c5786e"
+    },
+    {
+      "content_hash": "sha256:663d3846ab56e2fb7d32eb05359e1504e825b8ab90d33620a90c93b58e7a2eed",
+      "id": "dailymed:glipizide:indications-usage",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=afb65cc1-a4fb-4771-b09c-dcf6e8c5786e"
+    },
+    {
+      "content_hash": "sha256:517e867d34177a84bc0ce60471f53623edad1818e58def9e147ff0e74a72c7a0",
+      "id": "dailymed:glipizide:warnings",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=afb65cc1-a4fb-4771-b09c-dcf6e8c5786e"
+    },
+    {
+      "content_hash": "sha256:18093543a283b1f0a7f256f74025f0b86df16a58d6080d39e7616418be5de72e",
+      "id": "dailymed:hydrochlorothiazide:adverse-reactions",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b3228678-7992-4148-b4ab-aa0d8b1b8570"
+    },
+    {
+      "content_hash": "sha256:bac19524c32da1dabc06824832561c92e7f6a2977fa8a815b8c5551278b8da68",
+      "id": "dailymed:hydrochlorothiazide:contraindications",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b3228678-7992-4148-b4ab-aa0d8b1b8570"
+    },
+    {
+      "content_hash": "sha256:09b7765e212c19c5cb82326afb64de4752e74d992ec2d6696777409c04078a7e",
+      "id": "dailymed:hydrochlorothiazide:dosage-administration",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b3228678-7992-4148-b4ab-aa0d8b1b8570"
+    },
+    {
+      "content_hash": "sha256:fbf4cf7afb351584dd6ab3f5dc1319e56d697af0ba07b56694729b50f2f044de",
+      "id": "dailymed:hydrochlorothiazide:drug-interactions",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b3228678-7992-4148-b4ab-aa0d8b1b8570"
+    },
+    {
+      "content_hash": "sha256:3387a5693ad93151954760d4ae87af6e2ff1d53cebaf111960bded91ed073d8a",
+      "id": "dailymed:hydrochlorothiazide:indications-usage",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b3228678-7992-4148-b4ab-aa0d8b1b8570"
+    },
+    {
+      "content_hash": "sha256:5f79caa79d8b1752a7301f862a093c2c642dccfbfa1d056ecdecb05211f29a26",
+      "id": "dailymed:hydrochlorothiazide:information-for-patients",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b3228678-7992-4148-b4ab-aa0d8b1b8570"
+    },
+    {
+      "content_hash": "sha256:ce7e595501499160b2ba96fb40d6b8d594bcaf6bb6effb5136b5140e3d6bd30a",
+      "id": "dailymed:hydrochlorothiazide:warnings",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b3228678-7992-4148-b4ab-aa0d8b1b8570"
+    },
+    {
+      "content_hash": "sha256:cf90e1d15ca487924ff8e9dabf1029d8c3d0c8019da74e38bc5bc2bcca9a8bb0",
+      "id": "dailymed:ibuprofen:adverse-reactions",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=51de1183-d226-4869-a00a-f6c74e126a39"
+    },
+    {
+      "content_hash": "sha256:91a2e38c72108b4effb3bee268c82477714953dd851b343ecce3d2e6ef198d22",
+      "id": "dailymed:ibuprofen:boxed-warning",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=51de1183-d226-4869-a00a-f6c74e126a39"
+    },
+    {
+      "content_hash": "sha256:5462142ba20b4bd6df4f36c7fd8ea58fa2b562debc143bca25efb3ca1569e5c8",
+      "id": "dailymed:ibuprofen:contraindications",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=51de1183-d226-4869-a00a-f6c74e126a39"
+    },
+    {
+      "content_hash": "sha256:a5d9b4090b9bd3a375a3debd43cf68e1f1d5316b8262c8e9cc5c07cbd1e7ecb6",
+      "id": "dailymed:ibuprofen:dosage-administration",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=51de1183-d226-4869-a00a-f6c74e126a39"
+    },
+    {
+      "content_hash": "sha256:05b1f1496177a83725f1ebb662a61a1ac8dc314cdb00e7bf409ef1fc6ccc6450",
+      "id": "dailymed:ibuprofen:drug-interactions",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=51de1183-d226-4869-a00a-f6c74e126a39"
+    },
+    {
+      "content_hash": "sha256:6d22c9dcfe33eb3d8b22579397f2464f644bd12e9ebe00d475bdb87228aadc1f",
+      "id": "dailymed:ibuprofen:indications-usage",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=51de1183-d226-4869-a00a-f6c74e126a39"
+    },
+    {
+      "content_hash": "sha256:2202995912d478df557a28fb193052a6c45944f2e8004ad5520e6511b73e61bf",
+      "id": "dailymed:ibuprofen:information-for-patients",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=51de1183-d226-4869-a00a-f6c74e126a39"
+    },
+    {
+      "content_hash": "sha256:0547e88587a28ad83ab5a64c6889bcffcf50b14b3432a94e5e8151440cbb6706",
+      "id": "dailymed:ibuprofen:medication-guide",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=51de1183-d226-4869-a00a-f6c74e126a39"
+    },
+    {
+      "content_hash": "sha256:344c8a892d04e4ce55a6dbb083c0d46d73aea863bb2f69bd4afd0e37f6b49616",
+      "id": "dailymed:ibuprofen:warnings",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=51de1183-d226-4869-a00a-f6c74e126a39"
+    },
+    {
+      "content_hash": "sha256:497d47637258de30e466052f6cd1dc95eb57b9c8ed85ae2cbe005823c3d53782",
+      "id": "dailymed:levothyroxine:adverse-reactions",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=775ef7ba-0b5b-40ba-ac7b-2aef121fe4f4"
+    },
+    {
+      "content_hash": "sha256:69866577d91ef26fe7a0d5a4f3c4b2b684e93ba15a8decf8ee41e3e3988a8747",
+      "id": "dailymed:levothyroxine:boxed-warning",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=775ef7ba-0b5b-40ba-ac7b-2aef121fe4f4"
+    },
+    {
+      "content_hash": "sha256:1f6390fbe7904cf55cafa3847149b469f1b7357cdb03d6072377f200bcbf4e0f",
+      "id": "dailymed:levothyroxine:contraindications",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=775ef7ba-0b5b-40ba-ac7b-2aef121fe4f4"
+    },
+    {
+      "content_hash": "sha256:a63d0c35c599c1857200021ae1e8f3116c01892a1b2c023ddbeda8486b1fccdb",
+      "id": "dailymed:levothyroxine:dosage-administration",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=775ef7ba-0b5b-40ba-ac7b-2aef121fe4f4"
+    },
+    {
+      "content_hash": "sha256:bc1d38a66d544a927e454b2eed11846fe1b6519898850e4336cbf2878e6178a9",
+      "id": "dailymed:levothyroxine:drug-interactions",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=775ef7ba-0b5b-40ba-ac7b-2aef121fe4f4"
+    },
+    {
+      "content_hash": "sha256:428fcf0affc9d9f96e9a08d724a5018a24a8d2f9609f18e866547e64937c495d",
+      "id": "dailymed:levothyroxine:indications-usage",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=775ef7ba-0b5b-40ba-ac7b-2aef121fe4f4"
+    },
+    {
+      "content_hash": "sha256:d836058304cbcce50e0f72ec7e488299d40d4de06660b802064735d099323ee8",
+      "id": "dailymed:levothyroxine:information-for-patients",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=775ef7ba-0b5b-40ba-ac7b-2aef121fe4f4"
+    },
+    {
+      "content_hash": "sha256:be1a4e484b2935f02dd8465a5cea44e6dfc6cd350c28e4c0ee82fbf053979014",
+      "id": "dailymed:levothyroxine:warnings-and-precautions",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=775ef7ba-0b5b-40ba-ac7b-2aef121fe4f4"
+    },
+    {
+      "content_hash": "sha256:b47f5fc0e1ca8d72c8bc972e147db020ebe9ded0c09d43297811b3c6faa606ae",
+      "id": "dailymed:lisinopril:adverse-reactions",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=08b0555e-41d2-44c3-b27b-ad5d701378dc"
+    },
+    {
+      "content_hash": "sha256:762b676bf4cf1fde905c9f92f242a8e33269a96e06522a7e2b2074ad8fa6b955",
+      "id": "dailymed:lisinopril:boxed-warning",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=08b0555e-41d2-44c3-b27b-ad5d701378dc"
+    },
+    {
+      "content_hash": "sha256:efe6a3a79907f839fbbb40f5eec01b8344bac61023d8514f8f17a7eb0db9f671",
+      "id": "dailymed:lisinopril:contraindications",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=08b0555e-41d2-44c3-b27b-ad5d701378dc"
+    },
+    {
+      "content_hash": "sha256:899d0fdaefefba1bf49a94fca2042a83a68cf8bfec674d0deeeb218be1188c64",
+      "id": "dailymed:lisinopril:dosage-administration",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=08b0555e-41d2-44c3-b27b-ad5d701378dc"
+    },
+    {
+      "content_hash": "sha256:5ba226423648a1064aaf840a694dfff9d4926b3e42a7e0816c6214f2001fc651",
+      "id": "dailymed:lisinopril:drug-interactions",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=08b0555e-41d2-44c3-b27b-ad5d701378dc"
+    },
+    {
+      "content_hash": "sha256:774c1f9e7f2a5dc82025627da0ca9d73353fac263ddee90e162697041ce7df78",
+      "id": "dailymed:lisinopril:indications-usage",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=08b0555e-41d2-44c3-b27b-ad5d701378dc"
+    },
+    {
+      "content_hash": "sha256:d08af10bf4eb7a59e101420c93babcc77e43c0cc54b66cc60f1a156589c6ec09",
+      "id": "dailymed:lisinopril:information-for-patients",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=08b0555e-41d2-44c3-b27b-ad5d701378dc"
+    },
+    {
+      "content_hash": "sha256:e5d3064a20cfdbefd3ef51706f9468a7a4782daf4b93733941db912a273eba7e",
+      "id": "dailymed:lisinopril:warnings-and-precautions",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=08b0555e-41d2-44c3-b27b-ad5d701378dc"
+    },
+    {
+      "content_hash": "sha256:1c2b038dddd64e50b22c5bf166977ca77688c24c0832ce1b509f856b591130c3",
+      "id": "dailymed:loratadine:dosage-administration",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=1203981a-becd-4854-810d-b6d8842b5bd2"
+    },
+    {
+      "content_hash": "sha256:0e0bababcd82c3ebaf9f7d6d1b173b5ef5448e57cbb0dbb90af73b91a0aafbf7",
+      "id": "dailymed:loratadine:indications-usage",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=1203981a-becd-4854-810d-b6d8842b5bd2"
+    },
+    {
+      "content_hash": "sha256:4abbc471563ee6667d089cd78c37af0faddf6db882920ff9b17c38aabea1481d",
+      "id": "dailymed:loratadine:warnings",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=1203981a-becd-4854-810d-b6d8842b5bd2"
+    },
+    {
+      "content_hash": "sha256:657a58723c8620ba29bdb16e33f250ba9db8071eac78685f1e9719c27cc39313",
+      "id": "dailymed:losartan:adverse-reactions",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=59801c48-2af7-4967-ae70-99f865551a7a"
+    },
+    {
+      "content_hash": "sha256:5bb52c2da932ee916f3e97bfa9675584aafe9bf58c674742cb0ef93cc5d6d285",
+      "id": "dailymed:losartan:boxed-warning",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=59801c48-2af7-4967-ae70-99f865551a7a"
+    },
+    {
+      "content_hash": "sha256:7122ff42237ecf4eee7d94fce9dfb18fe51d06de27815f629eca5e4375bfde0c",
+      "id": "dailymed:losartan:contraindications",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=59801c48-2af7-4967-ae70-99f865551a7a"
+    },
+    {
+      "content_hash": "sha256:9513bf3baad72f0469515ce96572e993bcd20665236f6f92608466bd527e54bd",
+      "id": "dailymed:losartan:dosage-administration",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=59801c48-2af7-4967-ae70-99f865551a7a"
+    },
+    {
+      "content_hash": "sha256:68e5c61d490614d71d761aac5344b941d3733b1f5910dce0f4b7305c42751f68",
+      "id": "dailymed:losartan:drug-interactions",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=59801c48-2af7-4967-ae70-99f865551a7a"
+    },
+    {
+      "content_hash": "sha256:ad852e8a08b343a3fc305b70eb588ec13bc1111203aeea4a1fdf72a1eb0fcb75",
+      "id": "dailymed:losartan:indications-usage",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=59801c48-2af7-4967-ae70-99f865551a7a"
+    },
+    {
+      "content_hash": "sha256:1825708df4b69d34e9d4f3735890fc8c2870b5b82656e7b1e379aa7363fd69cd",
+      "id": "dailymed:losartan:information-for-patients",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=59801c48-2af7-4967-ae70-99f865551a7a"
+    },
+    {
+      "content_hash": "sha256:53dec96a55e365fad010508f54ad14f5f2d90fda1537e765574e111e2f37e037",
+      "id": "dailymed:losartan:patient-package-insert",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=59801c48-2af7-4967-ae70-99f865551a7a"
+    },
+    {
+      "content_hash": "sha256:562fae69291fad300c4fcdb06ae6fb3d9e1be680dd5dd2539c73e029312d5891",
+      "id": "dailymed:losartan:warnings-and-precautions",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=59801c48-2af7-4967-ae70-99f865551a7a"
+    },
+    {
+      "content_hash": "sha256:d1bb8413a970d65b83ef17d2806dd131e188343d3ecda082b2b84f33714945a4",
+      "id": "dailymed:meloxicam:adverse-reactions",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=75af3e09-f510-45a4-9f21-50bff7aa5510"
+    },
+    {
+      "content_hash": "sha256:eb8c976ccf2ab4c5ee03dce019e78fe340580812aed605420044a3411f29d56b",
+      "id": "dailymed:meloxicam:boxed-warning",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=75af3e09-f510-45a4-9f21-50bff7aa5510"
+    },
+    {
+      "content_hash": "sha256:64ba09ada68daaef5f4e6660d8e7ea77a499872fa690aeb1798dfa57065dd7c6",
+      "id": "dailymed:meloxicam:contraindications",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=75af3e09-f510-45a4-9f21-50bff7aa5510"
+    },
+    {
+      "content_hash": "sha256:46fb65ee43807b12dcacef679470dac39418e4c11585d4fb4309551ba9cb041c",
+      "id": "dailymed:meloxicam:dosage-administration",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=75af3e09-f510-45a4-9f21-50bff7aa5510"
+    },
+    {
+      "content_hash": "sha256:4dcf421c1d52ffcb18fb98837125810b72bc03386a01eb868a96d65a0f5f1892",
+      "id": "dailymed:meloxicam:drug-interactions",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=75af3e09-f510-45a4-9f21-50bff7aa5510"
+    },
+    {
+      "content_hash": "sha256:f29afce8402ec3e98f8071a7471b8254ee1e9e812b4461ff6277568e3468c898",
+      "id": "dailymed:meloxicam:indications-usage",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=75af3e09-f510-45a4-9f21-50bff7aa5510"
+    },
+    {
+      "content_hash": "sha256:cd4bd4f7f1b6230e85f977dd3d119651306c89c487321402bc26cceb5b651427",
+      "id": "dailymed:meloxicam:information-for-patients",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=75af3e09-f510-45a4-9f21-50bff7aa5510"
+    },
+    {
+      "content_hash": "sha256:830868dff753497fdbc56f43b582edf41b6e0e1df85a6ff46053c85ce54804e6",
+      "id": "dailymed:meloxicam:medication-guide",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=75af3e09-f510-45a4-9f21-50bff7aa5510"
+    },
+    {
+      "content_hash": "sha256:e90eb15393eb64ff3f909e0695f0081fb788757de373d8f5b7ad792aedebeed6",
+      "id": "dailymed:meloxicam:warnings-and-precautions",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=75af3e09-f510-45a4-9f21-50bff7aa5510"
+    },
+    {
+      "content_hash": "sha256:ea38b1cdeb2f1239031233f9fedf5123555cea7a9824e3e97900d60110374d68",
+      "id": "dailymed:metformin:adverse-reactions",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=11d52559-bfde-4c2a-9602-f18fb3187617"
+    },
+    {
+      "content_hash": "sha256:576dac79432025a2d8251a5e7ff2fa250821191619e0d482032a482802cfc6bc",
+      "id": "dailymed:metformin:boxed-warning",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=11d52559-bfde-4c2a-9602-f18fb3187617"
+    },
+    {
+      "content_hash": "sha256:97411529118bf9bdcd84c2a9fb3e266daad2cf3d3dc52b61552fef9d9e2165d6",
+      "id": "dailymed:metformin:contraindications",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=11d52559-bfde-4c2a-9602-f18fb3187617"
+    },
+    {
+      "content_hash": "sha256:569ec7ac595f127c2cfc4dd4021c0af98a209bc2de4c3743d9afb7c4138144ea",
+      "id": "dailymed:metformin:dosage-administration",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=11d52559-bfde-4c2a-9602-f18fb3187617"
+    },
+    {
+      "content_hash": "sha256:e376fa152e55bfd6bb45aa02e5aed4aa690d4af3dacada87b7c6cc4f9fbb4fb5",
+      "id": "dailymed:metformin:drug-interactions",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=11d52559-bfde-4c2a-9602-f18fb3187617"
+    },
+    {
+      "content_hash": "sha256:f85ff6d6425d1cbbe2df0504b940342c25e2bbf55c190cbae3b4588cac558838",
+      "id": "dailymed:metformin:indications-usage",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=11d52559-bfde-4c2a-9602-f18fb3187617"
+    },
+    {
+      "content_hash": "sha256:25a254beb2fd854aaeedb0dcc4f93eaa1ecc4c6512d1adf09d0538bd35ac69ea",
+      "id": "dailymed:metformin:information-for-patients",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=11d52559-bfde-4c2a-9602-f18fb3187617"
+    },
+    {
+      "content_hash": "sha256:84e163865ff3dc5b89e67612facd138043f2b7d944381bccbbafc5b3e9a57d7b",
+      "id": "dailymed:metformin:patient-package-insert",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=11d52559-bfde-4c2a-9602-f18fb3187617"
+    },
+    {
+      "content_hash": "sha256:b6a170659f836954816a7b41b8da1feec3bad0a702dc74d7e94ef2865c0d5cc2",
+      "id": "dailymed:metformin:warnings-and-precautions",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=11d52559-bfde-4c2a-9602-f18fb3187617"
+    },
+    {
+      "content_hash": "sha256:f68dff59b7cc382c4c2be35125e82c569220d1520ce07ca3dbd4e33d459c7601",
+      "id": "dailymed:metoprolol:adverse-reactions",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=a1997b48-8d66-437a-a253-ca996331b0c3"
+    },
+    {
+      "content_hash": "sha256:f5b83b98d331a3c2879114edf9cc12ec4a7bee1cb39934e8c1c184401440dffb",
+      "id": "dailymed:metoprolol:contraindications",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=a1997b48-8d66-437a-a253-ca996331b0c3"
+    },
+    {
+      "content_hash": "sha256:4c7b47593e584ac26649baf61ac4a9e2110ecb030e280ac6652d2d53aa746dc3",
+      "id": "dailymed:metoprolol:dosage-administration",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=a1997b48-8d66-437a-a253-ca996331b0c3"
+    },
+    {
+      "content_hash": "sha256:f7cc94eb6232fca1b6f0f28339b0b5dc054b0be092cc24a67b93b34405d94034",
+      "id": "dailymed:metoprolol:drug-interactions",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=a1997b48-8d66-437a-a253-ca996331b0c3"
+    },
+    {
+      "content_hash": "sha256:977f28cb1fc6795b11ad7df73385eba0c234b0ec47c3fff324e4b058b789a176",
+      "id": "dailymed:metoprolol:indications-usage",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=a1997b48-8d66-437a-a253-ca996331b0c3"
+    },
+    {
+      "content_hash": "sha256:51293cc56dd027fdcb29163f5fafd34671f70051799e2a7b1ffa30c97b7510bc",
+      "id": "dailymed:metoprolol:information-for-patients",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=a1997b48-8d66-437a-a253-ca996331b0c3"
+    },
+    {
+      "content_hash": "sha256:3402929137fe4da2b687d5c121b7f7e5b4bbccc4a3692cdd7753bc668d96d205",
+      "id": "dailymed:metoprolol:warnings-and-precautions",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=a1997b48-8d66-437a-a253-ca996331b0c3"
+    },
+    {
+      "content_hash": "sha256:3235a1050a643b2defa79a064026a7c6e645f7939a71c6618eccdd9e21836492",
+      "id": "dailymed:montelukast:adverse-reactions",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=e67c211a-cee7-41e8-9a2a-32d7363ef2a3"
+    },
+    {
+      "content_hash": "sha256:16b962977c85807fbb2ce4c6c1aebe977efe58aae1911121097ea722b6fe9ea3",
+      "id": "dailymed:montelukast:boxed-warning",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=e67c211a-cee7-41e8-9a2a-32d7363ef2a3"
+    },
+    {
+      "content_hash": "sha256:fd9d53873036ff802efcd4808db12125d201153097b3a5ce6d8da2ee4f778272",
+      "id": "dailymed:montelukast:contraindications",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=e67c211a-cee7-41e8-9a2a-32d7363ef2a3"
+    },
+    {
+      "content_hash": "sha256:d71cd5a1bc59da215170ec9c3815c373f72e720a53d7028904e79ed3a80214e3",
+      "id": "dailymed:montelukast:dosage-administration",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=e67c211a-cee7-41e8-9a2a-32d7363ef2a3"
+    },
+    {
+      "content_hash": "sha256:209854940fc7f1ef07d457487b2b4fc4d173160e5d552333bca48cf63b3517f4",
+      "id": "dailymed:montelukast:drug-interactions",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=e67c211a-cee7-41e8-9a2a-32d7363ef2a3"
+    },
+    {
+      "content_hash": "sha256:743591076016d736499dbb379b493c557847c8b9a102ba395d1c1cffb7402efb",
+      "id": "dailymed:montelukast:indications-usage",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=e67c211a-cee7-41e8-9a2a-32d7363ef2a3"
+    },
+    {
+      "content_hash": "sha256:4e6da0c823d6234646d2989ef423927323d13d6420a3ec0fe551e74a49c3430e",
+      "id": "dailymed:montelukast:information-for-patients",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=e67c211a-cee7-41e8-9a2a-32d7363ef2a3"
+    },
+    {
+      "content_hash": "sha256:0f19cf28468708b972b1e2d8138f187692116a19573b9d3f6b75f6ab2df3840c",
+      "id": "dailymed:montelukast:medication-guide",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=e67c211a-cee7-41e8-9a2a-32d7363ef2a3"
+    },
+    {
+      "content_hash": "sha256:b5a63cfe894904b5d89aa66e7e06d20152dcd45a0b161c95f668d87d7c29dd8c",
+      "id": "dailymed:montelukast:warnings-and-precautions",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=e67c211a-cee7-41e8-9a2a-32d7363ef2a3"
+    },
+    {
+      "content_hash": "sha256:97c5da02faca2ff4005e41027a2d1abc55282a5a837b2f02e1cb16f5f6ace5f2",
+      "id": "dailymed:naproxen:adverse-reactions",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2e72de28-e62b-44e0-b17d-500d13e0bcc6"
+    },
+    {
+      "content_hash": "sha256:673fb73a0f22394224d06067633a72120dd96bbed59a50769631861491489ac7",
+      "id": "dailymed:naproxen:boxed-warning",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2e72de28-e62b-44e0-b17d-500d13e0bcc6"
+    },
+    {
+      "content_hash": "sha256:b27181a3044e631af99138a6cfb0a32dd8e8bae9a30ceae1ab6da64efefcc22c",
+      "id": "dailymed:naproxen:contraindications",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2e72de28-e62b-44e0-b17d-500d13e0bcc6"
+    },
+    {
+      "content_hash": "sha256:4942f4c499bf1ffc0fdb9d1c6afb7e4d0d0e282ac5131423b393de9b678470ed",
+      "id": "dailymed:naproxen:dosage-administration",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2e72de28-e62b-44e0-b17d-500d13e0bcc6"
+    },
+    {
+      "content_hash": "sha256:c9e9648b72d44c54893b9da3d6df11ffb749f2df520e85b9506cbe57985ae6a2",
+      "id": "dailymed:naproxen:drug-interactions",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2e72de28-e62b-44e0-b17d-500d13e0bcc6"
+    },
+    {
+      "content_hash": "sha256:9a3ed678b869a4dbf5510c1d9f902a7b6aecf5b16f29e049f0967cb747d98abd",
+      "id": "dailymed:naproxen:indications-usage",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2e72de28-e62b-44e0-b17d-500d13e0bcc6"
+    },
+    {
+      "content_hash": "sha256:20e9c75ea856bfd9695190c422bd8d49d6299b76165bde829ead059b25d5b34d",
+      "id": "dailymed:naproxen:information-for-patients",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2e72de28-e62b-44e0-b17d-500d13e0bcc6"
+    },
+    {
+      "content_hash": "sha256:152fe9850186289c4ca54fac88d3656febefc629246c0b5ab56928c020fef484",
+      "id": "dailymed:naproxen:medication-guide",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2e72de28-e62b-44e0-b17d-500d13e0bcc6"
+    },
+    {
+      "content_hash": "sha256:43b0eb469a5e4cf249cb2f01f10137908de3026ebb00410d1a2c2acdd53b6099",
+      "id": "dailymed:naproxen:warnings-and-precautions",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2e72de28-e62b-44e0-b17d-500d13e0bcc6"
+    },
+    {
+      "content_hash": "sha256:1578bcf4e9e448314ff0dbe1853864bb65f9d9b218841327cdf8411241b40267",
+      "id": "dailymed:omeprazole:adverse-reactions",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cd6868b9-5824-442b-8d65-4db29ecb70a4"
+    },
+    {
+      "content_hash": "sha256:9862956547a6e7ed1bcf367e6674e6b5ae382afe1eae344038d99fdc796d144c",
+      "id": "dailymed:omeprazole:contraindications",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cd6868b9-5824-442b-8d65-4db29ecb70a4"
+    },
+    {
+      "content_hash": "sha256:a639b150e78c68d18ed0f569befff2c4be3d875ee8e3d8fdc89a565815e5e3f7",
+      "id": "dailymed:omeprazole:dosage-administration",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cd6868b9-5824-442b-8d65-4db29ecb70a4"
+    },
+    {
+      "content_hash": "sha256:07176fdd635e58b03f1b5d6123f80bdc88184ce0fb6ce7dc6e3360d0343ca90b",
+      "id": "dailymed:omeprazole:drug-interactions",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cd6868b9-5824-442b-8d65-4db29ecb70a4"
+    },
+    {
+      "content_hash": "sha256:7301f608edb131ee406735d5b7abd39493d334db347e3130a6d40e7f84fb5d48",
+      "id": "dailymed:omeprazole:indications-usage",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cd6868b9-5824-442b-8d65-4db29ecb70a4"
+    },
+    {
+      "content_hash": "sha256:83fa068fa770b1eaf54069f8d6bb561a514215b88ccfd073ea3447463013737e",
+      "id": "dailymed:omeprazole:information-for-patients",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cd6868b9-5824-442b-8d65-4db29ecb70a4"
+    },
+    {
+      "content_hash": "sha256:b784170f1d66c69345a90fa3ced5e6877bcaaccba43420a1c874ec7e82c2f47a",
+      "id": "dailymed:omeprazole:medication-guide",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cd6868b9-5824-442b-8d65-4db29ecb70a4"
+    },
+    {
+      "content_hash": "sha256:f390843ef025f7ab9ff9b23a9f3ef7c181bf7288390b89b3d063b733d355c593",
+      "id": "dailymed:omeprazole:warnings-and-precautions",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=cd6868b9-5824-442b-8d65-4db29ecb70a4"
+    },
+    {
+      "content_hash": "sha256:6e35f60e1f7084525783c2c31dbff3308ca7a6ce0665aa3589229fbdddc2ed0d",
+      "id": "dailymed:pantoprazole:adverse-reactions",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=fa8eed8c-f5d0-4b90-b184-cff8d9c8fb6a"
+    },
+    {
+      "content_hash": "sha256:a663927662ad1929b35811f958ceaeb42337e9a791572d7250e859c2d0b706c0",
+      "id": "dailymed:pantoprazole:contraindications",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=fa8eed8c-f5d0-4b90-b184-cff8d9c8fb6a"
+    },
+    {
+      "content_hash": "sha256:7946b14a24ac409fb1340ba063aba258b46f1e8b398b2c62b2e1664ef7e34bb1",
+      "id": "dailymed:pantoprazole:dosage-administration",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=fa8eed8c-f5d0-4b90-b184-cff8d9c8fb6a"
+    },
+    {
+      "content_hash": "sha256:decd3fe70b1220f48f408647811ef83bfbc4b88ca7b23d9b9b2cd56feba7c539",
+      "id": "dailymed:pantoprazole:drug-interactions",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=fa8eed8c-f5d0-4b90-b184-cff8d9c8fb6a"
+    },
+    {
+      "content_hash": "sha256:77968112d81ea02bf2c44341a1ad9b5da2575a8d0968631751d21ec6df8eefd2",
+      "id": "dailymed:pantoprazole:indications-usage",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=fa8eed8c-f5d0-4b90-b184-cff8d9c8fb6a"
+    },
+    {
+      "content_hash": "sha256:99fbdf1c7b031128593d52f2133908b6676d3c8dd07395c3afa562472d70cc24",
+      "id": "dailymed:pantoprazole:information-for-patients",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=fa8eed8c-f5d0-4b90-b184-cff8d9c8fb6a"
+    },
+    {
+      "content_hash": "sha256:b93a5d06c1569bbaa951b0056eacef727a98fff422c963a8cf68a38dc580ea0e",
+      "id": "dailymed:pantoprazole:medication-guide",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=fa8eed8c-f5d0-4b90-b184-cff8d9c8fb6a"
+    },
+    {
+      "content_hash": "sha256:a3b9c6f2e454c82bf0032c70879ccebfe33fdcc2664454d39de79a005ba41229",
+      "id": "dailymed:pantoprazole:warnings-and-precautions",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=fa8eed8c-f5d0-4b90-b184-cff8d9c8fb6a"
+    },
+    {
+      "content_hash": "sha256:2e943fe3f959bcda75a0a87a510d95324b7dc553b35a03de15035ba68ba41db8",
+      "id": "dailymed:pravastatin:adverse-reactions",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d0641def-425e-4357-a6b6-24ce00424549"
+    },
+    {
+      "content_hash": "sha256:63e0eb7a9c8594267f2d7bc3d3782f007558255a8a03fe89dc0cbdde122021bc",
+      "id": "dailymed:pravastatin:contraindications",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d0641def-425e-4357-a6b6-24ce00424549"
+    },
+    {
+      "content_hash": "sha256:544699c94a97881378329e3a097a90c02e89e0b1e484cd6b21cb227a96f98ed7",
+      "id": "dailymed:pravastatin:dosage-administration",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d0641def-425e-4357-a6b6-24ce00424549"
+    },
+    {
+      "content_hash": "sha256:8effe7b94ab36383d7669637716d6781c53b5cee23326af1da4a3b25473c2860",
+      "id": "dailymed:pravastatin:drug-interactions",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d0641def-425e-4357-a6b6-24ce00424549"
+    },
+    {
+      "content_hash": "sha256:2c4a001320253ae05d74c2faa3c4ac0c59943913fb58a98df3138779681cf7d6",
+      "id": "dailymed:pravastatin:indications-usage",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d0641def-425e-4357-a6b6-24ce00424549"
+    },
+    {
+      "content_hash": "sha256:058743b535a538da90fef29c297ce69d440b2875068526525b2409572f4ede05",
+      "id": "dailymed:pravastatin:information-for-patients",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d0641def-425e-4357-a6b6-24ce00424549"
+    },
+    {
+      "content_hash": "sha256:9e7b30287e02aafb2fc02502588d59e6efd54c7d855c0de1f890ae3be284aa0f",
+      "id": "dailymed:pravastatin:warnings-and-precautions",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d0641def-425e-4357-a6b6-24ce00424549"
+    },
+    {
+      "content_hash": "sha256:919db7ff88ed5dec7f9a8fb27ac752657807b7785ba7458c09f1930f1e6038c5",
+      "id": "dailymed:prednisone:adverse-reactions",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=ecc48869-3812-4440-a398-749b28062059"
+    },
+    {
+      "content_hash": "sha256:921dde804d5745da933b19c6d91e968638c64b2f4dfc25c350e90bf9a65edc6a",
+      "id": "dailymed:prednisone:contraindications",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=ecc48869-3812-4440-a398-749b28062059"
+    },
+    {
+      "content_hash": "sha256:14aa0bf9558e45a66c9b8b66a32802c1d215d384b8398ffef6b2d79e2e1b213e",
+      "id": "dailymed:prednisone:dosage-administration",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=ecc48869-3812-4440-a398-749b28062059"
+    },
+    {
+      "content_hash": "sha256:678b0ebf3a2b3ec61abe54a09894362da3e87372fed8485af8129b7e4a57777e",
+      "id": "dailymed:prednisone:indications-usage",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=ecc48869-3812-4440-a398-749b28062059"
+    },
+    {
+      "content_hash": "sha256:5f8af1f5adf319acae1f839271735930d276a34deb42276e0858dc22d8620295",
+      "id": "dailymed:prednisone:warnings",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=ecc48869-3812-4440-a398-749b28062059"
+    },
+    {
+      "content_hash": "sha256:d3f3c8b99f7278935c84c8c14a2bc3892fca1020ad2fffec4a777e89115f9507",
+      "id": "dailymed:rosuvastatin:adverse-reactions",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=67da041b-7ad5-4309-86b3-8c30a5f9465e"
+    },
+    {
+      "content_hash": "sha256:3fe7c04f74b06964cd3bc25ffcb0199918460f2a94467457bb318d94c3c52c58",
+      "id": "dailymed:rosuvastatin:contraindications",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=67da041b-7ad5-4309-86b3-8c30a5f9465e"
+    },
+    {
+      "content_hash": "sha256:a3bbdb18af5be4b9ba53bbd21ca6e00e045003e3b1fb601592741598bbde2f14",
+      "id": "dailymed:rosuvastatin:dosage-administration",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=67da041b-7ad5-4309-86b3-8c30a5f9465e"
+    },
+    {
+      "content_hash": "sha256:e86a3d94d734073c8576cba48457b50686cbefc4f2696c14f703b6d399716fa5",
+      "id": "dailymed:rosuvastatin:drug-interactions",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=67da041b-7ad5-4309-86b3-8c30a5f9465e"
+    },
+    {
+      "content_hash": "sha256:877b43dcd00dd5708f61d1f735d4491317c56b50d48b1821f6e6773cb3f943ca",
+      "id": "dailymed:rosuvastatin:indications-usage",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=67da041b-7ad5-4309-86b3-8c30a5f9465e"
+    },
+    {
+      "content_hash": "sha256:a5277c9425d7089a73c2b57a9b8e5c8215786d3759fec99f8242694e4f79b802",
+      "id": "dailymed:rosuvastatin:information-for-patients",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=67da041b-7ad5-4309-86b3-8c30a5f9465e"
+    },
+    {
+      "content_hash": "sha256:fd863d06d3a6fb16ab16722b336dada3333a72fc1b3aa5507956a9129281c54a",
+      "id": "dailymed:rosuvastatin:warnings-and-precautions",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=67da041b-7ad5-4309-86b3-8c30a5f9465e"
+    },
+    {
+      "content_hash": "sha256:b06be736b68e2fde1c4727cd29f77617cf0d3aa88b2cd6e6ee186d6f388e9b31",
+      "id": "dailymed:sertraline:adverse-reactions",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=e919f195-0ce1-4d71-9883-efec05b9a050"
+    },
+    {
+      "content_hash": "sha256:36d4941e906fc8e9f2a43e01c29a8930a663fe4390ad858fe9d84b9748e4cc1e",
+      "id": "dailymed:sertraline:boxed-warning",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=e919f195-0ce1-4d71-9883-efec05b9a050"
+    },
+    {
+      "content_hash": "sha256:4c11838535eb9ce73a81ed2fccb975a0cf5b85296e03c878de915d9735a5224d",
+      "id": "dailymed:sertraline:contraindications",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=e919f195-0ce1-4d71-9883-efec05b9a050"
+    },
+    {
+      "content_hash": "sha256:206ae4ce33ad364efe20d3ad93cbc2335804a03f609373d95c687f5c675f8d0d",
+      "id": "dailymed:sertraline:dosage-administration",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=e919f195-0ce1-4d71-9883-efec05b9a050"
+    },
+    {
+      "content_hash": "sha256:80a70c4242fe97c388c1a5724c0784a2e6d891b5b35c4f0702040423785ce14d",
+      "id": "dailymed:sertraline:drug-interactions",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=e919f195-0ce1-4d71-9883-efec05b9a050"
+    },
+    {
+      "content_hash": "sha256:43fded5976cbb4cbc0ae3f8bd49e7f8f2722b97801657b0baa49ed3f60cf8412",
+      "id": "dailymed:sertraline:indications-usage",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=e919f195-0ce1-4d71-9883-efec05b9a050"
+    },
+    {
+      "content_hash": "sha256:0f83a512891aeb5fe74c2583a4136cf54ed74e68d236ca907dfd9fd300a6554b",
+      "id": "dailymed:sertraline:information-for-patients",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=e919f195-0ce1-4d71-9883-efec05b9a050"
+    },
+    {
+      "content_hash": "sha256:cd4db934e708c8010311ec7d4910ea1c94cbb20fe7fe293e0d9fcb9982c9d749",
+      "id": "dailymed:sertraline:medication-guide",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=e919f195-0ce1-4d71-9883-efec05b9a050"
+    },
+    {
+      "content_hash": "sha256:216cbf9b925d3664f95bb3e9a11a2a62f493e4a53aecce7180baf9a726e4bf78",
+      "id": "dailymed:sertraline:warnings-and-precautions",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=e919f195-0ce1-4d71-9883-efec05b9a050"
+    },
+    {
+      "content_hash": "sha256:17d111efe7a5b94a7f7d743048a4ff3dacb9d17d795122697f1a109d61ad5c09",
+      "id": "dailymed:simvastatin:adverse-reactions",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=356ed6a6-e467-4791-87ff-2ae7779fc1b0"
+    },
+    {
+      "content_hash": "sha256:d2587d272b719e15eafa0f564a5772a796a5e5889d80202b8f95741953bdd63d",
+      "id": "dailymed:simvastatin:contraindications",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=356ed6a6-e467-4791-87ff-2ae7779fc1b0"
+    },
+    {
+      "content_hash": "sha256:ec98e6f0ff8a4d7ad3eed81261e822948e3c480b586e913d49e054da2678cf61",
+      "id": "dailymed:simvastatin:dosage-administration",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=356ed6a6-e467-4791-87ff-2ae7779fc1b0"
+    },
+    {
+      "content_hash": "sha256:10a8c208668735cf44526e552c2dc10e4fbe49b1ed50d93de165045f367cecf1",
+      "id": "dailymed:simvastatin:drug-interactions",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=356ed6a6-e467-4791-87ff-2ae7779fc1b0"
+    },
+    {
+      "content_hash": "sha256:9b52dea649670e940313b634bab0537d9fa336724ff7229354f7dff6924c0faa",
+      "id": "dailymed:simvastatin:indications-usage",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=356ed6a6-e467-4791-87ff-2ae7779fc1b0"
+    },
+    {
+      "content_hash": "sha256:15cbb348d864c331662bc57ed662e4ee8fd4c6caf833822dab2cfe81277ee106",
+      "id": "dailymed:simvastatin:information-for-patients",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=356ed6a6-e467-4791-87ff-2ae7779fc1b0"
+    },
+    {
+      "content_hash": "sha256:ab7cf12ee0e4ebbd47fbc6181835dfd599c65c7295851a24318ee620483f289b",
+      "id": "dailymed:simvastatin:patient-package-insert",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=356ed6a6-e467-4791-87ff-2ae7779fc1b0"
+    },
+    {
+      "content_hash": "sha256:6e673742f76b6695c9b280c40e55f35da93b1c0777d7b5ac8bf61a3b574e049b",
+      "id": "dailymed:simvastatin:warnings-and-precautions",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=356ed6a6-e467-4791-87ff-2ae7779fc1b0"
+    },
+    {
+      "content_hash": "sha256:874621620a86b881b9e2aadbbe58a1e739fa01ae2c8a07b24c8fdc0b52767531",
+      "id": "dailymed:tamsulosin:adverse-reactions",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=59d0e07c-0018-4681-beb2-cb1c8e2637ee"
+    },
+    {
+      "content_hash": "sha256:b4fff5279da245c1a47142d73e57ad07f05575d224ae05818afdd425e325161a",
+      "id": "dailymed:tamsulosin:contraindications",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=59d0e07c-0018-4681-beb2-cb1c8e2637ee"
+    },
+    {
+      "content_hash": "sha256:40281a62db6f9ec9b85af800c6d0cbbf3ecccb2650d21548f525b16b637b7f12",
+      "id": "dailymed:tamsulosin:dosage-administration",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=59d0e07c-0018-4681-beb2-cb1c8e2637ee"
+    },
+    {
+      "content_hash": "sha256:6ef0f2b1050a2b8ff0d83ca6721442cc3a460e66a0bd8279d3925867ebe1ce02",
+      "id": "dailymed:tamsulosin:drug-interactions",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=59d0e07c-0018-4681-beb2-cb1c8e2637ee"
+    },
+    {
+      "content_hash": "sha256:e937487ab72ebb4df6db1d49841e5e2fecaba0fa61ef24ffe403e480e8aca5aa",
+      "id": "dailymed:tamsulosin:indications-usage",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=59d0e07c-0018-4681-beb2-cb1c8e2637ee"
+    },
+    {
+      "content_hash": "sha256:54728ad0420ad9a6ee7719324fa6515f5e7a7a84aeccb7e65b63702a40c3dd4f",
+      "id": "dailymed:tamsulosin:information-for-patients",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=59d0e07c-0018-4681-beb2-cb1c8e2637ee"
+    },
+    {
+      "content_hash": "sha256:27ae4e8e4b514a577ff711cf3f667464605da42521b4528af76e09a32c7305e6",
+      "id": "dailymed:tamsulosin:patient-package-insert",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=59d0e07c-0018-4681-beb2-cb1c8e2637ee"
+    },
+    {
+      "content_hash": "sha256:7cc979111bfe20d4ef2d56708eefe0be6fc1bc9d4a40508ac10040092d702030",
+      "id": "dailymed:tamsulosin:warnings-and-precautions",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=59d0e07c-0018-4681-beb2-cb1c8e2637ee"
+    },
+    {
+      "content_hash": "sha256:086d098043bb3c31ab41faf3fbfe034aa42b1d055ecb744442be924579a61e19",
+      "id": "dailymed:trazodone:adverse-reactions",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=78c3188c-d42f-4d3d-aa42-3c146dfe08ee"
+    },
+    {
+      "content_hash": "sha256:cc346ec64579d85477d6eb06070a56d40eb0006fa1533b183a0c3e0794884637",
+      "id": "dailymed:trazodone:boxed-warning",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=78c3188c-d42f-4d3d-aa42-3c146dfe08ee"
+    },
+    {
+      "content_hash": "sha256:28c253d927698db5f643dadef4cd4452a2e03dbdf93df18d39c24ee2a7c09206",
+      "id": "dailymed:trazodone:contraindications",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=78c3188c-d42f-4d3d-aa42-3c146dfe08ee"
+    },
+    {
+      "content_hash": "sha256:c98ce30d2a22edaffd80c938bba681a7cac296f7431284679282fe52c2af71f4",
+      "id": "dailymed:trazodone:dosage-administration",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=78c3188c-d42f-4d3d-aa42-3c146dfe08ee"
+    },
+    {
+      "content_hash": "sha256:fa445b43664788d6e7505563a762e309bebfb4ba3f5f926a23b4df4c6feb855c",
+      "id": "dailymed:trazodone:drug-interactions",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=78c3188c-d42f-4d3d-aa42-3c146dfe08ee"
+    },
+    {
+      "content_hash": "sha256:4144ef50c8380db7a1feaf53d77266e41af3ecad27d2db154a433081d8375854",
+      "id": "dailymed:trazodone:indications-usage",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=78c3188c-d42f-4d3d-aa42-3c146dfe08ee"
+    },
+    {
+      "content_hash": "sha256:477fa92a7481aa11fb43b91be56e795dcbdc17c92da739dd5d1033e476123845",
+      "id": "dailymed:trazodone:information-for-patients",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=78c3188c-d42f-4d3d-aa42-3c146dfe08ee"
+    },
+    {
+      "content_hash": "sha256:7c56a492d3611cd4132bceb4da8b16a2c33f8ea4f058b1c24582ec043c2c1de7",
+      "id": "dailymed:trazodone:medication-guide",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=78c3188c-d42f-4d3d-aa42-3c146dfe08ee"
+    },
+    {
+      "content_hash": "sha256:9321db1a86acd98fe0fb25888a0dd8de59db1acf374feb6c731387df3d3056af",
+      "id": "dailymed:trazodone:warnings-and-precautions",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=78c3188c-d42f-4d3d-aa42-3c146dfe08ee"
+    },
+    {
+      "content_hash": "sha256:66d74879e28cfc2867eb8141a101ddfc33fb7498b2c6a008982001c873a8e3fe",
+      "id": "dailymed:venlafaxine:adverse-reactions",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d7d1319c-500e-4ca0-83a1-a739cfa01cf7"
+    },
+    {
+      "content_hash": "sha256:161448a65ff35d321770d53ec9c5b18f26dd9464a7ebcc45aed94f30a1bd927c",
+      "id": "dailymed:venlafaxine:boxed-warning",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d7d1319c-500e-4ca0-83a1-a739cfa01cf7"
+    },
+    {
+      "content_hash": "sha256:baabb280ce4693a24c4ff3cd36c96141ac5601163fbae9bb0c1dc95460799478",
+      "id": "dailymed:venlafaxine:contraindications",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d7d1319c-500e-4ca0-83a1-a739cfa01cf7"
+    },
+    {
+      "content_hash": "sha256:806ed4dd58aba8fc0f4c2e049b7372bf8ac26f675dabc380b96af022f852a714",
+      "id": "dailymed:venlafaxine:dosage-administration",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d7d1319c-500e-4ca0-83a1-a739cfa01cf7"
+    },
+    {
+      "content_hash": "sha256:44c5ce560357fa1d6fca78bf6d3991a510deb6de951cebea5d5a4d020482a349",
+      "id": "dailymed:venlafaxine:drug-interactions",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d7d1319c-500e-4ca0-83a1-a739cfa01cf7"
+    },
+    {
+      "content_hash": "sha256:7602d58073cd2007b91e5d0443b56dfca92fe95e40f87b80598bf6fd75e86176",
+      "id": "dailymed:venlafaxine:indications-usage",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d7d1319c-500e-4ca0-83a1-a739cfa01cf7"
+    },
+    {
+      "content_hash": "sha256:610ac86cc118e81e0d0391c04594f58ff95467ff318932be6ba9a2e72452d019",
+      "id": "dailymed:venlafaxine:information-for-patients",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d7d1319c-500e-4ca0-83a1-a739cfa01cf7"
+    },
+    {
+      "content_hash": "sha256:80e9475f7c9bdcc018a3d0ff10baba2c1a86db5b37dc116a6444eeaaab29d352",
+      "id": "dailymed:venlafaxine:medication-guide",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d7d1319c-500e-4ca0-83a1-a739cfa01cf7"
+    },
+    {
+      "content_hash": "sha256:39e7d72f2cf8f9210416d45be3602687d08e9453c6c63ace701b55c1ee9f48b4",
+      "id": "dailymed:venlafaxine:warnings-and-precautions",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d7d1319c-500e-4ca0-83a1-a739cfa01cf7"
+    },
+    {
+      "content_hash": "sha256:6f8b4936056046b66dd3aa4d7ee74748a6c50b4bd4311c0fb475a54ab2d8320d",
+      "id": "dailymed:warfarin:adverse-reactions",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=694e258d-86bd-440c-870b-a7d27fb1c467"
+    },
+    {
+      "content_hash": "sha256:a665aeff356058f3af4381eb52bc0e75b4723d7625321007bf48421411214aec",
+      "id": "dailymed:warfarin:boxed-warning",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=694e258d-86bd-440c-870b-a7d27fb1c467"
+    },
+    {
+      "content_hash": "sha256:a1d9408068e509739b8687e6225ab069403716c1184704b30031c5e10df4a379",
+      "id": "dailymed:warfarin:contraindications",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=694e258d-86bd-440c-870b-a7d27fb1c467"
+    },
+    {
+      "content_hash": "sha256:5a81c625b2e59fca55a0839b06be311f1772b5ab027ce0acbdf5cace0d232e50",
+      "id": "dailymed:warfarin:dosage-administration",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=694e258d-86bd-440c-870b-a7d27fb1c467"
+    },
+    {
+      "content_hash": "sha256:54615de95a41f76f3a05a5750a62f1c2bb4eeb709ea3b86ff321b1c80cb50394",
+      "id": "dailymed:warfarin:drug-interactions",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=694e258d-86bd-440c-870b-a7d27fb1c467"
+    },
+    {
+      "content_hash": "sha256:8fd9209b8435ee0dca9cfbed637fabebcdebf6dc967a8772b74b7e02eebad10f",
+      "id": "dailymed:warfarin:indications-usage",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=694e258d-86bd-440c-870b-a7d27fb1c467"
+    },
+    {
+      "content_hash": "sha256:082c8896e817196891a03b9999fbe3ff2b77a50e6199ccf968f6bf7fc93a086b",
+      "id": "dailymed:warfarin:information-for-patients",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=694e258d-86bd-440c-870b-a7d27fb1c467"
+    },
+    {
+      "content_hash": "sha256:ddd25ca51b48307076d7ffb42f2d7eb8e9dc328abc7ad7d0f37263353e974db8",
+      "id": "dailymed:warfarin:medication-guide",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=694e258d-86bd-440c-870b-a7d27fb1c467"
+    },
+    {
+      "content_hash": "sha256:7c10bc44dba4987cebbaeae081e6ed8e9a57f4cb8e8965f8f26a70f65996c745",
+      "id": "dailymed:warfarin:warnings-and-precautions",
+      "source_url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=694e258d-86bd-440c-870b-a7d27fb1c467"
+    },
+    {
+      "content_hash": "sha256:7ed3c20032b6d705d632daa928bfabe720178d11a2adc1d1836a87866b1bd297",
+      "id": "medlineplus:acutebronchitis:overview",
+      "source_url": "https://medlineplus.gov/acutebronchitis.html"
+    },
+    {
+      "content_hash": "sha256:307b32a11321af8229d78fed8350ef53ee01554b0f21cd61de8e5602a53ea3ab",
+      "id": "medlineplus:alzheimerscaregivers:overview",
+      "source_url": "https://medlineplus.gov/alzheimerscaregivers.html"
+    },
+    {
+      "content_hash": "sha256:7d8065b312bf95a1431ba0232e88b68d8e3d414d72bb8114154647807be0c2c1",
+      "id": "medlineplus:alzheimersdisease:overview",
+      "source_url": "https://medlineplus.gov/alzheimersdisease.html"
+    },
+    {
+      "content_hash": "sha256:ef6aac6f6bfeffe53b328c9a794c73c5cca166decd3e99197d0907d3a00aed70",
+      "id": "medlineplus:anemia:overview",
+      "source_url": "https://medlineplus.gov/anemia.html"
+    },
+    {
+      "content_hash": "sha256:d0d15033b8b3509762f80dcc42c49c2fa750fc6b58b3eda4c41a67b09584871f",
+      "id": "medlineplus:anxiety:overview",
+      "source_url": "https://medlineplus.gov/anxiety.html"
+    },
+    {
+      "content_hash": "sha256:853b69f5ff0f77a0d96448df6eca27e7cd08a37c23bed93f8e8f606b62ec22ce",
+      "id": "medlineplus:arthritis:overview",
+      "source_url": "https://medlineplus.gov/arthritis.html"
+    },
+    {
+      "content_hash": "sha256:fb33022b1ba827580564cb3cf75a3995e3210390b3b4ed8f4f9040a14922b429",
+      "id": "medlineplus:assistivedevices:overview",
+      "source_url": "https://medlineplus.gov/assistivedevices.html"
+    },
+    {
+      "content_hash": "sha256:03f004d9dc9798611d739e71ff53f8d36df179cd79f4516499efabf2c2b247d9",
+      "id": "medlineplus:asthma:overview",
+      "source_url": "https://medlineplus.gov/asthma.html"
+    },
+    {
+      "content_hash": "sha256:45f20c46a68329cbfcba9845a477b7a324cb5243164c60c7f8160124f5d1a9cb",
+      "id": "medlineplus:atrialfibrillation:overview",
+      "source_url": "https://medlineplus.gov/atrialfibrillation.html"
+    },
+    {
+      "content_hash": "sha256:c0ebb073d59f901549f8522768d566f34dc2e9286e3574c1a81e050fcbfe948c",
+      "id": "medlineplus:caregivers:overview",
+      "source_url": "https://medlineplus.gov/caregivers.html"
+    },
+    {
+      "content_hash": "sha256:236df8fd073070d9d65eedaf8eb731afe3d344855fd2253bc56e4b583cef7de2",
+      "id": "medlineplus:celiacdisease:overview",
+      "source_url": "https://medlineplus.gov/celiacdisease.html"
+    },
+    {
+      "content_hash": "sha256:250c1265b5bf528c7c4fe7cabc9d7dd94fcb054a0cebc538892f6a23396da879",
+      "id": "medlineplus:cholesterol:overview",
+      "source_url": "https://medlineplus.gov/cholesterol.html"
+    },
+    {
+      "content_hash": "sha256:a41e31ee0d978dfddb0ab607b8cdc43096b2c28f237463448244d72596dce3ac",
+      "id": "medlineplus:chronickidneydisease:overview",
+      "source_url": "https://medlineplus.gov/chronickidneydisease.html"
+    },
+    {
+      "content_hash": "sha256:c3bc11c3830ad564784ab48dfb5a69f6add2b197c591c575e3edf3e6ff2544e6",
+      "id": "medlineplus:copd:overview",
+      "source_url": "https://medlineplus.gov/copd.html"
+    },
+    {
+      "content_hash": "sha256:4311836a40e09564aff3316b52b5bc62cf644c795ce3bbf8e73c8e774b962b4c",
+      "id": "medlineplus:coronaryarterydisease:overview",
+      "source_url": "https://medlineplus.gov/coronaryarterydisease.html"
+    },
+    {
+      "content_hash": "sha256:0f683253ad142c588f7f55fd23c206d2250b5ebc427b615b5c1371a36c66ef15",
+      "id": "medlineplus:covid19coronavirusdisease2019:overview",
+      "source_url": "https://medlineplus.gov/covid19coronavirusdisease2019.html"
+    },
+    {
+      "content_hash": "sha256:35104a2d02da7c7c08e3646f7a88f4132954a72fab42659add2cfebf41a5c346",
+      "id": "medlineplus:depression:overview",
+      "source_url": "https://medlineplus.gov/depression.html"
+    },
+    {
+      "content_hash": "sha256:baf97ac2d682eb0c753bc896638d69f870d00d0af0c080450e8f69d7b60db69c",
+      "id": "medlineplus:diabetes:overview",
+      "source_url": "https://medlineplus.gov/diabetes.html"
+    },
+    {
+      "content_hash": "sha256:f5a2dcfe392afe2d2a6062d9fa501ce0c9d1f545468f94ae19e6155a54b7ab4b",
+      "id": "medlineplus:eczema:overview",
+      "source_url": "https://medlineplus.gov/eczema.html"
+    },
+    {
+      "content_hash": "sha256:ee4184e8da33e0d6896aad690c43557051e636c8e91c086eb4971aca88f55ef4",
+      "id": "medlineplus:falls:overview",
+      "source_url": "https://medlineplus.gov/falls.html"
+    },
+    {
+      "content_hash": "sha256:95b6017fa1acfdf6761046517c868773e3182a9a6e1546d5639ee2137d4e8092",
+      "id": "medlineplus:flu:overview",
+      "source_url": "https://medlineplus.gov/flu.html"
+    },
+    {
+      "content_hash": "sha256:f55bbe4eb4ccbde72b87ff70bf7313e2141410f7653c713ce04509486f0cde43",
+      "id": "medlineplus:gallstones:overview",
+      "source_url": "https://medlineplus.gov/gallstones.html"
+    },
+    {
+      "content_hash": "sha256:ec632a2feaf0dc3e3567343cf3012cc253056c60d70d4197a35ae3d15d87ca25",
+      "id": "medlineplus:glaucoma:overview",
+      "source_url": "https://medlineplus.gov/glaucoma.html"
+    },
+    {
+      "content_hash": "sha256:dd8262028ba991ccc8b136cf75a1348f0b7fe1f7189d15b256e900023594f0d9",
+      "id": "medlineplus:gout:overview",
+      "source_url": "https://medlineplus.gov/gout.html"
+    },
+    {
+      "content_hash": "sha256:78118aa905305bbe7bd81d12594bbefef26690680cec0ee12194471ed41dfe35",
+      "id": "medlineplus:hearingdisordersanddeafness:overview",
+      "source_url": "https://medlineplus.gov/hearingdisordersanddeafness.html"
+    },
+    {
+      "content_hash": "sha256:74231905e9ec3f9e55d6e20f2cb04587c93f85ed3b1fb3d266d4e95addb2d311",
+      "id": "medlineplus:heartburn:overview",
+      "source_url": "https://medlineplus.gov/heartburn.html"
+    },
+    {
+      "content_hash": "sha256:3c9b46970e8a95566377967e7c0afad7d01749a6efb40ca52a2c0b6f4c9e4980",
+      "id": "medlineplus:heartfailure:overview",
+      "source_url": "https://medlineplus.gov/heartfailure.html"
+    },
+    {
+      "content_hash": "sha256:a4737810d8246c0d4e5ca4d0510e29a30bc52e684d95ced1226df0decbe3864b",
+      "id": "medlineplus:hepatitis:overview",
+      "source_url": "https://medlineplus.gov/hepatitis.html"
+    },
+    {
+      "content_hash": "sha256:44c0332746ceba23b9d33764a9b38048a0cdcb0b54d87fa8752d7fa568523c7f",
+      "id": "medlineplus:highbloodpressure:overview",
+      "source_url": "https://medlineplus.gov/highbloodpressure.html"
+    },
+    {
+      "content_hash": "sha256:3fdc651379bcde716d5b7179eecedfaf694ebac6adb05a6cd4731887c80cdfb3",
+      "id": "medlineplus:hypothyroidism:overview",
+      "source_url": "https://medlineplus.gov/hypothyroidism.html"
+    },
+    {
+      "content_hash": "sha256:a64a9f55fb2a61819cecb9a44b6a272bef3756863232080a81b3b10b102f018a",
+      "id": "medlineplus:insomnia:overview",
+      "source_url": "https://medlineplus.gov/insomnia.html"
+    },
+    {
+      "content_hash": "sha256:3e4bf044672e7f0ce5aa1ee28074dc259510e5e5e33349bf11dd86fa5808b66b",
+      "id": "medlineplus:irritablebowelsyndrome:overview",
+      "source_url": "https://medlineplus.gov/irritablebowelsyndrome.html"
+    },
+    {
+      "content_hash": "sha256:4b27ac8a991da7ad668ae2581defb96d909c750ee0628df4294ca9a9deb7a08d",
+      "id": "medlineplus:kidneystones:overview",
+      "source_url": "https://medlineplus.gov/kidneystones.html"
+    },
+    {
+      "content_hash": "sha256:2aa6710f1bb1b6b20467df97b7ebc367e610c1475a90e1afe0ab91f310375102",
+      "id": "medlineplus:migraine:overview",
+      "source_url": "https://medlineplus.gov/migraine.html"
+    },
+    {
+      "content_hash": "sha256:807894a640da2087414d809eea09cf73551089a053052675d24df2526da51aef",
+      "id": "medlineplus:obesity:overview",
+      "source_url": "https://medlineplus.gov/obesity.html"
+    },
+    {
+      "content_hash": "sha256:1fac3de4070f16f7e0fec3fdd8305a963d2fdd6a7be7d8a05bd4abe38952eb0b",
+      "id": "medlineplus:olderadulthealth:overview",
+      "source_url": "https://medlineplus.gov/olderadulthealth.html"
+    },
+    {
+      "content_hash": "sha256:fa8ad700f09b925ae40ec462cc55159531f35a5eb90c8958c43a6ca4afeed5d8",
+      "id": "medlineplus:osteoporosis:overview",
+      "source_url": "https://medlineplus.gov/osteoporosis.html"
+    },
+    {
+      "content_hash": "sha256:33d3e00c5f2a1ad6ebd391b5f82c579bbe1b053bd7820e8f2ffc567eee124590",
+      "id": "medlineplus:parkinsonsdisease:overview",
+      "source_url": "https://medlineplus.gov/parkinsonsdisease.html"
+    },
+    {
+      "content_hash": "sha256:ed4209a6fca6f9de9f8f4b586bd9e308b535dce9d007fa75a1373127c331dbc8",
+      "id": "medlineplus:pneumonia:overview",
+      "source_url": "https://medlineplus.gov/pneumonia.html"
+    },
+    {
+      "content_hash": "sha256:8ca74612adcf6ff9d6bec7d47d2fd7898652ba9d7870a67264573bad631a6427",
+      "id": "medlineplus:psoriasis:overview",
+      "source_url": "https://medlineplus.gov/psoriasis.html"
+    },
+    {
+      "content_hash": "sha256:97f2766bc2fee030b3cbdf24b4cd017c0050de3547127397e835dabf37171c32",
+      "id": "medlineplus:safety:overview",
+      "source_url": "https://medlineplus.gov/safety.html"
+    },
+    {
+      "content_hash": "sha256:0bc36869d3ae2fd950412654fccb6a4e208a37f3aad685dfff871b6bb0c66cd4",
+      "id": "medlineplus:shingles:overview",
+      "source_url": "https://medlineplus.gov/shingles.html"
+    },
+    {
+      "content_hash": "sha256:8a74fef6eab922b9b9a9ef1cce57260ff9e89efafd3f50d462eb6266e6476489",
+      "id": "medlineplus:sinusitis:overview",
+      "source_url": "https://medlineplus.gov/sinusitis.html"
+    },
+    {
+      "content_hash": "sha256:12de760f4ba7f57507a63796342b8e9ef1657aed249f9bd4b05aa9ce5208b1a7",
+      "id": "medlineplus:sleepapnea:overview",
+      "source_url": "https://medlineplus.gov/sleepapnea.html"
+    },
+    {
+      "content_hash": "sha256:c43a57d09a461ddc742ed0188f1738b80f6b89829d4456880874321ab1230f9f",
+      "id": "medlineplus:stroke:overview",
+      "source_url": "https://medlineplus.gov/stroke.html"
+    },
+    {
+      "content_hash": "sha256:06e3d4d89cf01d0ea0012ddc2932050bf31b14c5fd961056bf539d6b3c80b728",
+      "id": "medlineplus:talkingwithyourdoctor:overview",
+      "source_url": "https://medlineplus.gov/talkingwithyourdoctor.html"
+    },
+    {
+      "content_hash": "sha256:90e9e03fd610bd4d31338faaddb6aa92dedf16f8c3046d6d97613e637359712f",
+      "id": "medlineplus:urinarytractinfections:overview",
+      "source_url": "https://medlineplus.gov/urinarytractinfections.html"
+    },
+    {
+      "content_hash": "sha256:a01aa7d7c421038cfc47c9d54531d6f150f5e77c7d15e9c66349121f17662474",
+      "id": "ready_gov:build-a-kit:additional-emergency-supplies",
+      "source_url": "https://www.ready.gov/kit"
+    },
+    {
+      "content_hash": "sha256:9264ad2263bff28c74d06bef54c4ed18d39bad17d3896f38bf31267b6f5efcf6",
+      "id": "ready_gov:build-a-kit:additional-resources",
+      "source_url": "https://www.ready.gov/kit"
+    },
+    {
+      "content_hash": "sha256:fffa29ae95c6d13f96cd4967bcc82d16b4b105f9a82b09a19a16fa16e9322391",
+      "id": "ready_gov:build-a-kit:basic-disaster-supplies-kit",
+      "source_url": "https://www.ready.gov/kit"
+    },
+    {
+      "content_hash": "sha256:7dc20423bcd05b8e917767dc958969017c7b7abdaa126cf913d4cdabc3a4d2ff",
+      "id": "ready_gov:build-a-kit:kit-storage-locations",
+      "source_url": "https://www.ready.gov/kit"
+    },
+    {
+      "content_hash": "sha256:b8f2a5d948cbe2ba15b2869c6e92160d09d1291fd55e1e0791fd914cdfa79abf",
+      "id": "ready_gov:build-a-kit:maintaining-your-kit",
+      "source_url": "https://www.ready.gov/kit"
+    },
+    {
+      "content_hash": "sha256:f6000b835b7628c83acc9093762bd87fd2c968207a254733784423c01764a57c",
+      "id": "ready_gov:build-a-kit:overview",
+      "source_url": "https://www.ready.gov/kit"
+    },
+    {
+      "content_hash": "sha256:481f83dd617d2be6a3242d4935593c36b693546c462b09c882df3708fef2d027",
+      "id": "ready_gov:communication-plan-card:family-emergency-communication-plan-fillable-card",
+      "source_url": "https://www.ready.gov/sites/default/files/2025-06/family-communication-plan_fillable-card.pdf"
+    },
+    {
+      "content_hash": "sha256:00cbc4bb13d8fa8d12adde068a3bfdaf0b324dfb3babecb64fa29396dc9ecca3",
+      "id": "ready_gov:evacuation:after-an-evacuation",
+      "source_url": "https://www.ready.gov/evacuation"
+    },
+    {
+      "content_hash": "sha256:5aeab137b4ef9dc87ae1bbb73757283c0544ebdb4624e66725967539388e21aa",
+      "id": "ready_gov:evacuation:be-in-the-know",
+      "source_url": "https://www.ready.gov/evacuation"
+    },
+    {
+      "content_hash": "sha256:83ba7447b72404b40b3aa1475f4d780bd9d97d6ca86618eebb00b0844678c43f",
+      "id": "ready_gov:evacuation:before-an-evacuation",
+      "source_url": "https://www.ready.gov/evacuation"
+    },
+    {
+      "content_hash": "sha256:d2fab8501b9ab75ee703d2616fb5099199000023df5e689a0882fea4ac2e2fe9",
+      "id": "ready_gov:evacuation:during-an-evacuation",
+      "source_url": "https://www.ready.gov/evacuation"
+    },
+    {
+      "content_hash": "sha256:e3ed830b42b4957b933e7f19b807dd0d3cc7f983c9ea50a23108372a38506f3b",
+      "id": "ready_gov:evacuation:know-what-to-bring",
+      "source_url": "https://www.ready.gov/evacuation"
+    },
+    {
+      "content_hash": "sha256:822a44fd187ed21b52a911b287f8c74a059eca83215f74320ac6aa74ff019ff8",
+      "id": "ready_gov:evacuation:know-when-and-where-to-go",
+      "source_url": "https://www.ready.gov/evacuation"
+    },
+    {
+      "content_hash": "sha256:781c7069a1f10dfd3a2d9c7ceaedc0ff06eaf17ea2c4ea2989fa9fb9732fdf9b",
+      "id": "ready_gov:evacuation:know-your-information-sources",
+      "source_url": "https://www.ready.gov/evacuation"
+    },
+    {
+      "content_hash": "sha256:6e338c39096c81d1a8a4c1c33079104eb86b973efac6817d81a86a4bd65efa11",
+      "id": "ready_gov:evacuation:know-your-risks",
+      "source_url": "https://www.ready.gov/evacuation"
+    },
+    {
+      "content_hash": "sha256:91e681aed32422c1044251667aa0b41735994c2533ba0d59da9df129fa627c64",
+      "id": "ready_gov:evacuation:overview",
+      "source_url": "https://www.ready.gov/evacuation"
+    },
+    {
+      "content_hash": "sha256:3eb41e1d095d0155e808052bc083abf1c33eeca8593e307ff8ca5c7884721b71",
+      "id": "ready_gov:extreme-heat:additional-resources",
+      "source_url": "https://www.ready.gov/heat"
+    },
+    {
+      "content_hash": "sha256:72da717660135387ac8f2586835659de594f5e926592a4709219119395dc05e9",
+      "id": "ready_gov:extreme-heat:before-extreme-heat",
+      "source_url": "https://www.ready.gov/heat"
+    },
+    {
+      "content_hash": "sha256:8aa7da2fd98f311330c9e27dbdecbd5c18a28f183aeba02cc5cae0ff0a4dd4ba",
+      "id": "ready_gov:extreme-heat:during-extreme-heat",
+      "source_url": "https://www.ready.gov/heat"
+    },
+    {
+      "content_hash": "sha256:3821588d5a6b9395d9a5a454bde623c1e5111b493ba3c99e0d0d3a337dc12266",
+      "id": "ready_gov:extreme-heat:heat-related-illnesses",
+      "source_url": "https://www.ready.gov/heat"
+    },
+    {
+      "content_hash": "sha256:4b1e22c2ed0ae9cf8904dd680b55ba6a4a657f726a96d336b1344d5db761ffb1",
+      "id": "ready_gov:extreme-heat:overview",
+      "source_url": "https://www.ready.gov/heat"
+    },
+    {
+      "content_hash": "sha256:cacefeab8f47e9b5f28e74c3dc2631539b96f505d22a07a8897f92ebc1708201",
+      "id": "ready_gov:extreme-heat:summer-break",
+      "source_url": "https://www.ready.gov/heat"
+    },
+    {
+      "content_hash": "sha256:9eae539c5d7595ea807b49ac755735d04ac9b042026ad97c4f9f935189774713",
+      "id": "ready_gov:financial-preparedness:associated-content",
+      "source_url": "https://www.ready.gov/financial-preparedness"
+    },
+    {
+      "content_hash": "sha256:1ddd3fb190476eddbe678fda3e2dba87bdf2165826fec0859e02b86426b67170",
+      "id": "ready_gov:financial-preparedness:be-safe",
+      "source_url": "https://www.ready.gov/financial-preparedness"
+    },
+    {
+      "content_hash": "sha256:0ce2634c71385f8b5571f45aac72d281ea1448c94cff52d3acb275ed138742d0",
+      "id": "ready_gov:financial-preparedness:emergency-financial-first-aid-kit",
+      "source_url": "https://www.ready.gov/financial-preparedness"
+    },
+    {
+      "content_hash": "sha256:d0c9af0447b9eb853c873340457a03cb67a7a8525846216dc40d745b9fe6c754",
+      "id": "ready_gov:financial-preparedness:financial-preparedness-tips",
+      "source_url": "https://www.ready.gov/financial-preparedness"
+    },
+    {
+      "content_hash": "sha256:6789b99a54ee4fb80f8c2a132973c86a9b39eb40e344858a154386a9306a1c43",
+      "id": "ready_gov:floods:additional-resources",
+      "source_url": "https://www.ready.gov/floods"
+    },
+    {
+      "content_hash": "sha256:2c4e25f8e0897d6af3b691ca2036fd35f9c0d380d1c7cce3f9402ea7481f6a78",
+      "id": "ready_gov:floods:after-a-flood",
+      "source_url": "https://www.ready.gov/floods"
+    },
+    {
+      "content_hash": "sha256:3acd656d6c129e4f396888d947abc95baf1716e670f44703eb8e01558c88261a",
+      "id": "ready_gov:floods:before-a-flood",
+      "source_url": "https://www.ready.gov/floods"
+    },
+    {
+      "content_hash": "sha256:00032e028f19d6061f14835ed6fc47714d176c6c53de6a219844c93c84bd8c48",
+      "id": "ready_gov:floods:during-a-flood",
+      "source_url": "https://www.ready.gov/floods"
+    },
+    {
+      "content_hash": "sha256:93b086cab2903cc6f0cfc124cb4b3ab0603b655300460ffca0c225a962bd0a44",
+      "id": "ready_gov:floods:if-you-are-under-a-flood-warning",
+      "source_url": "https://www.ready.gov/floods"
+    },
+    {
+      "content_hash": "sha256:2722c44eaeb2840ccf4e47c1a0b9d110047dcc94bcca5474e37d0981ff733256",
+      "id": "ready_gov:floods:overview",
+      "source_url": "https://www.ready.gov/floods"
+    },
+    {
+      "content_hash": "sha256:39ea516b9b4342c5f4bdff3d4fac2468eb5f8c227c4688f92375d17bd68e6640",
+      "id": "ready_gov:floods:partner-resources",
+      "source_url": "https://www.ready.gov/floods"
+    },
+    {
+      "content_hash": "sha256:8f5f20f9ad420ebe1b5a8eab3dfbd8eb7276d0feb71a127386cfd876a0283409",
+      "id": "ready_gov:hurricanes:additional-resources",
+      "source_url": "https://www.ready.gov/hurricanes"
+    },
+    {
+      "content_hash": "sha256:cfc5cfbf88967bd88ce655cb4f7cc91472b8257683055fe19a4208b49a89f0bf",
+      "id": "ready_gov:hurricanes:after-a-hurricane-typhoon",
+      "source_url": "https://www.ready.gov/hurricanes"
+    },
+    {
+      "content_hash": "sha256:9837ea5b8717d89d001b81eee8f977d18607c0cd4e9e3d6fd29ed3c4482f37c4",
+      "id": "ready_gov:hurricanes:before-a-hurricane-typhoon",
+      "source_url": "https://www.ready.gov/hurricanes"
+    },
+    {
+      "content_hash": "sha256:3e4cb33fc62e33e47b98c949c7a2f2105f0fd6e3413f2fe0b66ea48542c6dcae",
+      "id": "ready_gov:hurricanes:during-a-hurricane-tyhpoon",
+      "source_url": "https://www.ready.gov/hurricanes"
+    },
+    {
+      "content_hash": "sha256:9f8d7a3766410ee7b072ca40eeae22fe08324d8521ce6783e2674dc25f268a30",
+      "id": "ready_gov:hurricanes:overview",
+      "source_url": "https://www.ready.gov/hurricanes"
+    },
+    {
+      "content_hash": "sha256:3e7b4474be49b341651054373f58e9c9b6f237322d1d0c4f62fa623fdeaae540",
+      "id": "ready_gov:make-a-plan:additional-resources",
+      "source_url": "https://www.ready.gov/plan"
+    },
+    {
+      "content_hash": "sha256:b5fd43e0e4e96f67556c13b1cb29017da0126cf148ea46c2f8ea4318533a728e",
+      "id": "ready_gov:make-a-plan:overview",
+      "source_url": "https://www.ready.gov/plan"
+    },
+    {
+      "content_hash": "sha256:9905139edee827be495a4b6bee8bf4ee4d09c4bd9804cdab5f47fb4e50790398",
+      "id": "ready_gov:make-a-plan:step-1-meet-with-your-family",
+      "source_url": "https://www.ready.gov/plan"
+    },
+    {
+      "content_hash": "sha256:15a59efc1547b76d9ff39e2e3eb16f5888516ba0b4799b0bed2087a8f7862403",
+      "id": "ready_gov:make-a-plan:step-2-assess-your-household-needs",
+      "source_url": "https://www.ready.gov/plan"
+    },
+    {
+      "content_hash": "sha256:8351e55925ad806639af6df029012c69a0962590070f35c6a2c3188db50da34c",
+      "id": "ready_gov:make-a-plan:step-3-document-your-plan",
+      "source_url": "https://www.ready.gov/plan"
+    },
+    {
+      "content_hash": "sha256:6c7bb2b797fa2dd7980b0d0762301dc6622e6aaad02231a1bddd2df611d69870",
+      "id": "ready_gov:make-a-plan:step-4-practice-your-plan",
+      "source_url": "https://www.ready.gov/plan"
+    },
+    {
+      "content_hash": "sha256:e51cbc7399cd24428cb9768bff17c21274432f82d55c32bab2639bfba3949d8c",
+      "id": "ready_gov:power-outages:associated-content",
+      "source_url": "https://www.ready.gov/power-outages"
+    },
+    {
+      "content_hash": "sha256:01840c066cb39ba62939b67a68db8c83c08c988036959c232454265d981cc8c1",
+      "id": "ready_gov:power-outages:food-storage",
+      "source_url": "https://www.ready.gov/power-outages"
+    },
+    {
+      "content_hash": "sha256:b216eccd7fc31b561ca2f0d130b01831926c170114593d3780509fa6902d6651",
+      "id": "ready_gov:power-outages:generator-safety",
+      "source_url": "https://www.ready.gov/power-outages"
+    },
+    {
+      "content_hash": "sha256:2e6531d67c37eaa9da8f64c12fb0b82b7960f4b361493cb4ecbe887da0f4693b",
+      "id": "ready_gov:power-outages:how-to-protect-yourself-during-a-power-outage",
+      "source_url": "https://www.ready.gov/power-outages"
+    },
+    {
+      "content_hash": "sha256:0abc94bd5cdc1270e1bfa10dadcdec48ef3c1b1608f86ce724a184b9530eecd5",
+      "id": "ready_gov:power-outages:know-your-medical-needs",
+      "source_url": "https://www.ready.gov/power-outages"
+    },
+    {
+      "content_hash": "sha256:62f27d04dee0366ac8656256639b169fa810a49e66cd9af434ae81abbbd0a1ff",
+      "id": "ready_gov:power-outages:overview",
+      "source_url": "https://www.ready.gov/power-outages"
+    },
+    {
+      "content_hash": "sha256:3f13257a06746b8ef5d8d40847a82358ac5a7f5073f91d4df4b7bf06e34ac55c",
+      "id": "ready_gov:power-outages:power-outage-tips",
+      "source_url": "https://www.ready.gov/power-outages"
+    },
+    {
+      "content_hash": "sha256:dab05e18b42389c5d8d6c5c9f7050b1bd36aaff704577cf59f06b3b6000395c7",
+      "id": "ready_gov:power-outages:preparing-for-a-power-outage",
+      "source_url": "https://www.ready.gov/power-outages"
+    },
+    {
+      "content_hash": "sha256:5970b562093e4a2cc9bbb11a8ca3ffbc56d2eaf1ff554e370aa043b02ee51e4f",
+      "id": "ready_gov:power-outages:returning-after-a-power-outage",
+      "source_url": "https://www.ready.gov/power-outages"
+    },
+    {
+      "content_hash": "sha256:d888252f9210da50f56b906953fee4e864c26c34660c3b02e03d02aa27bff8e5",
+      "id": "ready_gov:power-outages:using-appliances-during-power-outages",
+      "source_url": "https://www.ready.gov/power-outages"
+    },
+    {
+      "content_hash": "sha256:090180b4715f5785278442dec3cfed30600d3ee66139513065565720485eed3f",
+      "id": "ready_gov:supply-kit-checklist:emergency-supply-kit-checklist",
+      "source_url": "https://www.ready.gov/sites/default/files/2024-05/ready_supply-kit-checklist.pdf"
+    },
+    {
+      "content_hash": "sha256:6faf86130fc1102f13fd513d476b17e60a6c1b1de5b75633c5f613df04a88ad2",
+      "id": "ready_gov:wildfires:more-info",
+      "source_url": "https://www.ready.gov/wildfires"
+    },
+    {
+      "content_hash": "sha256:64bf8ba1ab6321bf55def29686946487d25a12bf775a0f4a5993180387c00cce",
+      "id": "ready_gov:wildfires:overview",
+      "source_url": "https://www.ready.gov/wildfires"
+    },
+    {
+      "content_hash": "sha256:312d65c0f00ff87f032cdf5b0e39ceeb313debf0b1d002c71fd6ab66b71c6a8c",
+      "id": "ready_gov:wildfires:prepare-for-wildfires",
+      "source_url": "https://www.ready.gov/wildfires"
+    },
+    {
+      "content_hash": "sha256:dd6aa61e228904724e91b9d19c2d25ffe90db45017f64d9a75f1d3b589c3ad21",
+      "id": "ready_gov:wildfires:returning-home-after-a-wildfire",
+      "source_url": "https://www.ready.gov/wildfires"
+    },
+    {
+      "content_hash": "sha256:c0b9ce87b249e1fd627d4a8d99b836bafa9fdcc715972d40de5ef14d18d65ca4",
+      "id": "ready_gov:wildfires:social-media-graphics",
+      "source_url": "https://www.ready.gov/wildfires"
+    },
+    {
+      "content_hash": "sha256:71db4841799bfb32ee32c9cf8295f05e026ee1cc6677cf84dfb3d9e7cd6c2e04",
+      "id": "ready_gov:wildfires:stay-safe-during",
+      "source_url": "https://www.ready.gov/wildfires"
+    },
+    {
+      "content_hash": "sha256:d89169c1717dd300ea4df38d70cde662260c98a84745d61d951ef476acb11481",
+      "id": "ready_gov:wildfires:videos",
+      "source_url": "https://www.ready.gov/wildfires"
+    }
+  ],
+  "pipeline_version": "1.1",
+  "run_timestamp": "2026-07-05T22:48:19Z",
+  "total_blocks": 440,
+  "use_cases": {
+    "aging_home_safety": {
+      "avg_body_chars": 1049,
+      "block_count": 14,
+      "by_audience": {
+        "caregiver": 2,
+        "general": 0,
+        "patient": 12
+      },
+      "by_source": {
+        "cdc_pages": 8,
+        "medlineplus": 6
+      },
+      "total_body_chars": 14692
+    },
+    "condition_explainer": {
+      "avg_body_chars": 3366,
+      "block_count": 40,
+      "by_audience": {
+        "caregiver": 0,
+        "general": 0,
+        "patient": 40
+      },
+      "by_source": {
+        "medlineplus": 40
+      },
+      "total_body_chars": 134623
+    },
+    "household_readiness": {
+      "avg_body_chars": 1127,
+      "block_count": 62,
+      "by_audience": {
+        "caregiver": 0,
+        "general": 62,
+        "patient": 0
+      },
+      "by_source": {
+        "ready_gov": 62
+      },
+      "total_body_chars": 69845
+    },
+    "medication": {
+      "avg_body_chars": 5237,
+      "block_count": 304,
+      "by_audience": {
+        "caregiver": 0,
+        "general": 0,
+        "patient": 304
+      },
+      "by_source": {
+        "dailymed": 304
+      },
+      "dailymed_nature": {
+        "clinical": 246,
+        "patient_facing": 58
+      },
+      "total_body_chars": 1592078
+    },
+    "travel_health": {
+      "avg_body_chars": 1694,
+      "block_count": 18,
+      "by_audience": {
+        "caregiver": 0,
+        "general": 18,
+        "patient": 0
+      },
+      "by_source": {
+        "cdc_pages": 18
+      },
+      "total_body_chars": 30488
+    },
+    "visit_prep": {
+      "avg_body_chars": 1100,
+      "block_count": 2,
+      "by_audience": {
+        "caregiver": 0,
+        "general": 1,
+        "patient": 1
+      },
+      "by_source": {
+        "ahrq_static": 1,
+        "medlineplus": 1
+      },
+      "total_body_chars": 2200
+    }
+  }
+}
