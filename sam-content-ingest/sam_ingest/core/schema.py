@@ -15,7 +15,7 @@ from dataclasses import dataclass, field
 from datetime import datetime, timezone
 from enum import Enum
 
-from pydantic import BaseModel, Field, field_validator
+from pydantic import BaseModel, Field, field_validator, model_validator
 
 
 # --------------------------------------------------------------------------- enums
@@ -36,6 +36,9 @@ class Source(str, Enum):
     cdc = "cdc"  # logical publisher; content is fetched via the HHS Digital Media platform
     dailymed = "dailymed"
     ahrq = "ahrq"  # logical source for the one-time static "10 Questions" seed (no crawl)
+    state_dept = "state_dept"  # travel.state.gov country info + advisories
+    tsa = "tsa"                # tsa.gov medications/devices through security
+    faa = "faa"                # faa.gov in-transit medical device rules
 
 
 class Audience(str, Enum):
@@ -51,7 +54,40 @@ class License(str, Enum):
     ready_gov_reprint = "ready_gov_reprint"
 
 
+class TripType(str, Enum):
+    international = "international"
+    domestic_far = "domestic_far"
+    cruise = "cruise"
+    road_rv = "road_rv"
+    altitude = "altitude"
+    diving = "diving"
+    adventure_remote = "adventure_remote"
+    medical_tourism = "medical_tourism"
+    chronic_condition = "chronic_condition"
+
+
+class Volatility(str, Enum):
+    evergreen = "evergreen"     # prep content; refresh on demand
+    periodic = "periodic"       # destination/country pages, Yellow Book editions
+    volatile = "volatile"       # travel advisories; must carry valid_until
+
+
 # --------------------------------------------------------------------------- model
+
+
+# ISO 3166-1 alpha-2 codes (bundled — no external dependency) for geo validation.
+ISO_ALPHA2: frozenset[str] = frozenset(
+    "AD AE AF AG AI AL AM AO AQ AR AS AT AU AW AX AZ BA BB BD BE BF BG BH BI BJ BL BM "
+    "BN BO BQ BR BS BT BV BW BY BZ CA CC CD CF CG CH CI CK CL CM CN CO CR CU CV CW CX "
+    "CY CZ DE DJ DK DM DO DZ EC EE EG EH ER ES ET FI FJ FK FM FO FR GA GB GD GE GF GG "
+    "GH GI GL GM GN GP GQ GR GS GT GU GW GY HK HM HN HR HT HU ID IE IL IM IN IO IQ IR "
+    "IS IT JE JM JO JP KE KG KH KI KM KN KP KR KW KY KZ LA LB LC LI LK LR LS LT LU LV "
+    "LY MA MC MD ME MF MG MH MK ML MM MN MO MP MQ MR MS MT MU MV MW MX MY MZ NA NC NE "
+    "NF NG NI NL NO NP NR NU NZ OM PA PE PF PG PH PK PL PM PN PR PS PT PW PY QA RE RO "
+    "RS RU RW SA SB SC SD SE SG SH SI SJ SK SL SM SN SO SR SS ST SV SX SY SZ TC TD TF "
+    "TG TH TJ TK TL TM TN TO TR TT TV TW TZ UA UG UM US UY UZ VA VC VE VG VI VN VU WF "
+    "WS YE YT ZA ZM ZW XK".split()
+)
 
 
 class Codes(BaseModel):
@@ -60,6 +96,13 @@ class Codes(BaseModel):
     rxcui: list[str] = Field(default_factory=list)
     ndc: list[str] = Field(default_factory=list)
     loinc: list[str] = Field(default_factory=list)
+
+
+class GeoScope(BaseModel):
+    scope: str                        # "global" | "region" | "country" | "subnational"
+    country_iso2: str | None = None   # ISO 3166-1 alpha-2 when scope == "country"
+    country_name: str | None = None
+    region: str | None = None
 
 
 class Citation(BaseModel):
@@ -102,6 +145,11 @@ class KnowledgeBlock(BaseModel):
     ingested_at: str  # last time content CHANGED, not last run
     content_hash: str
     provenance: Provenance
+    # --- travel facets (PRD §T3); safe defaults keep non-travel blocks unchanged ---
+    geo: GeoScope | None = None
+    trip_types: list[TripType] = Field(default_factory=list)
+    volatility: Volatility = Volatility.evergreen
+    valid_until: str | None = None  # ISO-8601; required when volatility == volatile
 
     @field_validator("summary")
     @classmethod
@@ -117,6 +165,18 @@ class KnowledgeBlock(BaseModel):
         if not v or not v.strip():
             raise ValueError("body_markdown must be non-empty")
         return v
+
+    @model_validator(mode="after")
+    def _travel_rules(self) -> "KnowledgeBlock":
+        # PRD §T3.3: volatile blocks must carry an expiry.
+        if self.volatility == Volatility.volatile and not self.valid_until:
+            raise ValueError("valid_until is required when volatility == 'volatile'")
+        # Country-scoped geo must carry a valid ISO 3166-1 alpha-2 code.
+        if self.geo and self.geo.scope == "country":
+            code = (self.geo.country_iso2 or "").upper()
+            if code not in ISO_ALPHA2:
+                raise ValueError(f"geo.country_iso2 {code!r} is not a valid ISO alpha-2 code")
+        return self
 
 
 # ------------------------------------------------- adapter <-> pipeline contract
@@ -193,6 +253,11 @@ class ItemContext:
     source_last_updated: str | None = None
     source_version: str | None = None
     language: str = "en"
+    # travel facets (PRD §T3) — set by travel extractors, ignored elsewhere
+    geo: GeoScope | None = None
+    trip_types: list[TripType] = field(default_factory=list)
+    volatility: Volatility = Volatility.evergreen
+    valid_until: str | None = None
 
 
 # --------------------------------------------------------------------------- helpers

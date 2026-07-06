@@ -121,19 +121,26 @@ def cmd_validate(args) -> int:
     if not blocks_dir.exists():
         print("No output to validate (out/blocks missing).")
         return 1
-    errors = 0
-    total = 0
+    today = utcnow_iso()[:10]  # ISO date; volatile blocks past this valid_until are stale
+    errors = stale = total = 0
     for jsonl in sorted(blocks_dir.glob("*.jsonl")):
         for i, line in enumerate(jsonl.read_text(encoding="utf-8").splitlines(), 1):
             if not line.strip():
                 continue
             total += 1
             try:
-                KnowledgeBlock.model_validate_json(line)
+                block = KnowledgeBlock.model_validate_json(line)
             except ValidationError as e:
                 errors += 1
                 print(f"{jsonl.name}:{i} INVALID: {e.error_count()} error(s)")
-    print(f"Validated {total} blocks, {errors} invalid.")
+                continue
+            if args.stale and block.valid_until and block.valid_until < today:
+                stale += 1
+                print(f"{jsonl.name}:{i} STALE: {block.id} valid_until={block.valid_until}")
+    msg = f"Validated {total} blocks, {errors} invalid"
+    if args.stale:
+        msg += f", {stale} stale"
+    print(msg + ".")
     return 1 if errors else 0
 
 
@@ -158,6 +165,12 @@ def cmd_stats(args) -> int:
             n = r["dailymed_nature"]
             print(f"{'':<22} dailymed: patient_facing={n['patient_facing']} "
                   f"clinical={n['clinical']}")
+        if "by_volatility" in r:
+            vol = ", ".join(f"{k}={v}" for k, v in r["by_volatility"].items())
+            print(f"{'':<22} volatility: {vol}; countries={r['geo_country_count']}")
+            if r["by_trip_type"]:
+                tt = ", ".join(f"{k}={v}" for k, v in r["by_trip_type"].items())
+                print(f"{'':<22} trip_types: {tt}")
     return 0
 
 
@@ -179,6 +192,8 @@ def main(argv: list[str] | None = None) -> int:
     pi.set_defaults(func=cmd_ingest)
 
     pv = sub.add_parser("validate", help="schema-check existing output")
+    pv.add_argument("--stale", action="store_true",
+                    help="also flag volatile blocks past their valid_until")
     pv.set_defaults(func=cmd_validate)
 
     ps = sub.add_parser("stats", help="print manifest summary")

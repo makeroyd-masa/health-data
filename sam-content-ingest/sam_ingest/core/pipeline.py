@@ -113,6 +113,10 @@ def build_blocks(
                 pipeline_version=PIPELINE_VERSION,
                 source_version=ctx.source_version,
             ),
+            geo=ctx.geo,
+            trip_types=list(ctx.trip_types),
+            volatility=ctx.volatility,
+            valid_until=ctx.valid_until,
         )
         blocks.append(block)
 

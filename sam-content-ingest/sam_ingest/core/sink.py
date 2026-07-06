@@ -145,4 +145,18 @@ class JsonlMarkdownSink:
                 "patient_facing": patient_facing,
                 "clinical": clinical,
             }
+        # Travel facets: report only when present (PRD §T6).
+        by_volatility: dict[str, int] = {}
+        by_trip_type: dict[str, int] = {}
+        countries: set[str] = set()
+        for b in blocks:
+            by_volatility[b.volatility.value] = by_volatility.get(b.volatility.value, 0) + 1
+            for tt in b.trip_types:
+                by_trip_type[tt.value] = by_trip_type.get(tt.value, 0) + 1
+            if b.geo and b.geo.country_iso2:
+                countries.add(b.geo.country_iso2)
+        if set(by_volatility) - {"evergreen"} or countries or by_trip_type:
+            summary["by_volatility"] = dict(sorted(by_volatility.items()))
+            summary["geo_country_count"] = len(countries)
+            summary["by_trip_type"] = dict(sorted(by_trip_type.items()))
         return summary

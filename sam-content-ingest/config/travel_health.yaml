@@ -1,11 +1,12 @@
-# Travel health readiness seed (PRD §6.6). Source: CDC Travelers' Health via HHS syndication.
-# Evergreen travel-prep only; time-sensitive notices excluded unless include_notices: true.
-cdc:
-  base_url: https://api.digitalmedia.hhs.gov/api/v2/resources
-  max: 50
-  include_notices: false
-  # Evergreen prep content isn't in HHS syndication — fetch Travelers' Health pages
-  # directly (wwwnc.cdc.gov/travel/page). URLs verified 2026-07-05.
+# Travel health readiness seed (PRD §6.6 + Travel Expansion §T5).
+# Source-keyed sections; each ingested under use_case=travel_health.
+#   cdc_prep         evergreen prep pages
+#   cdc_destinations ~200 CDC country pages (periodic, geo=country)
+#   cdc_yellowbook   consumer-relevant trip-type chapters (periodic, trip_types)
+#   state_dept       advisories (volatile, from RSS) + country_info (periodic)
+#   tsa_faa          medications/devices in transit (evergreen) + drug overlay
+
+cdc_prep:
   direct_pages:
     - {id: pack-smart, title: "Pack Smart", url: "https://wwwnc.cdc.gov/travel/page/pack-smart", keywords: [travel, packing, travel health kit]}
     - {id: food-water-safety, title: "Food and Water Safety", url: "https://wwwnc.cdc.gov/travel/page/food-water-safety", keywords: [travel, food, water]}
@@ -13,4 +14,322 @@ cdc:
     - {id: avoid-bug-bites, title: "Avoid Bug Bites", url: "https://wwwnc.cdc.gov/travel/page/avoid-bug-bites", keywords: [travel, insects, bug bites]}
     - {id: health-care-abroad, title: "Getting Health Care During Travel", url: "https://wwwnc.cdc.gov/travel/page/getting-health-care-abroad", keywords: [travel, care abroad]}
     - {id: travel-vaccines, title: "Travel Vaccines", url: "https://wwwnc.cdc.gov/travel/page/travel-vaccines", keywords: [travel, vaccines]}
-  queries: []
+
+cdc_destinations:
+  direct_pages:
+    - {id: afghanistan, country_name: "Afghanistan", iso2: AF, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/afghanistan", keywords: [travel, "afghanistan"]}
+    - {id: albania, country_name: "Albania", iso2: AL, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/albania", keywords: [travel, "albania"]}
+    - {id: algeria, country_name: "Algeria", iso2: DZ, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/algeria", keywords: [travel, "algeria"]}
+    - {id: american-samoa, country_name: "American Samoa", iso2: AS, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/american-samoa", keywords: [travel, "american samoa"]}
+    - {id: andorra, country_name: "Andorra", iso2: AD, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/andorra", keywords: [travel, "andorra"]}
+    - {id: angola, country_name: "Angola", iso2: AO, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/angola", keywords: [travel, "angola"]}
+    - {id: anguilla, country_name: "Anguilla (U.K.)", iso2: AI, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/anguilla", keywords: [travel, "anguilla (u.k.)"]}
+    - {id: antarctica, country_name: "Antarctica", iso2: AQ, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/antarctica", keywords: [travel, "antarctica"]}
+    - {id: antigua-and-barbuda, country_name: "Antigua and Barbuda", iso2: AG, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/antigua-and-barbuda", keywords: [travel, "antigua and barbuda"]}
+    - {id: argentina, country_name: "Argentina", iso2: AR, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/argentina", keywords: [travel, "argentina"]}
+    - {id: armenia, country_name: "Armenia", iso2: AM, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/armenia", keywords: [travel, "armenia"]}
+    - {id: aruba, country_name: "Aruba", iso2: AW, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/aruba", keywords: [travel, "aruba"]}
+    - {id: australia, country_name: "Australia", iso2: AU, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/australia", keywords: [travel, "australia"]}
+    - {id: austria, country_name: "Austria", iso2: AT, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/austria", keywords: [travel, "austria"]}
+    - {id: azerbaijan, country_name: "Azerbaijan", iso2: AZ, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/azerbaijan", keywords: [travel, "azerbaijan"]}
+    - {id: the-bahamas, country_name: "Bahamas, The", iso2: BS, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/the-bahamas", keywords: [travel, "bahamas, the"]}
+    - {id: bahrain, country_name: "Bahrain", iso2: BH, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/bahrain", keywords: [travel, "bahrain"]}
+    - {id: bangladesh, country_name: "Bangladesh", iso2: BD, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/bangladesh", keywords: [travel, "bangladesh"]}
+    - {id: barbados, country_name: "Barbados", iso2: BB, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/barbados", keywords: [travel, "barbados"]}
+    - {id: belarus, country_name: "Belarus", iso2: BY, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/belarus", keywords: [travel, "belarus"]}
+    - {id: belgium, country_name: "Belgium", iso2: BE, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/belgium", keywords: [travel, "belgium"]}
+    - {id: belize, country_name: "Belize", iso2: BZ, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/belize", keywords: [travel, "belize"]}
+    - {id: benin, country_name: "Benin", iso2: BJ, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/benin", keywords: [travel, "benin"]}
+    - {id: bermuda, country_name: "Bermuda (U.K.)", iso2: BM, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/bermuda", keywords: [travel, "bermuda (u.k.)"]}
+    - {id: bhutan, country_name: "Bhutan", iso2: BT, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/bhutan", keywords: [travel, "bhutan"]}
+    - {id: bolivia, country_name: "Bolivia", iso2: BO, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/bolivia", keywords: [travel, "bolivia"]}
+    - {id: bonaire, country_name: "Bonaire", iso2: BQ, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/bonaire", keywords: [travel, "bonaire"]}
+    - {id: bosnia-and-herzegovina, country_name: "Bosnia and Herzegovina", iso2: BA, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/bosnia-and-herzegovina", keywords: [travel, "bosnia and herzegovina"]}
+    - {id: botswana, country_name: "Botswana", iso2: BW, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/botswana", keywords: [travel, "botswana"]}
+    - {id: brazil, country_name: "Brazil", iso2: BR, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/brazil", keywords: [travel, "brazil"]}
+    - {id: british-indian-ocean-territory, country_name: "British Indian Ocean Territory (U.K.)", iso2: IO, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/british-indian-ocean-territory", keywords: [travel, "british indian ocean territory (u.k.)"]}
+    - {id: brunei, country_name: "Brunei", iso2: BN, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/brunei", keywords: [travel, "brunei"]}
+    - {id: bulgaria, country_name: "Bulgaria", iso2: BG, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/bulgaria", keywords: [travel, "bulgaria"]}
+    - {id: burkina-faso, country_name: "Burkina Faso", iso2: BF, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/burkina-faso", keywords: [travel, "burkina faso"]}
+    - {id: burma, country_name: "Burma (Myanmar)", iso2: MM, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/burma", keywords: [travel, "burma (myanmar)"]}
+    - {id: burundi, country_name: "Burundi", iso2: BI, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/burundi", keywords: [travel, "burundi"]}
+    - {id: cambodia, country_name: "Cambodia", iso2: KH, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/cambodia", keywords: [travel, "cambodia"]}
+    - {id: cameroon, country_name: "Cameroon", iso2: CM, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/cameroon", keywords: [travel, "cameroon"]}
+    - {id: canada, country_name: "Canada", iso2: CA, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/canada", keywords: [travel, "canada"]}
+    - {id: cape-verde, country_name: "Cape Verde", iso2: CV, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/cape-verde", keywords: [travel, "cape verde"]}
+    - {id: cayman-islands, country_name: "Cayman Islands (U.K.)", iso2: KY, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/cayman-islands", keywords: [travel, "cayman islands (u.k.)"]}
+    - {id: central-african-republic, country_name: "Central African Republic", iso2: CF, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/central-african-republic", keywords: [travel, "central african republic"]}
+    - {id: chad, country_name: "Chad", iso2: TD, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/chad", keywords: [travel, "chad"]}
+    - {id: chile, country_name: "Chile", iso2: CL, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/chile", keywords: [travel, "chile"]}
+    - {id: china, country_name: "China", iso2: CN, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/china", keywords: [travel, "china"]}
+    - {id: christmas-island, country_name: "Christmas Island (Australia)", iso2: CX, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/christmas-island", keywords: [travel, "christmas island (australia)"]}
+    - {id: cocos-islands, country_name: "Cocos (Keeling) Islands (Australia)", iso2: CC, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/cocos-islands", keywords: [travel, "cocos (keeling) islands (australia)"]}
+    - {id: colombia, country_name: "Colombia", iso2: CO, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/colombia", keywords: [travel, "colombia"]}
+    - {id: comoros, country_name: "Comoros", iso2: KM, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/comoros", keywords: [travel, "comoros"]}
+    - {id: congo, country_name: "Congo, Republic of the", iso2: CG, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/congo", keywords: [travel, "congo, republic of the"]}
+    - {id: cook-islands, country_name: "Cook Islands (New Zealand)", iso2: CK, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/cook-islands", keywords: [travel, "cook islands (new zealand)"]}
+    - {id: costa-rica, country_name: "Costa Rica", iso2: CR, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/costa-rica", keywords: [travel, "costa rica"]}
+    - {id: croatia, country_name: "Croatia", iso2: HR, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/croatia", keywords: [travel, "croatia"]}
+    - {id: cuba, country_name: "Cuba", iso2: CU, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/cuba", keywords: [travel, "cuba"]}
+    - {id: curacao, country_name: "Curacao", iso2: CW, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/curacao", keywords: [travel, "curacao"]}
+    - {id: cyprus, country_name: "Cyprus", iso2: CY, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/cyprus", keywords: [travel, "cyprus"]}
+    - {id: czechia, country_name: "Czechia", iso2: CZ, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/czechia", keywords: [travel, "czechia"]}
+    - {id: ivory-coast, country_name: "Cote d'Ivoire", iso2: CI, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/ivory-coast", keywords: [travel, "cote d'ivoire"]}
+    - {id: democratic-republic-of-congo, country_name: "Democratic Republic of the Congo", iso2: CD, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/democratic-republic-of-congo", keywords: [travel, "democratic republic of the congo"]}
+    - {id: denmark, country_name: "Denmark", iso2: DK, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/denmark", keywords: [travel, "denmark"]}
+    - {id: djibouti, country_name: "Djibouti", iso2: DJ, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/djibouti", keywords: [travel, "djibouti"]}
+    - {id: dominica, country_name: "Dominica", iso2: DM, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/dominica", keywords: [travel, "dominica"]}
+    - {id: dominican-republic, country_name: "Dominican Republic", iso2: DO, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/dominican-republic", keywords: [travel, "dominican republic"]}
+    - {id: ecuador, country_name: "Ecuador", iso2: EC, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/ecuador", keywords: [travel, "ecuador"]}
+    - {id: egypt, country_name: "Egypt", iso2: EG, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/egypt", keywords: [travel, "egypt"]}
+    - {id: el-salvador, country_name: "El Salvador", iso2: SV, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/el-salvador", keywords: [travel, "el salvador"]}
+    - {id: equatorial-guinea, country_name: "Equatorial Guinea", iso2: GQ, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/equatorial-guinea", keywords: [travel, "equatorial guinea"]}
+    - {id: eritrea, country_name: "Eritrea", iso2: ER, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/eritrea", keywords: [travel, "eritrea"]}
+    - {id: estonia, country_name: "Estonia", iso2: EE, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/estonia", keywords: [travel, "estonia"]}
+    - {id: eswatini, country_name: "Eswatini (Swaziland)", iso2: SZ, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/eswatini", keywords: [travel, "eswatini (swaziland)"]}
+    - {id: ethiopia, country_name: "Ethiopia", iso2: ET, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/ethiopia", keywords: [travel, "ethiopia"]}
+    - {id: falkland-islands, country_name: "Falkland Islands (Islas Malvinas)", iso2: FK, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/falkland-islands", keywords: [travel, "falkland islands (islas malvinas)"]}
+    - {id: faroe-island, country_name: "Faroe Islands (Denmark)", iso2: FO, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/faroe-island", keywords: [travel, "faroe islands (denmark)"]}
+    - {id: fiji, country_name: "Fiji", iso2: FJ, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/fiji", keywords: [travel, "fiji"]}
+    - {id: finland, country_name: "Finland", iso2: FI, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/finland", keywords: [travel, "finland"]}
+    - {id: france, country_name: "France", iso2: FR, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/france", keywords: [travel, "france"]}
+    - {id: french-guiana, country_name: "French Guiana (France)", iso2: GF, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/french-guiana", keywords: [travel, "french guiana (france)"]}
+    - {id: french-polynesia, country_name: "French Polynesia (France)", iso2: PF, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/french-polynesia", keywords: [travel, "french polynesia (france)"]}
+    - {id: gabon, country_name: "Gabon", iso2: GA, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/gabon", keywords: [travel, "gabon"]}
+    - {id: the-gambia, country_name: "Gambia, The", iso2: GM, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/the-gambia", keywords: [travel, "gambia, the"]}
+    - {id: georgia, country_name: "Georgia", iso2: GE, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/georgia", keywords: [travel, "georgia"]}
+    - {id: germany, country_name: "Germany", iso2: DE, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/germany", keywords: [travel, "germany"]}
+    - {id: ghana, country_name: "Ghana", iso2: GH, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/ghana", keywords: [travel, "ghana"]}
+    - {id: gibraltar, country_name: "Gibraltar (U.K.)", iso2: GI, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/gibraltar", keywords: [travel, "gibraltar (u.k.)"]}
+    - {id: greece, country_name: "Greece", iso2: GR, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/greece", keywords: [travel, "greece"]}
+    - {id: greenland, country_name: "Greenland (Denmark)", iso2: GL, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/greenland", keywords: [travel, "greenland (denmark)"]}
+    - {id: grenada, country_name: "Grenada", iso2: GD, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/grenada", keywords: [travel, "grenada"]}
+    - {id: guadeloupe, country_name: "Guadeloupe", iso2: GP, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/guadeloupe", keywords: [travel, "guadeloupe"]}
+    - {id: guam, country_name: "Guam (U.S.)", iso2: GU, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/guam", keywords: [travel, "guam (u.s.)"]}
+    - {id: guatemala, country_name: "Guatemala", iso2: GT, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/guatemala", keywords: [travel, "guatemala"]}
+    - {id: guinea, country_name: "Guinea", iso2: GN, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/guinea", keywords: [travel, "guinea"]}
+    - {id: guinea-bissau, country_name: "Guinea-Bissau", iso2: GW, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/guinea-bissau", keywords: [travel, "guinea-bissau"]}
+    - {id: guyana, country_name: "Guyana", iso2: GY, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/guyana", keywords: [travel, "guyana"]}
+    - {id: haiti, country_name: "Haiti", iso2: HT, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/haiti", keywords: [travel, "haiti"]}
+    - {id: honduras, country_name: "Honduras", iso2: HN, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/honduras", keywords: [travel, "honduras"]}
+    - {id: hong-kong-sar, country_name: "Hong Kong (China)", iso2: HK, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/hong-kong-sar", keywords: [travel, "hong kong (china)"]}
+    - {id: hungary, country_name: "Hungary", iso2: HU, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/hungary", keywords: [travel, "hungary"]}
+    - {id: iceland, country_name: "Iceland", iso2: IS, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/iceland", keywords: [travel, "iceland"]}
+    - {id: india, country_name: "India", iso2: IN, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/india", keywords: [travel, "india"]}
+    - {id: indonesia, country_name: "Indonesia", iso2: ID, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/indonesia", keywords: [travel, "indonesia"]}
+    - {id: iran, country_name: "Iran", iso2: IR, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/iran", keywords: [travel, "iran"]}
+    - {id: iraq, country_name: "Iraq", iso2: IQ, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/iraq", keywords: [travel, "iraq"]}
+    - {id: ireland, country_name: "Ireland", iso2: IE, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/ireland", keywords: [travel, "ireland"]}
+    - {id: israel, country_name: "Israel, the West Bank and Gaza", iso2: IL, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/israel", keywords: [travel, "israel, the west bank and gaza"]}
+    - {id: italy, country_name: "Italy", iso2: IT, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/italy", keywords: [travel, "italy"]}
+    - {id: jamaica, country_name: "Jamaica", iso2: JM, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/jamaica", keywords: [travel, "jamaica"]}
+    - {id: japan, country_name: "Japan", iso2: JP, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/japan", keywords: [travel, "japan"]}
+    - {id: jordan, country_name: "Jordan", iso2: JO, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/jordan", keywords: [travel, "jordan"]}
+    - {id: kazakhstan, country_name: "Kazakhstan", iso2: KZ, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/kazakhstan", keywords: [travel, "kazakhstan"]}
+    - {id: kenya, country_name: "Kenya", iso2: KE, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/kenya", keywords: [travel, "kenya"]}
+    - {id: kiribati, country_name: "Kiribati", iso2: KI, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/kiribati", keywords: [travel, "kiribati"]}
+    - {id: kosovo, country_name: "Kosovo", iso2: XK, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/kosovo", keywords: [travel, "kosovo"]}
+    - {id: kuwait, country_name: "Kuwait", iso2: KW, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/kuwait", keywords: [travel, "kuwait"]}
+    - {id: kyrgyzstan, country_name: "Kyrgyzstan", iso2: KG, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/kyrgyzstan", keywords: [travel, "kyrgyzstan"]}
+    - {id: laos, country_name: "Laos", iso2: LA, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/laos", keywords: [travel, "laos"]}
+    - {id: latvia, country_name: "Latvia", iso2: LV, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/latvia", keywords: [travel, "latvia"]}
+    - {id: lebanon, country_name: "Lebanon", iso2: LB, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/lebanon", keywords: [travel, "lebanon"]}
+    - {id: lesotho, country_name: "Lesotho", iso2: LS, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/lesotho", keywords: [travel, "lesotho"]}
+    - {id: liberia, country_name: "Liberia", iso2: LR, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/liberia", keywords: [travel, "liberia"]}
+    - {id: libya, country_name: "Libya", iso2: LY, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/libya", keywords: [travel, "libya"]}
+    - {id: liechtenstein, country_name: "Liechtenstein", iso2: LI, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/liechtenstein", keywords: [travel, "liechtenstein"]}
+    - {id: lithuania, country_name: "Lithuania", iso2: LT, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/lithuania", keywords: [travel, "lithuania"]}
+    - {id: luxembourg, country_name: "Luxembourg", iso2: LU, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/luxembourg", keywords: [travel, "luxembourg"]}
+    - {id: macau-sar, country_name: "Macau (China)", iso2: MO, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/macau-sar", keywords: [travel, "macau (china)"]}
+    - {id: madagascar, country_name: "Madagascar", iso2: MG, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/madagascar", keywords: [travel, "madagascar"]}
+    - {id: malawi, country_name: "Malawi", iso2: MW, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/malawi", keywords: [travel, "malawi"]}
+    - {id: malaysia, country_name: "Malaysia", iso2: MY, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/malaysia", keywords: [travel, "malaysia"]}
+    - {id: maldives, country_name: "Maldives", iso2: MV, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/maldives", keywords: [travel, "maldives"]}
+    - {id: mali, country_name: "Mali", iso2: ML, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/mali", keywords: [travel, "mali"]}
+    - {id: malta, country_name: "Malta", iso2: MT, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/malta", keywords: [travel, "malta"]}
+    - {id: marshall-islands, country_name: "Marshall Islands", iso2: MH, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/marshall-islands", keywords: [travel, "marshall islands"]}
+    - {id: martinique, country_name: "Martinique (France)", iso2: MQ, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/martinique", keywords: [travel, "martinique (france)"]}
+    - {id: mauritania, country_name: "Mauritania", iso2: MR, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/mauritania", keywords: [travel, "mauritania"]}
+    - {id: mauritius, country_name: "Mauritius", iso2: MU, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/mauritius", keywords: [travel, "mauritius"]}
+    - {id: mayotte, country_name: "Mayotte (France)", iso2: YT, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/mayotte", keywords: [travel, "mayotte (france)"]}
+    - {id: mexico, country_name: "Mexico", iso2: MX, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/mexico", keywords: [travel, "mexico"]}
+    - {id: micronesia, country_name: "Micronesia, Federated States of", iso2: FM, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/micronesia", keywords: [travel, "micronesia, federated states of"]}
+    - {id: moldova, country_name: "Moldova", iso2: MD, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/moldova", keywords: [travel, "moldova"]}
+    - {id: monaco, country_name: "Monaco", iso2: MC, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/monaco", keywords: [travel, "monaco"]}
+    - {id: mongolia, country_name: "Mongolia", iso2: MN, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/mongolia", keywords: [travel, "mongolia"]}
+    - {id: montenegro, country_name: "Montenegro", iso2: ME, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/montenegro", keywords: [travel, "montenegro"]}
+    - {id: montserrat, country_name: "Montserrat (U.K.)", iso2: MS, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/montserrat", keywords: [travel, "montserrat (u.k.)"]}
+    - {id: morocco, country_name: "Morocco", iso2: MA, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/morocco", keywords: [travel, "morocco"]}
+    - {id: mozambique, country_name: "Mozambique", iso2: MZ, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/mozambique", keywords: [travel, "mozambique"]}
+    - {id: namibia, country_name: "Namibia", iso2: NA, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/namibia", keywords: [travel, "namibia"]}
+    - {id: nauru, country_name: "Nauru", iso2: NR, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/nauru", keywords: [travel, "nauru"]}
+    - {id: nepal, country_name: "Nepal", iso2: NP, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/nepal", keywords: [travel, "nepal"]}
+    - {id: netherlands, country_name: "Netherlands, The", iso2: NL, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/netherlands", keywords: [travel, "netherlands, the"]}
+    - {id: new-caledonia, country_name: "New Caledonia (France)", iso2: NC, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/new-caledonia", keywords: [travel, "new caledonia (france)"]}
+    - {id: new-zealand, country_name: "New Zealand", iso2: NZ, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/new-zealand", keywords: [travel, "new zealand"]}
+    - {id: nicaragua, country_name: "Nicaragua", iso2: NI, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/nicaragua", keywords: [travel, "nicaragua"]}
+    - {id: niger, country_name: "Niger", iso2: NE, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/niger", keywords: [travel, "niger"]}
+    - {id: nigeria, country_name: "Nigeria", iso2: NG, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/nigeria", keywords: [travel, "nigeria"]}
+    - {id: niue, country_name: "Niue (New Zealand)", iso2: NU, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/niue", keywords: [travel, "niue (new zealand)"]}
+    - {id: norfolk-island, country_name: "Norfolk Island (Australia)", iso2: NF, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/norfolk-island", keywords: [travel, "norfolk island (australia)"]}
+    - {id: north-korea, country_name: "North Korea", iso2: KP, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/north-korea", keywords: [travel, "north korea"]}
+    - {id: north-macedonia, country_name: "North Macedonia", iso2: MK, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/north-macedonia", keywords: [travel, "north macedonia"]}
+    - {id: northern-mariana-islands, country_name: "Northern Mariana Islands (U.S.)", iso2: MP, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/northern-mariana-islands", keywords: [travel, "northern mariana islands (u.s.)"]}
+    - {id: norway, country_name: "Norway", iso2: NO, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/norway", keywords: [travel, "norway"]}
+    - {id: oman, country_name: "Oman", iso2: OM, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/oman", keywords: [travel, "oman"]}
+    - {id: pakistan, country_name: "Pakistan", iso2: PK, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/pakistan", keywords: [travel, "pakistan"]}
+    - {id: palau, country_name: "Palau", iso2: PW, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/palau", keywords: [travel, "palau"]}
+    - {id: panama, country_name: "Panama", iso2: PA, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/panama", keywords: [travel, "panama"]}
+    - {id: papua-new-guinea, country_name: "Papua New Guinea", iso2: PG, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/papua-new-guinea", keywords: [travel, "papua new guinea"]}
+    - {id: paraguay, country_name: "Paraguay", iso2: PY, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/paraguay", keywords: [travel, "paraguay"]}
+    - {id: peru, country_name: "Peru", iso2: PE, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/peru", keywords: [travel, "peru"]}
+    - {id: philippines, country_name: "Philippines", iso2: PH, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/philippines", keywords: [travel, "philippines"]}
+    - {id: pitcairn-islands, country_name: "Pitcairn Islands (U.K.)", iso2: PN, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/pitcairn-islands", keywords: [travel, "pitcairn islands (u.k.)"]}
+    - {id: poland, country_name: "Poland", iso2: PL, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/poland", keywords: [travel, "poland"]}
+    - {id: portugal, country_name: "Portugal", iso2: PT, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/portugal", keywords: [travel, "portugal"]}
+    - {id: puerto-rico, country_name: "Puerto Rico (U.S.)", iso2: PR, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/puerto-rico", keywords: [travel, "puerto rico (u.s.)"]}
+    - {id: qatar, country_name: "Qatar", iso2: QA, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/qatar", keywords: [travel, "qatar"]}
+    - {id: romania, country_name: "Romania", iso2: RO, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/romania", keywords: [travel, "romania"]}
+    - {id: russia, country_name: "Russia", iso2: RU, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/russia", keywords: [travel, "russia"]}
+    - {id: rwanda, country_name: "Rwanda", iso2: RW, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/rwanda", keywords: [travel, "rwanda"]}
+    - {id: reunion, country_name: "Reunion (France)", iso2: RE, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/reunion", keywords: [travel, "reunion (france)"]}
+    - {id: saba, country_name: "Saba", iso2: BQ, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/saba", keywords: [travel, "saba"]}
+    - {id: saint-barthelemy, country_name: "Saint Barthelemy", iso2: BL, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/saint-barthelemy", keywords: [travel, "saint barthelemy"]}
+    - {id: saint-helena, country_name: "Saint Helena (U.K.)", iso2: SH, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/saint-helena", keywords: [travel, "saint helena (u.k.)"]}
+    - {id: st-kitts-and-nevis, country_name: "Saint Kitts and Nevis", iso2: KN, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/st-kitts-and-nevis", keywords: [travel, "saint kitts and nevis"]}
+    - {id: saint-lucia, country_name: "Saint Lucia", iso2: LC, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/saint-lucia", keywords: [travel, "saint lucia"]}
+    - {id: saint-martin, country_name: "Saint Martin", iso2: MF, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/saint-martin", keywords: [travel, "saint martin"]}
+    - {id: saint-pierre-and-miquelon, country_name: "Saint Pierre and Miquelon (France)", iso2: PM, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/saint-pierre-and-miquelon", keywords: [travel, "saint pierre and miquelon (france)"]}
+    - {id: saint-vincent-and-the-grenadines, country_name: "Saint Vincent and the Grenadines", iso2: VC, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/saint-vincent-and-the-grenadines", keywords: [travel, "saint vincent and the grenadines"]}
+    - {id: samoa, country_name: "Samoa", iso2: WS, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/samoa", keywords: [travel, "samoa"]}
+    - {id: san-marino, country_name: "San Marino", iso2: SM, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/san-marino", keywords: [travel, "san marino"]}
+    - {id: saudi-arabia, country_name: "Saudi Arabia", iso2: SA, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/saudi-arabia", keywords: [travel, "saudi arabia"]}
+    - {id: senegal, country_name: "Senegal", iso2: SN, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/senegal", keywords: [travel, "senegal"]}
+    - {id: serbia, country_name: "Serbia", iso2: RS, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/serbia", keywords: [travel, "serbia"]}
+    - {id: seychelles, country_name: "Seychelles", iso2: SC, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/seychelles", keywords: [travel, "seychelles"]}
+    - {id: sierra-leone, country_name: "Sierra Leone", iso2: SL, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/sierra-leone", keywords: [travel, "sierra leone"]}
+    - {id: singapore, country_name: "Singapore", iso2: SG, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/singapore", keywords: [travel, "singapore"]}
+    - {id: sint-eustatius, country_name: "Sint Eustatius", iso2: BQ, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/sint-eustatius", keywords: [travel, "sint eustatius"]}
+    - {id: sint-maarten, country_name: "Sint Maarten", iso2: SX, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/sint-maarten", keywords: [travel, "sint maarten"]}
+    - {id: slovakia, country_name: "Slovakia", iso2: SK, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/slovakia", keywords: [travel, "slovakia"]}
+    - {id: slovenia, country_name: "Slovenia", iso2: SI, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/slovenia", keywords: [travel, "slovenia"]}
+    - {id: solomon-islands, country_name: "Solomon Islands", iso2: SB, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/solomon-islands", keywords: [travel, "solomon islands"]}
+    - {id: somalia, country_name: "Somalia", iso2: SO, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/somalia", keywords: [travel, "somalia"]}
+    - {id: south-africa, country_name: "South Africa", iso2: ZA, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/south-africa", keywords: [travel, "south africa"]}
+    - {id: south-georgia-south-sandwich-islands, country_name: "South Georgia and the South Sandwich Islands (U.K.)", iso2: GS, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/south-georgia-south-sandwich-islands", keywords: [travel, "south georgia and the south sandwich islands (u.k.)"]}
+    - {id: south-korea, country_name: "South Korea", iso2: KR, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/south-korea", keywords: [travel, "south korea"]}
+    - {id: south-sudan, country_name: "South Sudan", iso2: SS, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/south-sudan", keywords: [travel, "south sudan"]}
+    - {id: spain, country_name: "Spain", iso2: ES, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/spain", keywords: [travel, "spain"]}
+    - {id: sri-lanka, country_name: "Sri Lanka", iso2: LK, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/sri-lanka", keywords: [travel, "sri lanka"]}
+    - {id: sudan, country_name: "Sudan", iso2: SD, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/sudan", keywords: [travel, "sudan"]}
+    - {id: suriname, country_name: "Suriname", iso2: SR, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/suriname", keywords: [travel, "suriname"]}
+    - {id: sweden, country_name: "Sweden", iso2: SE, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/sweden", keywords: [travel, "sweden"]}
+    - {id: switzerland, country_name: "Switzerland", iso2: CH, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/switzerland", keywords: [travel, "switzerland"]}
+    - {id: syria, country_name: "Syria", iso2: SY, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/syria", keywords: [travel, "syria"]}
+    - {id: sao-tome-and-principe, country_name: "Sao Tome and Principe", iso2: ST, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/sao-tome-and-principe", keywords: [travel, "sao tome and principe"]}
+    - {id: taiwan, country_name: "Taiwan", iso2: TW, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/taiwan", keywords: [travel, "taiwan"]}
+    - {id: tajikistan, country_name: "Tajikistan", iso2: TJ, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/tajikistan", keywords: [travel, "tajikistan"]}
+    - {id: tanzania, country_name: "Tanzania", iso2: TZ, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/tanzania", keywords: [travel, "tanzania"]}
+    - {id: thailand, country_name: "Thailand", iso2: TH, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/thailand", keywords: [travel, "thailand"]}
+    - {id: east-timor, country_name: "Timor-Leste (East Timor)", iso2: TL, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/east-timor", keywords: [travel, "timor-leste (east timor)"]}
+    - {id: togo, country_name: "Togo", iso2: TG, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/togo", keywords: [travel, "togo"]}
+    - {id: tokelau, country_name: "Tokelau (New Zealand)", iso2: TK, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/tokelau", keywords: [travel, "tokelau (new zealand)"]}
+    - {id: tonga, country_name: "Tonga", iso2: TO, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/tonga", keywords: [travel, "tonga"]}
+    - {id: trinidad-and-tobago, country_name: "Trinidad and Tobago", iso2: TT, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/trinidad-and-tobago", keywords: [travel, "trinidad and tobago"]}
+    - {id: tunisia, country_name: "Tunisia", iso2: TN, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/tunisia", keywords: [travel, "tunisia"]}
+    - {id: turkmenistan, country_name: "Turkmenistan", iso2: TM, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/turkmenistan", keywords: [travel, "turkmenistan"]}
+    - {id: turks-and-caicos, country_name: "Turks and Caicos Islands (U.K.)", iso2: TC, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/turks-and-caicos", keywords: [travel, "turks and caicos islands (u.k.)"]}
+    - {id: tuvalu, country_name: "Tuvalu", iso2: TV, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/tuvalu", keywords: [travel, "tuvalu"]}
+    - {id: turkey, country_name: "Turkiye (Turkey)", iso2: TR, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/turkey", keywords: [travel, "turkiye (turkey)"]}
+    - {id: uganda, country_name: "Uganda", iso2: UG, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/uganda", keywords: [travel, "uganda"]}
+    - {id: ukraine, country_name: "Ukraine", iso2: UA, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/ukraine", keywords: [travel, "ukraine"]}
+    - {id: united-arab-emirates, country_name: "United Arab Emirates", iso2: AE, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/united-arab-emirates", keywords: [travel, "united arab emirates"]}
+    - {id: united-kingdom, country_name: "United Kingdom", iso2: GB, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/united-kingdom", keywords: [travel, "united kingdom"]}
+    - {id: united-states, country_name: "United States", iso2: US, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/united-states", keywords: [travel, "united states"]}
+    - {id: uruguay, country_name: "Uruguay", iso2: UY, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/uruguay", keywords: [travel, "uruguay"]}
+    - {id: uzbekistan, country_name: "Uzbekistan", iso2: UZ, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/uzbekistan", keywords: [travel, "uzbekistan"]}
+    - {id: vanuatu, country_name: "Vanuatu", iso2: VU, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/vanuatu", keywords: [travel, "vanuatu"]}
+    - {id: venezuela, country_name: "Venezuela", iso2: VE, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/venezuela", keywords: [travel, "venezuela"]}
+    - {id: vietnam, country_name: "Vietnam", iso2: VN, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/vietnam", keywords: [travel, "vietnam"]}
+    - {id: british-virgin-islands, country_name: "Virgin Islands, British", iso2: VG, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/british-virgin-islands", keywords: [travel, "virgin islands, british"]}
+    - {id: usvirgin-islands, country_name: "Virgin Islands, U.S.", iso2: VI, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/usvirgin-islands", keywords: [travel, "virgin islands, u.s."]}
+    - {id: yemen, country_name: "Yemen", iso2: YE, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/yemen", keywords: [travel, "yemen"]}
+    - {id: zambia, country_name: "Zambia", iso2: ZM, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/zambia", keywords: [travel, "zambia"]}
+    - {id: zimbabwe, country_name: "Zimbabwe", iso2: ZW, url: "https://wwwnc.cdc.gov/travel/destinations/traveler/none/zimbabwe", keywords: [travel, "zimbabwe"]}
+
+# Yellow Book consumer-relevant trip-type chapters. Edition pinned (2024, on cdc.gov/yellow-book);
+# clinician-facing prose — audience=general, review when the next edition ships.
+cdc_yellowbook:
+  direct_pages:
+    - {id: yb-altitude, title: "High-Altitude Travel and Altitude Illness", url: "https://www.cdc.gov/yellow-book/hcp/environmental-hazards-risks/high-altitude-travel-and-altitude-illness.html", trip_types: [altitude], keywords: [travel, altitude], source_last_updated: "2024"}
+    - {id: yb-diving, title: "Scuba Diving: Decompression Illness and Dive Injuries", url: "https://www.cdc.gov/yellow-book/hcp/environmental-hazards-risks/scuba-diving-decompression-illness-and-other-dive-related-injuries.html", trip_types: [diving], keywords: [travel, diving, scuba], source_last_updated: "2024"}
+    - {id: yb-cruise, title: "Cruise Ship Travel", url: "https://www.cdc.gov/yellow-book/hcp/travel-air-sea/cruise-ship-travel.html", trip_types: [cruise], keywords: [travel, cruise], source_last_updated: "2024"}
+    - {id: yb-medical-tourism, title: "Medical Tourism", url: "https://www.cdc.gov/yellow-book/hcp/health-care-abroad/medical-tourism.html", trip_types: [medical_tourism], keywords: [travel, medical tourism], source_last_updated: "2024"}
+    - {id: yb-chronic-illness, title: "Travelers with Chronic Illnesses", url: "https://www.cdc.gov/yellow-book/hcp/travelers-with-additional-considerations/travelers-with-chronic-illnesses.html", trip_types: [chronic_condition], keywords: [travel, chronic illness], source_last_updated: "2024"}
+    - {id: yb-disabilities, title: "Travelers with Disabilities", url: "https://www.cdc.gov/yellow-book/hcp/travelers-with-additional-considerations/travelers-with-disabilities.html", trip_types: [chronic_condition], keywords: [travel, disability], source_last_updated: "2024"}
+
+# State Dept: advisories from the RSS feed (volatile, valid_until = pubDate + 180d);
+# per-country Country Information pages (periodic, best-effort scrape).
+state_dept:
+  advisories_rss: https://travel.state.gov/_res/rss/TAsTWs.xml
+  advisory_ttl_days: 180
+  country_info: true
+
+# TSA/FAA medications & medical devices in transit (evergreen). direct_pages are scraped;
+# drug_overlay blocks are hand-authored general guidance linked to DailyMed by rxcui
+# (NO DailyMed body text is copied). URLs verified 2026-07-06.
+tsa_faa:
+  direct_pages:
+    - {id: tsa-special-procedures, source: tsa, title: "TSA Special Procedures: Medications & Medical Devices", url: "https://www.tsa.gov/travel/special-procedures", trip_types: [chronic_condition], keywords: [travel, medications, security]}
+    - {id: faa-portable-oxygen, source: faa, title: "FAA: Portable Oxygen Concentrators on Aircraft", url: "https://www.faa.gov/about/initiatives/cabin_safety/portable_oxygen", trip_types: [chronic_condition], keywords: [travel, oxygen, medical device]}
+    - {id: faa-medical-device-batteries, source: faa, title: "FAA PackSafe: Batteries for Medical Devices", url: "https://www.faa.gov/hazmat/packsafe/lithium-batteries", trip_types: [chronic_condition], keywords: [travel, batteries, medical device]}
+  drug_overlay:
+    - id: insulin-in-transit
+      source: tsa
+      rxcui: "274783"
+      title: "Traveling with Insulin"
+      section: "Insulin & Diabetes Supplies in Transit"
+      keywords: [travel, insulin, diabetes, medications]
+      source_url: "https://www.tsa.gov/travel/special-procedures"
+      body: >-
+        Insulin and other injectable medicines are allowed through TSA security in carry-on
+        bags in quantities greater than 3.4 ounces; declare them to the officer for separate
+        screening. Keep insulin in your carry-on (not checked luggage) to avoid temperature
+        extremes; gel/ice packs are permitted. Carry a copy of your prescription, and for
+        international trips check the destination country's rules for insulin and syringes.
+    - id: controlled-substance-in-transit
+      source: tsa
+      rxcui: "7804"
+      title: "Traveling with Controlled-Substance Pain Medications"
+      section: "Controlled Substances in Transit"
+      keywords: [travel, controlled substance, opioid, medications]
+      source_url: "https://www.tsa.gov/travel/special-procedures"
+      body: >-
+        Controlled-substance medicines such as opioid pain relievers may be carried in your
+        bag, ideally in the original labeled pharmacy container. Bring only the amount needed
+        for the trip plus a small margin and carry your prescription. Many countries restrict
+        or ban common controlled substances or require advance permits — verify entry rules
+        with the destination country's embassy before you travel.
+    - id: adhd-stimulant-in-transit
+      source: tsa
+      rxcui: "6901"
+      title: "Traveling with ADHD Stimulant Medications"
+      section: "ADHD Stimulants in Transit"
+      keywords: [travel, stimulant, adhd, controlled substance, medications]
+      source_url: "https://www.tsa.gov/travel/special-procedures"
+      body: >-
+        ADHD stimulant medications such as methylphenidate are controlled substances that
+        some countries restrict or prohibit. Keep them in original labeled containers with
+        your prescription, bring only the trip's supply, and confirm entry rules with the
+        destination country's embassy before travel.
+    - id: benzodiazepine-in-transit
+      source: tsa
+      rxcui: "596"
+      title: "Traveling with Anxiety/Sleep Medications (Benzodiazepines)"
+      section: "Benzodiazepines in Transit"
+      keywords: [travel, benzodiazepine, controlled substance, medications]
+      source_url: "https://www.tsa.gov/travel/special-procedures"
+      body: >-
+        Benzodiazepines such as alprazolam are controlled substances subject to import limits
+        in many countries. Keep them in original labeled containers, carry your prescription,
+        and confirm the destination's rules and quantity limits before you travel.

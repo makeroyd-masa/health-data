@@ -1,0 +1,69 @@
+---
+attribution_text: Content from the U.S. Department of State (travel.state.gov).
+audience: general
+content_hash: sha256:bdd33812a150f82480c1b4e308a8b650902f2c88f0a7cb757f4ca140194aaf78
+id: state_dept:libya-travel-advisory:travel-advisory
+keywords:
+- advisory
+- advisory_level_4
+- travel
+language: en
+license: us_gov
+publisher: U.S. Department of State
+section: Travel Advisory
+source: state_dept
+source_last_updated: Wed, 16 Jul 2025
+source_url: https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/libya-travel-advisory.html
+title: Libya Travel Advisory
+use_case: travel_health
+---
+
+# Libya Travel Advisory — Travel Advisory
+
+***Reissued after periodic review with minor edits.***
+
+Do not travel to Libya for any reason due to **crime**, **terrorism**, **unexploded landmines**, **civil unrest**, **kidnapping**, and **armed conflict**. Read entire Travel Advisory.
+
+**Country Summary**: Terrorism:  There is risk of terrorist violence, including terrorist attacks and other activity in Libya. Visit the U.S. Department of State's [country reports on terrorism](https://www.state.gov/reports/country-reports-on-terrorism-2023/libya/) to learn more. Terrorist attacks could occur with little or no warning, targeting public spaces like tourist locations, hotels, transportation hubs, markets/shopping malls, and government facilities.
+
+Kidnapping is widespread, and victims have included U.S. citizens.
+
+Kidnappers may take advantage of unplanned opportunities. Criminal or armed individuals or groups have threatened to and/or have seized or detained and threatened to kill, injure, or continue to detain individuals in order to compel a third party (including a governmental organization) to do or abstain from doing something as a condition of release.
+
+Unexploded landmines, cluster munitions, and unexploded ammunition are a hazard throughout Libya. Heed land mine warning signs. Do not venture off the road into areas marked with red and white plastic tape.  Avoid roadside ditches, shoulders, and unmarked trails. Never touch anything resembling unexploded munitions. Landmines do exist in populated areas due to numerous ground offensives in the last decade.
+
+Outbreaks of violence between competing armed groups can occur with little warning and have the potential to impact U.S. citizens. The capital, Tripoli, and other cities, such as Surman, Al-Jufra, Misrata, Ajdabiya, Benghazi, and Zuwara, have witnessed fighting among armed groups.  Hotels and airports frequented by U.S. citizens have been the targets of these attacks. Even demonstrations intended to be peaceful can turn confrontational and escalate into violence.
+
+Armed groups sometimes detain travelers for arbitrary reasons, do not grant detainees access to lawyers or legal processes, and do not allow detainees to inform others of their status. U.S. citizens should carry proof of citizenship and valid immigration status at all times, but having these documents does not guarantee fair treatment.
+
+While there are operational international airports in Libya with regular domestic and international flights, flights are often delayed, rerouted, and cancelled without warning. The U.S. government prohibits U.S. commercial aviation operations within Libyan airspace.
+
+Due to risks to civil aviation operating within or in the vicinity of Libya, the Federal Aviation Administration (FAA) has issued a Notice to Air Missions (NOTAM) and a Special Federal Aviation Regulation (SFAR). For more information U.S. citizens should consult the [Federal Aviation Administration’s Prohibitions, Restrictions and Notices](https://www.faa.gov/air_traffic/publications/us_restrictions/).
+
+The Commandant of the U.S. Coast Guard has determined that effective anti-terrorism measures are not in place in Libyan ports and has imposed conditions of entry on vessels that arrive in U.S. ports having visited ports in Libya. Mariners and passengers traveling through the ports of Libya should exercise caution.
+
+U.S. citizens in Libya in need of routine consular services should contact the U.S. Embassy in Tunis, Tunisia for assistance. To contact the U.S. Embassy in Tunis, [click here](https://tn.usembassy.gov/u-s-citizen-services/).
+
+U.S. citizens who are in Libya are urged to depart as soon as possible via commercial means if possible.
+
+The Department of State will continue to provide information via the [Smart Traveler Enrollment Program](https://mytravel.state.gov/s/step) (STEP), [Embassy Libya's web page](https://ly.usembassy.gov/), [Travel.State.Gov](https://travel.state.gov/content/travel.html), [Facebook](https://www.facebook.com/travelgov/), and [X](https://x.com/TravelGov).
+
+Read the [country information page](https://travel.state.gov/content/travel/en/international-travel/International-Travel-Country-Information-Pages/Libya.html) for additional information on travel to Libya.
+
+If you decide to travel to Libya:
+
+- Visit our website for [Travel to High-Risk Areas](https://travel.state.gov/content/travel/en/international-travel/before-you-go/travelers-with-special-considerations/high-risk-travelers.html).
+- Carry proof of citizenship and valid immigration status at all times.
+- Avoid demonstrations and crowds.
+- Make contingency plans to leave.
+- Draft a will and designate appropriate insurance beneficiaries and a power of attorney.
+- Discuss a plan with loved ones regarding care or custody of children, pets, property, belongings, non-liquid assets (collections, artwork, etc.), funeral wishes, etcetera.
+- Establish your own personal security plan in coordination with your family, and employer or host organization, so that they can monitor your safety and location. This plan should specify whom you would contact first, and how that person should share information.
+- Appoint one family member to serve as the point of contact with kidnappers/hostage-takers, media, U.S. and host country government agencies, and members of Congress if you are kidnapped, taken hostage, or detained.
+- Consider consulting with a professional security organization.
+- Do not touch unknown metal objects and avoid traveling off well-used roads, tracks, and paths due to risk of unexploded ordnance.
+- Enroll in the [Smart Traveler Enrollment Program](https://step.state.gov/step/) ([STEP](https://step.state.gov/step/)) to receive Alerts and make it easier to locate you in an emergency.
+- Review the [Country Security Report](https://www.osac.gov/Content/Browse/Report?subContentTypes=Country%20Security%20Report) for Libya.
+- Visit the CDC page for the latest [Travel Health Information](https://wwwnc.cdc.gov/travel/destinations/list) related to your travel.
+- U.S. citizens who travel abroad should always have a contingency plan for emergency situations. Review the [Traveler’s Checklist](https://travel.state.gov/content/travel/en/international-travel/before-you-go/travelers-checklist.html).
+- We highly recommend that you buy insurance before you travel. Check with your travel insurance provider about evacuation assistance, medical insurance, and trip cancellation coverage.

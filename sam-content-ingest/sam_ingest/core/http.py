@@ -40,6 +40,7 @@ _IMPERSONATE_HOSTS: set[str] = {
     "www.ready.gov", "ready.gov",
     "api.digitalmedia.hhs.gov",
     "wwwnc.cdc.gov", "www.cdc.gov", "tools.cdc.gov",
+    "travel.state.gov", "www.tsa.gov", "www.faa.gov",
 }
 _IMPERSONATE_PROFILE = "chrome"
 

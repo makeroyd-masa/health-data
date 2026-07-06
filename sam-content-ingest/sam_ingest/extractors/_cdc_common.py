@@ -6,15 +6,33 @@ import itertools
 
 from ..adapters.cdc_syndication import CdcSyndicationAdapter
 from ..core.pipeline import build_blocks
-from ..core.schema import Audience, ItemContext, KnowledgeBlock, License, Source, UseCase, slugify
+from ..core.schema import (
+    Audience,
+    GeoScope,
+    ItemContext,
+    KnowledgeBlock,
+    License,
+    Source,
+    TripType,
+    UseCase,
+    Volatility,
+    slugify,
+)
 from .base import RunContext
 
 _DEFAULT_PUBLISHER = "Centers for Disease Control and Prevention (CDC)"
 
 
-def _direct_item_context(ref, *, use_case: UseCase, extractor: str,
-                         audience: Audience) -> ItemContext:
+def _direct_item_context(ref, *, use_case: UseCase, extractor: str, audience: Audience,
+                         volatility: Volatility) -> ItemContext:
     title = ref.title or ref.source_id.replace("-", " ").title()
+    # Build country geo from the seed's iso2/country_name where present (destinations).
+    geo = None
+    iso2 = ref.meta.get("iso2")
+    if iso2:
+        geo = GeoScope(scope="country", country_iso2=iso2,
+                       country_name=ref.meta.get("country_name"))
+    trip_types = [TripType(t) for t in ref.meta.get("trip_types", [])]
     return ItemContext(
         source=Source.cdc,
         source_id=ref.source_id,
@@ -28,13 +46,17 @@ def _direct_item_context(ref, *, use_case: UseCase, extractor: str,
         extractor_name=extractor,
         use_case=use_case,
         id_stem=slugify(title),
+        geo=geo,
+        trip_types=trip_types,
+        volatility=volatility,
     )
 
 
 def run_cdc_direct_pages(ctx: RunContext, cdc_seed: dict, *, use_case: UseCase,
-                         extractor: str, default_audience: Audience) -> list[KnowledgeBlock]:
+                         extractor: str, default_audience: Audience,
+                         volatility: Volatility = Volatility.evergreen) -> list[KnowledgeBlock]:
     """Fetch + ingest the specific CDC pages listed under `direct_pages` (the content
-    HHS syndication lacks). Per-page audience honored via seed `audience`."""
+    HHS syndication lacks). Per-page audience/geo/trip_types honored via seed meta."""
     import itertools
 
     from ..adapters.cdc_pages import CdcPagesAdapter
@@ -48,21 +70,25 @@ def run_cdc_direct_pages(ctx: RunContext, cdc_seed: dict, *, use_case: UseCase,
     refs = list(itertools.islice(discovered, ctx.limit) if ctx.limit else discovered)
 
     blocks: list[KnowledgeBlock] = []
+    seeded = ingested = 0
     for ref in refs:
+        seeded += 1
         try:
             sections = adapter.parse(adapter.fetch(ref, refresh=ctx.refresh))
         except Exception as e:  # noqa: BLE001 - log + skip (PRD §4.8)
             ctx.log.warning("cdc page fetch/parse failed for %s: %s", ref.url, e)
             continue
         if not sections:
-            ctx.log.info("no content sections for %s", ref.url)
+            ctx.log.info("SKIP (no content) %s", ref.url)  # coverage report line
             continue
         audience = Audience(ref.meta.get("audience", default_audience.value))
         item_ctx = _direct_item_context(ref, use_case=use_case, extractor=extractor,
-                                        audience=audience)
+                                        audience=audience, volatility=volatility)
         item_blocks = build_blocks(item_ctx, sections, ctx.state, ctx.run_ts)
+        ingested += 1
         ctx.log.info("cdc page %s -> %d blocks", ref.source_id, len(item_blocks))
         blocks.extend(item_blocks)
+    ctx.log.info("cdc direct-page coverage: %d/%d seeded pages ingested", ingested, seeded)
     return blocks
 
 

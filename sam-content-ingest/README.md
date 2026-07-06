@@ -31,8 +31,21 @@ CLI flags: `--refresh` (bypass cache), `--limit N` (cap items per source), `--dr
 | `medication` | DailyMed | REST API v2 — `/spls` + `/spls/{SETID}.xml` (LOINC sections) | `public_domain` | ✅ |
 | `visit_prep` | MedlinePlus + AHRQ (static) | WS topic + one-time static "10 Questions" seed | `medlineplus_terms` / `us_gov` | ✅ |
 | `aging_home_safety` | MedlinePlus + CDC | WS topics + CDC via HHS syndication | `medlineplus_terms` / `us_gov` | ✅ |
-| `travel_health` | CDC | HHS Digital Media syndication | `us_gov` | ✅ |
+| `travel_health` | CDC + State Dept + TSA/FAA | ~200 CDC destination pages, Yellow Book chapters, State advisories (RSS) + country info, TSA/FAA transit rules + rxcui-linked drug overlay | `us_gov` | ✅ |
 | `household_readiness` | Ready.gov / FEMA | HTML pages + reprint PDFs (no API) | `us_gov` / `ready_gov_reprint` | ✅ |
+
+**Travel expansion (v1.2, PRD `docs/…Travel_Expansion_PRD.md`).** `travel_health` is a
+production corpus (~4,800 blocks) across three axes — destination, trip type, depth. Blocks
+carry travel facets: `geo` (country + ISO-3166 alpha-2), `trip_types`, and a freshness model
+(`volatility` ∈ evergreen/periodic/volatile, with `valid_until` required on volatile
+advisories, derived deterministically from the RSS pubDate + 180d). State advisories come
+from the Travel Advisories **RSS feed** (level captured as an `advisory_level_N` keyword);
+country-info pages are scraped best-effort (AEM structure varies — misses logged per §T9).
+TSA/FAA medication-in-transit blocks **link to DailyMed by `codes.rxcui`** (never copy label
+text). `stats` reports counts by volatility, distinct-country geo coverage, and trip_type;
+`validate --stale` flags volatile blocks past `valid_until`. The ~200-country destination
+seed and `core/countries.py` name→ISO2 map were generated with `pycountry` at build time
+(not a runtime dependency).
 
 **Bot-management note (Akamai/curl_cffi).** `www.ready.gov` and `api.digitalmedia.hhs.gov`
 (and `wwwnc.cdc.gov`/`www.cdc.gov`) sit behind Akamai bot management that 403s a plain HTTP

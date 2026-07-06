@@ -6,11 +6,14 @@ from pydantic import ValidationError
 from sam_ingest.core.schema import (
     Audience,
     Citation,
+    GeoScope,
     KnowledgeBlock,
     License,
     Provenance,
     Source,
+    TripType,
     UseCase,
+    Volatility,
     content_hash,
     slugify,
 )
@@ -49,6 +52,40 @@ def test_valid_block_roundtrips():
     b = _block()
     assert b.language == "en"
     assert KnowledgeBlock.model_validate_json(b.model_dump_json()).id == b.id
+
+
+def test_travel_facets_default_to_safe_values():
+    # Non-travel blocks get safe defaults so they validate unchanged (PRD §T3.2).
+    b = _block()
+    assert b.geo is None
+    assert b.trip_types == []
+    assert b.volatility == Volatility.evergreen
+    assert b.valid_until is None
+
+
+def test_volatile_requires_valid_until():
+    with pytest.raises(ValidationError):
+        _block(volatility=Volatility.volatile)  # no valid_until
+    # ok when valid_until present
+    ok = _block(volatility=Volatility.volatile, valid_until="2026-12-31")
+    assert ok.valid_until == "2026-12-31"
+
+
+def test_country_geo_requires_valid_iso2():
+    with pytest.raises(ValidationError):
+        _block(geo=GeoScope(scope="country", country_iso2="XX"))
+    good = _block(geo=GeoScope(scope="country", country_iso2="MX", country_name="Mexico"))
+    assert good.geo.country_iso2 == "MX"
+    # non-country scopes don't require an iso2
+    assert _block(geo=GeoScope(scope="global")).geo.scope == "global"
+
+
+def test_trip_types_and_facets_roundtrip():
+    b = _block(trip_types=[TripType.altitude, TripType.cruise],
+               volatility=Volatility.periodic)
+    rt = KnowledgeBlock.model_validate_json(b.model_dump_json())
+    assert rt.trip_types == [TripType.altitude, TripType.cruise]
+    assert rt.volatility == Volatility.periodic
 
 
 def test_summary_over_300_rejected():

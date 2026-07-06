@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Travel Advisories</title>
+    <item>
+      <title>Mexico - Level 2: Exercise Increased Caution</title>
+      <link>https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/mexico-travel-advisory.html</link>
+      <description>&lt;p&gt;&lt;b&gt;Exercise Increased Caution&lt;/b&gt; in Mexico due to &lt;b&gt;crime and kidnapping&lt;/b&gt;.&lt;/p&gt;&lt;p&gt;Some areas have increased risk; reconsider travel to certain states.&lt;/p&gt;</description>
+      <category>Level 2: Exercise Increased Caution</category>
+      <category>MX</category>
+      <category>advisory</category>
+      <pubDate>Mon, 15 Jun 2026</pubDate>
+    </item>
+    <item>
+      <title>Japan - Level 1: Exercise Normal Precautions</title>
+      <link>https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories/japan-travel-advisory.html</link>
+      <description>&lt;p&gt;&lt;b&gt;Exercise Normal Precautions&lt;/b&gt; in Japan.&lt;/p&gt;</description>
+      <category>Level 1: Exercise Normal Precautions</category>
+      <category>JA</category>
+      <category>advisory</category>
+      <pubDate>Tue, 10 Jun 2026</pubDate>
+    </item>
+  </channel>
+</rss>
