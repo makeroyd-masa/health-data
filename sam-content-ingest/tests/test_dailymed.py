@@ -23,17 +23,31 @@ class _FakeClient:
         return Response(url, self._payload, "application/json", from_cache=True)
 
 
-def test_resolve_picks_latest_spl_version():
+def test_active_ingredients_and_single():
+    from sam_ingest.adapters.dailymed import _active_ingredients, _is_single_ingredient
+
+    assert _is_single_ingredient("ACETAMINOPHEN (ACETAMINOPHEN) TABLET [X]")
+    assert not _is_single_ingredient("DAYQUIL (ACETAMINOPHEN, DEXTROMETHORPHAN) [X]")
+    assert not _is_single_ingredient("OXYCODONE AND ACETAMINOPHEN TABLET [X]")
+    assert _active_ingredients("IBUPROFEN (IBUPROFEN) TABLET [X]") == ["IBUPROFEN"]
+
+
+def test_resolve_picks_single_ingredient_latest_version():
     import json
 
     payload = (FIXTURES / "spls_ibuprofen.json").read_bytes()
+    # rxcui pre-set so no RxNorm network call in the unit test.
     a = DailyMedAdapter(client=_FakeClient(payload))
-    ref = a._resolve_one(name="ibuprofen", rxcui=None, prefer_generic=False)
+    ref = a._resolve_one(name="ibuprofen", rxcui="5640", prefer_generic=False)
     assert ref is not None and ref.source_id  # a SETID
     assert ref.url.endswith(".xml")
+    assert ref.meta["rxcui"] == "5640"
 
+    from sam_ingest.adapters.dailymed import _is_single_ingredient
     data = json.loads(payload)["data"]
-    assert int(ref.meta["spl_version"]) == max(int(d["spl_version"]) for d in data)
+    single = [d for d in data if _is_single_ingredient(d["title"])]
+    pool = single or data
+    assert int(ref.meta["spl_version"]) == max(int(d["spl_version"]) for d in pool)
 
 
 def test_parse_extracts_loinc_sections():

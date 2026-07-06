@@ -1,7 +1,7 @@
 ---
 attribution_text: Drug label information from DailyMed, U.S. National Library of Medicine.
 audience: patient
-content_hash: sha256:80e9475f7c9bdcc018a3d0ff10baba2c1a86db5b37dc116a6444eeaaab29d352
+content_hash: sha256:521e3999bda3d8933fca60e6c3b13b67ed9d7e15da1e977e49968523970ed816
 id: dailymed:venlafaxine:medication-guide
 keywords: []
 language: en
@@ -10,300 +10,270 @@ publisher: DailyMed (U.S. National Library of Medicine)
 section: Medication Guide
 source: dailymed
 source_last_updated: null
-source_url: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d7d1319c-500e-4ca0-83a1-a739cfa01cf7
-title: Venlafaxine Hydrochloride Capsule, Extended Release
+source_url: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=80ac757d-c629-4579-8afd-cae0ee9cd614
+title: Venlafaxine Tablet
 use_case: medication
 ---
 
-# Venlafaxine Hydrochloride Capsule, Extended Release — Medication Guide
+# Venlafaxine Tablet — Medication Guide
 
-Dispense with Medication Guide available at: www.epic-pharma.com/medguide/Venlafaxine-Hydrochloride-ER-Capsule.pdf 
-                               
-                               
-                                  MEDICATION GUIDE 
-                                  
-                                  Venlafaxine Hydrochloride (ven'' la fax' een hye'' droe klor' ide) 
-                               
-                               
-                                  Extended-Release Capsules
-What is the most important information I should know about venlafaxine hydrochloride extended-release capsules? 
-         Venlafaxine hydrochloride extended-release capsules may cause serious side effects, including:
-      
-                               
-                                  
-                                     Increased risk of suicidal thoughts and actions.  Venlafaxine hydrochloride extended-release capsules and other antidepressant medicines may increase suicidal thoughts and actions in some children, adolescents, and young adults,
-      
-        especially within the first few months of treatment or when the dose is changed. Venlafaxine hydrochloride extended-release capsules are not for use in children. 
-                                     
-                                        Depression or other serious mental illnesses are the most important causes of suicidal thoughts or actions. 
-                                     
-                                     How can I watch for and try to prevent suicidal thoughts and actions in myself or a family member? 
-                                     
-                                        Pay close attention to any changes, especially sudden changes, in mood, behaviors, thoughts, or feelings. This is very important when an antidepressant medicine is started or when the dose is changed. 
-                                        Call your healthcare provider right away to report new or sudden changes in mood, behavior, thoughts, or feelings. 
-                                        Keep all follow-up visits with your healthcare provider as scheduled. Call your healthcare provider between visits as needed, especially if you have concerns about symptoms. 
-                                     
-                                     Call your healthcare provider or get emergency help right away if you or a family member have any of the following symptoms, especially if they are new, worse, or worry you:
- | attempts to commit suicide 
-                                  acting aggressive, being angry, or violent 
-                                  new or worse depression 
-                                  panic attacks 
-                                  new or worse irritability 
-                                  an extreme increase in activity or talking (mania) | thoughts about suicide or dying 
-                                  acting on dangerous impulses 
-                                  new or worse anxiety 
-                                  feeling very agitated or restless 
-                                  trouble sleeping 
-                                  other unusual changes in behavior or mood
-What are venlafaxine hydrochloride extended-release capsules? 
-                                 Venlafaxine hydrochloride extended-release capsules are a prescription medicine used to treat adults with:
-    
-      
-                                  a certain type of depression called Major Depressive Disorder (MDD) 
-                                  Generalized Anxiety Disorder (GAD) 
-                                  Social Anxiety Disorder (SAD) 
-                                  Panic Disorder (PD) 
-                               It is not known if venlafaxine hydrochloride extended-release capsules are safe and effective for use in children.
-Do not take venlafaxine hydrochloride extended-release capsules if you: 
-                               
-                                  are allergic to venlafaxine hydrochloride, desvenlafaxine succinate, or any of the ingredients in venlafaxine hydrochloride extended-release capsules. See the end of this Medication Guide for a complete list of ingredients in venlafaxine hydrochloride extended-release capsules. 
-                                  take a Monoamine Oxidase Inhibitor (MAOI) 
-                                  have stopped taking an MAOI in the last 14 days 
-                                  are being treated with the antibiotic linezolid or intravenous methylene blue 
-                               
-                               Ask your healthcare provider or pharmacist if you are not sure if you take an MAOI, including MAOIs such as linezolid or intravenous methylene blue. 
-                               
-                                  
-                                  Do not start taking an MAOI for at least 7 days after you stop treatment with venlafaxine hydrochloride extended-release capsules.
-Before taking venlafaxine hydrochloride extended-release capsules tell your healthcare provider about all your medical conditions, including if you: 
-                               
-                                  have, or have a family history of suicide, bipolar disorder, depression, mania or hypomania 
-                                  have high blood pressure 
-                                  have heart problems 
-                                  have cerebrovascular problems or had a stroke 
-                                  have or have had bleeding problems 
-                                  have high pressure in the eye (glaucoma) 
-                                  have high cholesterol or high triglycerides 
-                                  have kidney or liver problems 
-                                  have or had seizures or convulsions 
-                                  have low sodium levels in your blood 
-                                  have lung problems 
-                                  drink alcohol 
-                                  are pregnant or plan to become pregnant. Venlafaxine hydrochloride extended-release capsules may harm your unborn baby. Talk to your healthcare provider about the risk to you and your unborn baby if you take venlafaxine hydrochloride extended-release capsules during pregnancy.
-      
-        
-                                        Tell your healthcare provider if you become pregnant or think you are pregnant during treatment with venlafaxine hydrochloride extended-release capsules. 
-                                        
-                                           Pregnancy Exposure Registry. There is a pregnancy registry for women who are exposed to venlafaxine hydrochloride extended-release capsules during pregnancy. The purpose of the registry is to collect information about the health of you and your baby. If you become pregnant during treatment with venlafaxine hydrochloride extended-release capsules, talk to your healthcare provider about registering with the National Pregnancy Registry for Antidepressants. You can register by calling 1-844-405-6185 or by visiting online at https://womensmentalhealth.org/research/pregnancyregistry/antidepressants.
-       
-         
-                                     
-                                  
-                                  are breastfeeding or plan to breastfeed. Venlafaxine hydrochloride passes into your breast milk and may harm your baby. Talk to your healthcare provider about the best way to feed your baby during treatment with venlafaxine hydrochloride extended-release capsules. 
-                               
-                               
-                                  Tell your healthcare provider about all the medicines you take, including prescription and over-the-counter medicines, vitamins, and herbal supplements.
-    
-      
-                               
-                                    Venlafaxine hydrochloride extended-release capsules and other medicines may affect each other causing possible serious side effects. Venlafaxine hydrochloride extended-release capsules may affect the way other medicines work and other medicines may affect the way venlafaxine hydrochloride extended-release capsules works.
-      
-                               
-                                  
-                                  Especially tell your healthcare provider if you take: 
-                               
-                               
-                                  medicines to treat migraine headaches known as triptans 
-                                  tricyclic antidepressants 
-                                  lithium 
-                                  tramadol, fentanyl, meperidine, methadone, or other opioids 
-                                  tryptophan 
-                                  buspirone 
-                                  amphetamines 
-                                  St. John's Wort 
-                                  phentermine 
-                                  other medicines containing desvenlafaxine or venlafaxine 
-                                  medicines that can affect blood clotting such as aspirin, nonsteroidal anti-inflammatory drugs (NSAIDs), warfarin 
-                               
-                               Ask your healthcare provider if you are not sure if you are taking any of these medicines. Your healthcare provider can tell you if it is safe to take venlafaxine hydrochloride extended-release capsules with your other medicines. 
-                               
-                                    Do not start or stop any other medicines during treatment with venlafaxine hydrochloride extended-release capsules without first talking to your healthcare provider. Stopping venlafaxine hydrochloride extended-release capsules suddenly may cause you to have serious side effects.
-     
-       See  
-                                  "What are the possible side effects of venlafaxine hydrochloride extended-release capsules?" 
-                               
-                               
-                                    Know the medicines you take. Keep a list of them to show to your healthcare provider and pharmacist when you get a new medicine.
-How should I take venlafaxine hydrochloride extended-release capsules? 
-                               
-                                  Take venlafaxine hydrochloride extended-release capsules exactly as your healthcare provider tells you to. Do not change your dose or stop taking venlafaxine hydrochloride extended-release capsules without first talking to your healthcare provider. 
-                                  Your healthcare provider may need to change the dose of venlafaxine hydrochloride extended-release capsules until it is the right dose for you. 
-                                  Take venlafaxine hydrochloride extended-release capsules 1 time each day with food. 
-                                  Venlafaxine hydrochloride extended-release capsules may be taken either in the morning or in the evening, but take it the same way each time. 
-                                  Swallow venlafaxine hydrochloride extended-release capsules whole with fluid. Do not divide, crush, chew, or dissolve venlafaxine hydrochloride extended-release capsules. 
-                                  If you cannot swallow venlafaxine hydrochloride extended-release capsules whole, the venlafaxine hydrochloride extended-release capsules may be opened and the entire contents sprinkled on a spoonful of applesauce.
-      
-        
-                                        Swallow the venlafaxine hydrochloride extended-release capsules and applesauce mixture right away without chewing. 
-                                        Follow with a glass of water to make sure you have swallowed all of the venlafaxine hydrochloride extended-release capsules pellets. 
-                                     
-                                  
-                                  If you take too much venlafaxine hydrochloride extended-release capsules, call your healthcare provider or poison control center at 1-800-222-1222 or go to the nearest hospital emergency room right away.
-What should I avoid while taking venlafaxine hydrochloride extended-release capsules? 
-                               
-                                  Do not drive, or operate heavy machinery, or do other dangerous activities until you know how venlafaxine hydrochloride extended-release capsules affect you. Venlafaxine hydrochloride extended-release capsules can make you drowsy. 
-                                  You should not drink alcohol during treatment with venlafaxine hydrochloride extended-release capsules. Drinking alcohol during treatment with venlafaxine hydrochloride extended-release capsules can increase your risk of having serious side effects.
-What are the possible side effects of venlafaxine hydrochloride extended-release capsules? 
-         venlafaxine hydrochloride extended-release capsules may cause serious side effects, including:
-      
-                               
-                                  
-                                     See "What is the most important information I should know about venlafaxine hydrochloride extended-release capsules?" 
-                                  
-                                  
-                                     Serotonin syndrome. Taking venlafaxine hydrochloride extended-release capsules can cause a potentially life-threatening problem called serotonin syndrome. The risk of developing serotonin syndrome is increased when venlafaxine hydrochloride extended-release capsules are taken with certain other medicines.
-      
-        See “Do not take venlafaxine hydrochloride extended-release capsules if you:” Stop taking venlafaxine hydrochloride extended-release capsules and call your healthcare provider or go to the nearest hospital emergency room right away if you have any of the following signs and symptoms of serotonin syndrome:
- | agitation 
-                                  confusion 
-                                  fast heartbeat 
-                                  dizziness 
-                                  flushing 
-                                  tremors, stiff muscles, or muscle twitching 
-                                  seizures | seeing or hearing things that are not real (hallucinations) 
-                                  coma 
-                                  changes in blood pressure 
-                                  sweating 
-                                  high body temperature (hyperthermia) 
-                                  loss of coordination 
-                                  nausea, vomiting, diarrhea
-Increases in blood pressure. Your healthcare provider should check your blood pressure before starting treatment and regularly during treatment with venlafaxine hydrochloride extended-release capsules. If you have high blood pressure, it should be controlled before you start treatment with venlafaxine hydrochloride extended-release capsules.
-     
-       
-                                  
-                                     Increased risk of bleeding. Taking venlafaxine hydrochloride extended-release capsules with aspirin, nonsteroidal anti-inflammatory drugs (NSAIDs), or blood thinners may add to this risk. Tell your healthcare provider right away about any unusual bleeding or bruising.
-     
-       
-                                  
-                                     Eye problems (angle-closure glaucoma).  Venlafaxine hydrochloride extended-release capsules may cause a certain type of eye problem called angle-closure glaucoma. You may want to undergo an eye examination to see if you are at risk and receive preventative treatment if you are. Call your healthcare provider if you have eye pain, changes in your vision, or swelling or redness in or around the eye
-      
-        . 
-                                  
-                                  
-                                     Manic episodes. Manic episodes may happen in people with bipolar disorder who take venlafaxine hydrochloride extended-release capsules. Symptoms may include:
- | greatly increased energy 
-                                  racing thoughts 
-                                  unusually grand ideas 
-                                  talking more or faster than usual | severe trouble sleeping 
-                                  reckless behavior 
-                                  excessive happiness or irritability
-Discontinuation syndrome. Suddenly stopping venlafaxine hydrochloride extended-release capsules may cause you to have serious side effects. Your healthcare provider may want to decrease your dose slowly. Symptoms may include:
- | dizziness 
-                                  irritability and agitation 
-                                  anxiety 
-                                  sweating 
-                                  seizures 
-                                  ringing in your ears (tinnitus) | nausea 
-                                  problems sleeping 
-                                  tiredness 
-                                  confusion 
-                                  electric shock sensation (paresthesia) | headache 
-                                  diarrhea 
-                                  abnormal dreams 
-                                  changes in your mood 
-                                  hypomania | 
-Seizures (convulsions). 
-                                  
-                                  
-                                     Low sodium levels in your blood (hyponatremia).  Low sodium levels can happen during treatment with venlafaxine hydrochloride extended-release capsules. Low sodium levels in your blood may be serious and may cause death. Elderly people may be at greater risk for this. Signs and symptoms of low sodium levels in your blood may include:
-      
-        
-                                        headache 
-                                        difficulty concentrating 
-                                        memory changes 
-                                        confusion 
-                                        weakness and unsteadiness on your feet which can lead to falls 
-                                     
-                                     In severe or more sudden cases, signs and symptoms include: 
-                                       o   hallucinations (seeing or hearing things that are not real) 
-          o   fainting 
-          o   seizures 
-          o   coma 
-          o   respiratory arrest
-     
-       
-                               
-                               
-                                  
-                                     Lung problems. Some people who have taken the medicine venlafaxine, which is the same kind of medicine as the medicine in venlafaxine hydrochloride extended-release capsules have had lung problems. Symptoms of lung problems include difficulty breathing, cough, or chest discomfort. Tell your healthcare provider right away if you have any of these symptoms.
-     
-       
-                                  
-                                     Sexual problems (dysfunction). Taking selective serotonin reuptake inhibitors (SNRIs), including venlafaxine hydrochloride extended-release capsules, may cause sexual problems. 
-        
-                                     Symptoms in males may include: 
-                                     
-                                        delayed ejaculation or inability to have an ejaculation 
-                                        decreased sex drive 
-                                        problems getting or keeping an erection 
-                                     
-                                     Symptoms in females may include: 
-                                     
-                                        decreased sex drive 
-                                        delayed orgasm or inability to have an orgasm 
-                                     Talk to your healthcare provider if you develop any changes in your sexual function or if you have any questions or concerns about sexual problems during treatment with venlafaxine hydrochloride extended-release capsules. There may be treatments your healthcare provider can suggest.
-Your healthcare provider may tell you to stop taking venlafaxine hydrochloride extended-release capsules if you develop serious side effects during treatment with venlafaxine hydrochloride extended-release capsules.
-The most common side effects of venlafaxine hydrochloride extended-release capsules include:
- | nausea 
-                                  dry mouth 
-                                  male and female sexual problems 
-                                  loss of appetite (anorexia) | sleepiness 
-                                  sweating 
-                                  constipation | 
-These are not all the possible side effects of venlafaxine hydrochloride extended-release capsules. 
-        Call your doctor for medical advice about side effects. You may report side effects to FDA at 1-800-FDA-1088.
-How should I store venlafaxine hydrochloride extended-release capsules? 
-                               
-                                  Store venlafaxine hydrochloride extended-release capsules at room temperature between 68°F to 77°F (20°C to 25°C). 
-                                  Keep venlafaxine hydrochloride extended-release capsules in a dry place. 
-                               
-                               Keep venlafaxine hydrochloride extended-release capsules and all medicines out of the reach of children.
-General information about the safe and effective use of venlafaxine hydrochloride extended-release capsules. 
-                                 Medicines are sometimes prescribed for purposes other than those listed in a Medication Guide. Do not use venlafaxine hydrochloride extended-release capsules for a condition for which it was not prescribed. Do not give venlafaxine hydrochloride extended-release capsules to other people, even if they have the same symptoms that you have. It may harm them. You can ask your healthcare provider or pharmacist for information about venlafaxine hydrochloride extended-release capsules that is written for healthcare professionals.
-What are the ingredients in venlafaxine hydrochloride extended-release capsules? 
-                               
-                               
-                                  Active ingredient: venlafaxine hydrochloride, USP
-    
-      
-                               
-                                  Inactive ingredients:  empty hard gelatin capsules, ethylcellulose, hypromellose, povidone, sugar spheres (composed of corn starch and sucrose) and talc.
-    
-      
-                               
-                               The 37.5 mg capsule shell contains red iron oxide, gelatin, and titanium dioxide. The 75 mg capsule shell contains black iron oxide, red iron oxide, gelatin, and titanium dioxide. The 150 mg capsule shell contains FD&C blue 1, FD&C red 3, FD&C yellow 6, gelatin, and titanium dioxide. 
-                               
-                               The imprinting ink contains black iron oxide, potassium hydroxide and shellac. 
-                               
-                               The brands listed are the registered trademarks of their respective owners. 
-                               
-                               This Medication Guide has been approved by the U.S. Food and Drug Administration for all antidepressants. 
-                               
-                               
-                                  Manufactured by: 
-                                    Yichang Humanwell Oral Solid Dosage Plant 
-         Yichang, Hubei, China 443001
-    
-      
-                               
-                               
-                               
-                                  Distributed by: 
-                                    Epic Pharma, LLC 
-         Laurelton, NY 11413
-    
-      
-                               
-                               
-                               LN0009 
-         Rev. 02-2024-00
+**MEDICATION GUIDE**
+
+Venlafaxine Tablets, USP
+
+(ven la fax een)
+
+Read the Medication Guide that comes with venlafaxine tablets before you start taking them and each time you get a refill. There may be new information. This Medication Guide does not take the place of talking to your healthcare provider about your medical condition or treatment. Talk with your healthcare provider if there is something you do not understand or want to learn more about.
+
+What is the most important information I should know about venlafaxine tablets?
+
+Venlafaxine tablets and other antidepressant medicines may cause serious side effects, including:
+
+1. Suicidal thoughts or actions:
+
+- Venlafaxine tablets and other antidepressant medicines may increase suicidal thoughts or actions in some children, teenagers, or young adults within the first few months of treatment or when the dose is changed.
+- Depression or other serious mental illnesses are the most important causes of suicidal thoughts or actions.
+- Watch for these changes and call your healthcare provider right away if you notice: New or sudden changes in mood, behavior, actions, thoughts, or feelings, especially if severe. Pay particular attention to such changes when venlafaxine tablets are started or when the dose is changed.
+
+Keep all follow-up visits with your healthcare provider and call between visits if you are worried about symptoms.
+
+Call your healthcare provider right away if you have any of the following symptoms, or call 911 if an emergency, especially if they are new, worse, or worry you:
+
+- attempts to commit suicide
+- acting on dangerous impulses
+- acting aggressive or violent
+- thoughts about suicide or dying
+- new or worse depression
+- new or worse anxiety or panic attacks
+- feeling agitated, restless, angry or irritable
+- trouble sleeping
+- an increase in activity or talking more than what is normal for you
+- other unusual changes in behavior or mood
+
+Call your healthcare provider right away if you have any of the following symptoms, or call 911 if an emergency. Venlafaxine tablets may be associated with these serious side effects:
+
+2. Serotonin Syndrome. This condition can be life-threatening and may include:
+
+- agitation, hallucinations, coma or other changes in mental status
+- coordination problems or muscle twitching (overactive reflexes)
+- racing heartbeat, high or low blood pressure
+- sweating or fever
+- nausea, vomiting, or diarrhea
+- muscle rigidity
+
+3. Changes in blood pressure. Venlafaxine tablets may:
+
+- increase your blood pressure. Control high blood pressure before starting treatment and monitor blood pressure regularly
+
+4. Enlarged pupils (mydriasis).
+
+5. Anxiety and insomnia.
+
+6. Changes in appetite or weight.
+
+- children and adolescents should have height and weight monitored during treatment
+
+7. Manic/hypomanic episodes:
+
+- greatly increased energy
+- severe trouble sleeping
+- racing thoughts
+- reckless behavior
+- unusually grand ideas
+- excessive happiness or irritability
+- talking more or faster than usual
+
+8. Low salt (sodium) levels in the blood.
+
+- Elderly people may be at greater risk for this. Symptoms may include:
+- headache
+- weakness or feeling unsteady
+- confusion, problems concentrating or thinking or memory problems
+
+9. Seizures or convulsions.
+
+10. Abnormal bleeding: Venlafaxine tablets and other antidepressant medicines may increase your risk of bleeding or bruising, especially if you take the blood thinner warfarin (Coumadin ® , Jantoven ® ), a non-steroidal anti- inflammatory drug (NSAIDs, like ibuprofen or naproxen), or aspirin.
+
+11. Elevated cholesterol.
+
+12. Lung disease and pneumonia: Venlafaxine tablets may cause rare lung problems. Symptoms include:
+
+- worsening shortness of breath
+- cough
+- chest discomfort
+
+13. Severe allergic reactions:
+
+- trouble breathing
+- swelling of the face, tongue, eyes or mouth
+- rash, itchy welts (hives) or blisters, alone or with fever or joint pain
+
+14. Visual problems:
+
+- eye pain
+- changes in vision
+- swelling or redness in or around the eye
+
+Only some people are at risk for these problems. You may want to undergo an eye examination to see if you are at risk and receive preventative treatment if you are.
+
+15. Sexual Problems (dysfunction).
+
+Taking serotonin and norepinephrine reuptake inhibitors (SNRIs), including venlafaxine hydrochloride, may cause sexual problems.
+
+Symptoms in males may include:
+
+- Delayed ejaculation or inability to have an ejaculation
+- Decreased sex drive
+- Problems getting or keeping an erection
+
+Symptoms in females may include:
+
+- Decreased sex drive
+- Delayed orgasm or inability to have an orgasm
+
+Talk to your healthcare provider if you develop any changes in your sexual function or if you have any questions or concerns about sexual problems during treatment with venlafaxine hydrochloride. There may be treatments your healthcare provider can suggest.
+
+Do not stop venlafaxine tablets without first talking to your healthcare provider. Stopping venlafaxine tablets too quickly or changing from another antidepressant too quickly may cause serious symptoms including:
+
+- anxiety, irritability
+- feeling tired, restless or problems sleeping
+- headache, sweating, dizziness
+- electric shock-like sensations, shaking, confusion, nightmares
+- vomiting, nausea, diarrhea
+
+What are venlafaxine tablets?
+
+Venlafaxine tablets are a prescription medicine used to treat depression. It is important to talk with your healthcare provider about the risks of treating depression and also the risks of not treating it. You should discuss all treatment choices with your healthcare provider.
+
+Talk to your healthcare provider if you do not think that your condition is getting better with venlafaxine tablets treatment.
+
+Who should not take venlafaxine tablets?
+
+Do not take venlafaxine tablets if you:
+
+- are allergic to venlafaxine tablets or any of the ingredients in venlafaxine tablets . See the end of this Medication Guide for a complete list of ingredients in venlafaxine tablets .
+- have uncontrolled narrow-angle glaucoma
+- take a Monoamine Oxidase Inhibitor (MAOI). Ask your healthcare provider or pharmacist if you are not sure if you take an MAOI, including the antibiotic linezolid.
+
+● Do not take an MAOI within 7 days of stopping venlafaxine tablets unless directed to do so by your physician.
+
+● Do not start venlafaxine tablets if you stopped taking an MAOI in the last 2 weeks unless directed to do so by your physician.
+
+People who take venlafaxine tablets close in time to an MAOI may have serious or even life-threatening side effects. Get medical help right away if you have any of these symptoms:
+
+- high fever
+- uncontrolled muscle spasms
+- stiff muscles
+- rapid changes in heart rate or blood pressure
+- confusion
+- loss of consciousness (pass out)
+
+What should I tell my healthcare provider before taking venlafaxine tablets? Ask if you are not sure.
+
+Before starting venlafaxine tablets , tell your healthcare provider if you:
+
+- Are taking certain drugs such as: Amphetamines Medicines used to treat migraine headaches such as: triptans Medicines used to treat mood, anxiety, psychotic or thought disorders, such as: tricyclic antidepressants lithium SSRIs SNRIs antipsychotic drugs Medicines used to treat pain such as: tramadol meperidine methadone or other opioids Medicines used to thin your blood such as: warfarin Medicines used to treat heartburn such as: Cimetidine Over-the-counter medicines or supplements such as: Aspirin or other NSAIDs Tryptophan St. John's Wort
+- have heart problems
+- have diabetes
+- have liver problems
+- have kidney problems
+- have thyroid problems
+- have glaucoma
+- have or had seizures or convulsions
+- have bipolar disorder or mania
+- have low sodium levels in your blood
+- have high blood pressure
+- have high cholesterol
+- have or had bleeding problems
+- are pregnant or plan to become pregnant. It is not known if venlafaxine tablets will harm your unborn baby. Talk to your healthcare provider about the benefits and risks of treating depression during pregnancy
+- are breast-feeding or plan to breast- feed. Some venlafaxine hydrochloride may pass into your breast milk. Talk to your healthcare provider about the best way to feed your baby while taking venlafaxine tablets.
+
+Tell your healthcare provider about all the medicines that you take, including prescription and non-prescription medicines, vitamins, and herbal supplements. Venlafaxine tablets and some medicines may interact with each other, may not work as well, or may cause serious side effects. Your healthcare provider or pharmacist can tell you if it is safe to take venlafaxine tablets with your other medicines. Do not start or stop any medicine while taking venlafaxine tablets without talking to your healthcare provider first.
+
+If you take   venlafaxine tablets , you should not take any other medicines that contain (venlafaxine) including: venlafaxine HCL.
+
+How should I take venlafaxine tablets?
+
+- Take venlafaxine tablets exactly as prescribed. Your healthcare provider may need to change the dose of venlafaxine tablets until it is the right dose for you.
+- Venlafaxine tablets is to be taken with food.
+- If you miss a dose of venlafaxine tablets , take the missed dose as soon as you remember. If it is almost time for the next dose, skip the missed dose and take your next dose at the regular time. Do not take two doses of venlafaxine tablets at the same time.
+- If you take too much venlafaxine tablets , call your healthcare provider or poison control center right away, or get emergency treatment.
+- When switching from another antidepressant to venlafaxine tablets your doctor may want to lower the dose of the initial antidepressant first to avoid side effects
+
+What should I avoid while taking venlafaxine tablets?
+
+Venlafaxine tablets can cause sleepiness or may affect your ability to make decisions, think clearly, or react quickly. You should not drive, operate heavy machinery, or do other dangerous activities until you know how venlafaxine tablets affects you. Do not drink alcohol while using venlafaxine tablets .
+
+What are the possible side effects of venlafaxine tablets?
+
+Venlafaxine tablets may cause serious side effects, including:
+
+- See "What is the most important information I should know about venlafaxine tablets ?"
+- Increased cholesterol- have your cholesterol checked regularly
+- Newborns whose mothers take venlafaxine tablets in the third trimester may have problems right after birth including:
+
+● problems feeding and breathing
+
+● seizures
+
+● shaking, jitteriness or constant crying
+
+- Narrow-angle glaucoma/enlarged pupils. Check eye pressure regularly if you:
+
+● have a history of increased eye pressure
+
+● are at risk for certain types of glaucoma
+
+Common possible side effects in people who take venlafaxine tablets include:
+
+- unusual dreams
+- sexual problems
+- loss of appetite, constipation, diarrhea, nausea or vomiting, or dry mouth
+- feeling tired, fatigued or overly sleepy
+- change in sleep habits, problems sleeping
+- yawning
+- tremor or shaking
+- dizziness, blurred vision
+- sweating
+- feeling anxious, nervous or jittery
+- headache
+- increase in heart rate
+
+Tell your healthcare provider if you have any side effect that bothers you or that does not go away. These are not all the possible side effects of venlafaxine tablets. For more information, ask your healthcare provider or pharmacist.
+
+CALL YOUR DOCTOR FOR MEDICAL ADVICE ABOUT SIDE EFFECTS. YOU MAY REPORT SIDE EFFECTS TO AVET PHARMACEUTICALS INC. AT 1-866-901-DRUG (3784) OR TO THE FDA AT 1-800-FDA-1088.
+
+How should I store venlafaxine tablets?
+
+- Store venlafaxine tablets at room temperature between 68°F and 77°F (20°C to 25°C).
+- Keep venlafaxine tablets in a dry place.
+
+Keep venlafaxine tablets and all medicines out of the reach of children.
+
+General information about venlafaxine tablets
+
+Medicines are sometimes prescribed for purposes other than those listed in a Medication Guide. Do not use venlafaxine tablets for a condition for which it was not prescribed. Do not give venlafaxine tablets to other people, even if they have the same condition. They may harm them.
+
+This Medication Guide summarizes the most important information about venlafaxine tablets . If you would like more information, talk with your healthcare provider. You may ask your healthcare provider or pharmacist for information about venlafaxine tablets that is written for healthcare professionals.
+
+For more information about venlafaxine tablets call 1-866-901-3784.
+
+What are the ingredients in venlafaxine tablets?
+
+Active ingredient: venlafaxine hydrochloride, USP
+
+Inactive ingredients: croscarmellose sodium, FD & C yellow # 6 aluminium lake, hypromellose, lactose monohydrate, polyethylene glycol, magnesium stearate, microcrystalline cellulose, povidone and titanium dioxide
+
+This Medication Guide has been approved by the U.S. Food and Drug Administration for all antidepressants.
+
+The brands listed are the registered trademarks of their respective owners.
+
+Dispense with Medication Guide available at: www.avetpharma.com/product.
+
+Manufactured by: Cohance Lifesciences Limited Telangana-500 076, INDIA.
+
+Manufactured for: Avet Pharmaceuticals Inc. East Brunswick, NJ 08816 1.866.901.DRUG (3784)
+
+Revised: 12/2023
+
+image description

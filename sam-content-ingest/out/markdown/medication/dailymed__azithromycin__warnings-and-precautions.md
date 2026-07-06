@@ -1,7 +1,7 @@
 ---
 attribution_text: Drug label information from DailyMed, U.S. National Library of Medicine.
 audience: patient
-content_hash: sha256:730da60d345e873ecfe46f83641882764a9fa6a398b52452bd327453af69528f
+content_hash: sha256:96a857ac33d6eec6a6dbbf765638f01da4d2e5b6ec51ee4a286a22ac262059a3
 id: dailymed:azithromycin:warnings-and-precautions
 keywords: []
 language: en
@@ -10,26 +10,27 @@ publisher: DailyMed (U.S. National Library of Medicine)
 section: Warnings and Precautions
 source: dailymed
 source_last_updated: null
-source_url: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b5d79719-b1dc-469f-a19c-f8ba615138f0
-title: Azithromycin Tablet, Film Coated
+source_url: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=db52b91e-79f7-4cc1-9564-f2eee8e31c45
+title: Zithromax (Azithromycin Dihydrate) Tablet, Film Coated Zithromax (Azithromycin
+  Dihydrate) Powder, For Suspension
 use_case: medication
 ---
 
-# Azithromycin Tablet, Film Coated — Warnings and Precautions
+# Zithromax (Azithromycin Dihydrate) Tablet, Film Coated Zithromax (Azithromycin Dihydrate) Powder, For Suspension — Warnings and Precautions
 
 **5 WARNINGS AND PRECAUTIONS**
 
-- Serious (including fatal) allergic and skin reactions: Discontinue azithromycin if reaction occurs. ( 5.1 )
-- Hepatotoxicity: Severe, and sometimes fatal, hepatotoxicity has been reported. Discontinue azithromycin immediately if signs and symptoms of hepatitis occur. ( 5.2 )
-- Infantile Hypertrophic Pyloric Stenosis (IHPS): Following the use of azithromycin in neonates (treatment up to 42 days of life), IHPS has been reported. Direct parents and caregivers to contact their physician if vomiting or irritability with feeding occurs. ( 5.3 )
-- Prolongation of QT interval and cases of torsades de pointes have been reported. This risk which can be fatal should be considered in patients with certain cardiovascular disorders including known QT prolongation or history torsades de pointes, those with proarrhythmic conditions, and with other drugs that prolong the QT interval. ( 5.4 )
-- Cardiovascular Death: Some observational studies have shown an approximately two-fold increased short-term potential risk of acute cardiovascular death in adults exposed to azithromycin relative to other antibacterial drugs, including amoxicillin. Consider balancing this potential risk with treatment benefits when prescribing azithromycin. ( 5.5 )
-- Clostridioides difficile -Associated Diarrhea: Evaluate patients if diarrhea occurs. ( 5.6 )
-- Azithromycin may exacerbate muscle weakness in persons with myasthenia gravis. ( 5.7 )
+- • Serious (including fatal) allergic and skin reactions: Discontinue ZITHROMAX if reaction occurs. ( 5.1 )
+- • Hepatotoxicity: Severe, and sometimes fatal, hepatotoxicity has been reported. Discontinue ZITHROMAX immediately if signs and symptoms of hepatitis occur. ( 5.2 )
+- • Infantile Hypertrophic Pyloric Stenosis (IHPS): Following the use of azithromycin in neonates (treatment up to 42 days of life), IHPS has been reported. Direct parents and caregivers to contact their physician if vomiting or irritability with feeding occurs. ( 5.3 )
+- • Prolongation of QT interval and cases of torsades de pointes have been reported. This risk which can be fatal should be considered in patients with certain cardiovascular disorders including known QT prolongation or history torsades de pointes, those with proarrhythmic conditions, and with other drugs that prolong the QT interval. ( 5.4 )
+- • Cardiovascular Death: Some observational studies have shown an approximately two-fold increased short-term potential risk of acute cardiovascular death in adults exposed to azithromycin relative to other antibacterial drugs, including amoxicillin. Consider balancing this potential risk with treatment benefits when prescribing ZITHROMAX. ( 5.5 )
+- • Clostridioides difficile -Associated Diarrhea: Evaluate patients if diarrhea occurs. ( 5.6 )
+- • ZITHROMAX may exacerbate muscle weakness in persons with myasthenia gravis. ( 5.7 )
 
 **5.1 Hypersensitivity**
 
-Serious allergic reactions, including angioedema, anaphylaxis, and dermatologic reactions including Acute Generalized Exanthematous Pustulosis (AGEP), Stevens-Johnson syndrome, and toxic epidermal necrolysis have been reported in patients on azithromycin therapy. [see Contraindications ( 4.1 )]
+Serious allergic reactions, including angioedema, anaphylaxis, and dermatologic reactions including Acute Generalized Exanthematous Pustulosis (AGEP), Stevens-Johnson syndrome, and toxic epidermal necrolysis have been reported in patients on azithromycin therapy. [see Contraindications (4.1) ]
 
 Fatalities have been reported. Cases of Drug Reaction with Eosinophilia and Systemic Symptoms (DRESS) have also been reported. Despite initially successful symptomatic treatment of the allergic symptoms, when symptomatic therapy was discontinued, the allergic symptoms recurred soon thereafter in some patients without further azithromycin exposure. These patients required prolonged periods of observation and symptomatic treatment. The relationship of these episodes to the long tissue half-life of azithromycin and subsequent prolonged exposure to antigen is presently unknown.
 
@@ -47,19 +48,19 @@ Following the use of azithromycin in neonates (treatment up to 42 days of life),
 
 Prolonged cardiac repolarization and QT interval, imparting a risk of developing cardiac arrhythmia and torsades de pointes, have been seen with treatment with macrolides, including azithromycin. Cases of torsades de pointes have been spontaneously reported during postmarketing surveillance in patients receiving azithromycin. Providers should consider the risk of QT prolongation which can be fatal when weighing the risks and benefits of azithromycin for at-risk groups including:
 
-- patients with known prolongation of the QT interval, a history of torsades de pointes, congenital long QT syndrome, bradyarrhythmias or uncompensated heart failure
-- patients on drugs known to prolong the QT interval
-- patients with ongoing proarrhythmic conditions such as uncorrected hypokalemia or hypomagnesemia, clinically significant bradycardia, and in patients receiving Class IA (quinidine, procainamide) or Class III (dofetilide, amiodarone, sotalol) antiarrhythmic agents.
+- • patients with known prolongation of the QT interval, a history of torsades de pointes, congenital long QT syndrome, bradyarrhythmias or uncompensated heart failure
+- • patients on drugs known to prolong the QT interval
+- • patients with ongoing proarrhythmic conditions such as uncorrected hypokalemia or hypomagnesemia, clinically significant bradycardia, and in patients receiving Class IA (quinidine, procainamide) or Class III (dofetilide, amiodarone, sotalol) antiarrhythmic agents.
 
 Elderly patients may be more susceptible to drug-associated effects on the QT interval.
 
 **5.5 Cardiovascular Death**
 
-Some observational studies have shown an approximately two-fold increased short-term potential risk of acute cardiovascular death in adults exposed to azithromycin relative to other antibacterial drugs, including amoxicillin. The five-day cardiovascular mortality observed in these studies ranged from 20 to 400 per million azithromycin treatment courses. This potential risk was noted to be greater during the first five days of azithromycin use and does not appear to be limited to those patients with preexisting cardiovascular diseases. The data in these observational studies are insufficient to establish or exclude a causal relationship between acute cardiovascular death and azithromycin use. Consider balancing this potential risk with treatment benefits when prescribing azithromycin.
+Some observational studies have shown an approximately two-fold increased short-term potential risk of acute cardiovascular death in adults exposed to azithromycin relative to other antibacterial drugs, including amoxicillin. The five-day cardiovascular mortality observed in these studies ranged from 20 to 400 per million azithromycin treatment courses. This potential risk was noted to be greater during the first five days of azithromycin use and does not appear to be limited to those patients with preexisting cardiovascular diseases. The data in these observational studies are insufficient to establish or exclude a causal relationship between acute cardiovascular death and azithromycin use. Consider balancing this potential risk with treatment benefits when prescribing ZITHROMAX.
 
 **5.6 Clostridioides difficile- Associated Diarrhea (CDAD)**
 
-Clostridioides difficile -associated diarrhea has been reported with use of nearly all antibacterial agents, including azithromycin, and may range in severity from mild diarrhea to fatal colitis. Treatment with antibacterial agents alters the normal flora of the colon, leading to overgrowth of C. difficile .
+Clostridioides difficile -associated diarrhea has been reported with use of nearly all antibacterial agents, including ZITHROMAX, and may range in severity from mild diarrhea to fatal colitis. Treatment with antibacterial agents alters the normal flora of the colon, leading to overgrowth of C. difficile .
 
 C. difficile produces toxins A and B which contribute to the development of CDAD. Hypertoxin producing strains of C. difficile cause increased morbidity and mortality, as these infections can be refractory to antibacterial therapy and may require colectomy. CDAD must be considered in all patients who present with diarrhea following antibiotic use. Careful medical history is necessary since CDAD has been reported to occur over two months after the administration of antibacterial agents.
 
@@ -71,8 +72,8 @@ Exacerbation of symptoms of myasthenia gravis and new onset of myasthenic syndro
 
 **5.8 Use in Sexually Transmitted Infections**
 
-Azithromycin, at the recommended dose, should not be relied upon to treat syphilis. Antibacterial agents used to treat non-gonococcal urethritis may mask or delay the symptoms of incubating syphilis. All patients with sexually transmitted urethritis or cervicitis should have a serologic test for syphilis and appropriate testing for gonorrhea performed at the time of diagnosis. Appropriate antibacterial therapy and follow-up tests for these diseases should be initiated if infection is confirmed.
+ZITHROMAX, at the recommended dose, should not be relied upon to treat syphilis. Antibacterial agents used to treat non-gonococcal urethritis may mask or delay the symptoms of incubating syphilis. All patients with sexually transmitted urethritis or cervicitis should have a serologic test for syphilis and appropriate testing for gonorrhea performed at the time of diagnosis. Appropriate antibacterial therapy and follow-up tests for these diseases should be initiated if infection is confirmed.
 
 **5.9 Development of Drug-Resistant Bacteria**
 
-Prescribing azithromycin in the absence of a proven or strongly suspected bacterial infection is unlikely to provide benefit to the patient and increases the risk of the development of drug‑resistant bacteria.
+Prescribing ZITHROMAX in the absence of a proven or strongly suspected bacterial infection is unlikely to provide benefit to the patient and increases the risk of the development of drug-resistant bacteria.

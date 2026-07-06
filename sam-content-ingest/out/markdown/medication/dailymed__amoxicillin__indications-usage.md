@@ -1,7 +1,7 @@
 ---
 attribution_text: Drug label information from DailyMed, U.S. National Library of Medicine.
 audience: patient
-content_hash: sha256:9da7363e3900d0e54dc1b979f63c28fb3e92e39321d455ef9133d98dc6d37b1e
+content_hash: sha256:b0d6424dd01f8e477006539f66beb4149c9d5b385fc46cc349f6a9cdcc84a22d
 id: dailymed:amoxicillin:indications-usage
 keywords: []
 language: en
@@ -10,32 +10,49 @@ publisher: DailyMed (U.S. National Library of Medicine)
 section: Indications & Usage
 source: dailymed
 source_last_updated: null
-source_url: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=0c2d1fbc-f80c-4737-a15e-9cfa6bf99769
-title: Amoxicillin And Clavulanate Potassium (Amoxicillin And Clavulanate Potassium)
-  Tablet, Film Coated
+source_url: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=4fb7837e-964c-4d38-a3a5-b384b1bd6e08
+title: Amoxicillin Capsule
 use_case: medication
 ---
 
-# Amoxicillin And Clavulanate Potassium (Amoxicillin And Clavulanate Potassium) Tablet, Film Coated — Indications & Usage
+# Amoxicillin Capsule — Indications & Usage
 
 **1 INDICATIONS AND USAGE**
 
-Amoxicillin and clavulanate potassium tablets are indicated for the treatment of infections in adults and pediatric patients, due to susceptible isolates of the designated bacteria in the conditions listed below:
+Adults and Pediatric Patients
 
-• Lower Respiratory Tract Infections - caused by beta‑lactamase‑producing isolates of Haemophilus influenzae and Moraxella catarrhalis . • Acute Bacterial Otitis Media - caused by beta‑lactamase‑producing isolates of H. influenzae and M. catarrhalis . • Sinusitis - caused by beta‑lactamase‑producing isolates of H. influenzae and M. catarrhalis . • Skin and Skin Structure Infections - caused by beta‑lactamase‑producing isolates of Staphylococcus aureus, Escherichia coli, and Klebsiella species. • Urinary Tract Infections - caused by beta‑lactamase‑producing isolates of E. coli, Klebsiella species, and Enterobacter species. Limitations of Use When susceptibility test results show susceptibility to amoxicillin, indicating no beta-lactamase production, amoxicillin and clavulanate potassium tablets should not be used. Usage To reduce the development of drug‑resistant bacteria and maintain the effectiveness of amoxicillin and clavulanate potassium tablets and other antibacterial drugs, amoxicillin and clavulanate potassium tablets should be used only to treat or prevent infections that are proven or strongly suspected to be caused by susceptible bacteria. When culture and susceptibility information are available, they should be considered in selecting or modifying antibacterial therapy. In the absence of such data, local epidemiology and susceptibility patterns may contribute to the empiric selection of therapy.
+- • Upper Respiratory Tract Infections of the Ear, Nose, and Throat: Amoxicillin capsules are indicated in the treatment of infections due to susceptible (ONLY β-lactamase–negative) isolates of Streptococcus species. (α-and β‑-hemolytic isolates only), Streptococcus pneumoniae , Staphylococcus spp. , or Haemophilus influenzae .
+- • Infections of the Genitourinary Tract : Amoxicillin capsules are indicated in the treatment of infections due to susceptible (ONLY β-lactamase–negative) isolates of Escherichia coli, Proteus mirabilis , or Enterococcus faecalis .
+- • Infections of the Skin and Skin Structure: Amoxicillin capsules are indicated in the treatment of infections due to susceptible (ONLY β-lactamase–negative) isolates of Streptococcus spp. (α-and β-hemolytic isolates only), Staphylococcus spp., or E. coli.
+- • Infections of the Lower Respiratory Tract: Amoxicillin capsules are indicated in the treatment of infections due to susceptible (ONLY β-lactamase–negative) isolates of Streptococcus spp. (α-and β-hemolytic isolates only), S. pneumoniae, Staphylococcus spp., or H. influenzae .
 
-Amoxicillin and clavulanate potassium tablets are a combination of amoxicillin, a penicillin-class antibacterial and clavulanate potassium, a beta‑lactamase inhibitor indicated for treatment of the following infections in adults and pediatric patients: ( 1 )
+Adult Patients only
 
-- Lower respiratory tract infections
-- Acute bacterial otitis media
-- Sinusitis
-- Skin and skin structure infections
-- Urinary tract infections
+• Helicobacter pylori Infection and Duodenal Ulcer Disease:
 
-Limitations of Use
+Triple therapy for Helicobacter pylori (H. pylori) with clarithromycin and lansoprazole : Amoxicillin, in combination with clarithromycin plus lansoprazole as triple therapy, is indicated for the treatment of patients with H. pylori infection and duodenal ulcer disease (active or 1-year history of a duodenal ulcer) to eradicate H. pylori . Eradication of H. pylori has been shown to reduce the risk of duodenal ulcer recurrence.
 
-When susceptibility test results show susceptibility to amoxicillin, indicating no beta-lactamase production, amoxicillin and clavulanate potassium tablets should not be used. ( 1 )
+Dual therapy for H. pylori with lansoprazole :
+
+Amoxicillin, in combination with lansoprazole delayed-release capsules as dual therapy, is indicated for the treatment of patients with H. pylori infection and duodenal ulcer disease (active or 1-year history of a duodenal ulcer) who are either allergic or intolerant to clarithromycin or in whom resistance to clarithromycin is known or suspected . (See the clarithromycin package insert, MICROBIOLOGY.) Eradication of H. pylori has been shown to reduce the risk of duodenal ulcer recurrence.
 
 Usage
 
-To reduce the development of drug-resistant bacteria and maintain the effectiveness of amoxicillin and clavulanate potassium tablets and other antibacterial drugs, amoxicillin and clavulanate potassium tablets should be used only to treat or prevent infections that are proven or strongly suspected to be caused by bacteria. ( 1 )
+To reduce the development of drug-resistant bacteria and maintain the effectiveness of amoxicillin and other antibacterial drugs, amoxicillin should be used only to treat infections that are proven or strongly suspected to be caused by bacteria. When culture and susceptibility information are available, they should be considered in selecting or modifying antibacterial therapy. In the absence of such data, local epidemiology and susceptibility patterns may contribute to the empiric selection of therapy.
+
+Amoxicillin is a penicillin-class antibacterial indicated for treatment of infections due to susceptible strains of designated microorganisms. ( 1 )
+
+Adults and Pediatric Patients ( 1 )
+
+- • Upper Respiratory Tract Infections of the Ear, Nose, and Throat.
+- • Infections of the Genitourinary Tract
+- • Infections of the Skin and Skin Structure
+- • Infections of the Lower Respiratory Tract
+
+Adult Patients only ( 1 )
+
+- • Helicobacter pylori Infection and Duodenal Ulcer Disease
+
+Usage
+
+To reduce the development of drug-resistant bacteria and maintain the effectiveness of amoxicillin capsules and other antibacterial drugs, amoxicillin capsules should be used only to treat or prevent infections that are proven or strongly suspected to be caused by bacteria. ( 1 )

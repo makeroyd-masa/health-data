@@ -10,7 +10,7 @@ publisher: DailyMed (U.S. National Library of Medicine)
 section: Contraindications
 source: dailymed
 source_last_updated: null
-source_url: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=a1997b48-8d66-437a-a253-ca996331b0c3
+source_url: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=bd77ec6e-c58c-440b-81d6-8a462b2fdc9c
 title: Metoprolol Succinate Tablet, Extended Release
 use_case: medication
 ---

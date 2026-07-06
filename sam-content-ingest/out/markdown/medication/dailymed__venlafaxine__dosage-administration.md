@@ -1,7 +1,7 @@
 ---
 attribution_text: Drug label information from DailyMed, U.S. National Library of Medicine.
 audience: patient
-content_hash: sha256:806ed4dd58aba8fc0f4c2e049b7372bf8ac26f675dabc380b96af022f852a714
+content_hash: sha256:7cbec176ab855c0fb31f6638868dca7257283ffd86a0220b63b019d172febb5a
 id: dailymed:venlafaxine:dosage-administration
 keywords: []
 language: en
@@ -10,76 +10,53 @@ publisher: DailyMed (U.S. National Library of Medicine)
 section: Dosage & Administration
 source: dailymed
 source_last_updated: null
-source_url: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d7d1319c-500e-4ca0-83a1-a739cfa01cf7
-title: Venlafaxine Hydrochloride Capsule, Extended Release
+source_url: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=80ac757d-c629-4579-8afd-cae0ee9cd614
+title: Venlafaxine Tablet
 use_case: medication
 ---
 
-# Venlafaxine Hydrochloride Capsule, Extended Release — Dosage & Administration
+# Venlafaxine Tablet — Dosage & Administration
 
-**2 DOSAGE AND ADMINISTRATION**
+**DOSAGE AND ADMINISTRATION**
 
-Indication | Starting Dose | Target Dose | Maximum Dose
-MDD (
-    
-        2.2 ) | 37.5 to 75 mg/day | 75 mg/day | 225 mg/day
-GAD (
-    
-        2.3 ) | 37.5 to75 mg/day | 75 mg/day | 225 mg/day
-SAD (
-    
-        2.4 ) | 75 mg/day | 75 mg/day | 75 mg/day
-PD (
-    
-        2.5 ) | 37.5 mg/day | 75 mg/day | 225 mg/day
+**Initial Treatment**
 
-- Take once daily with food. Capsules should be taken whole; do not divide, crush, chew, or dissolve ( 2.1 ).
-- When discontinuing treatment, reduce the dose gradually ( 2.10 , 5.7 ).
-- Renal impairment: reduce the total daily dose by 25% to 50% in patients with renal impairment. Reduce the total daily dose by 50% or more in patients undergoing dialysis or with severe renal impairment ( 2.9 ).
-- Hepatic impairment: reduce the daily dose by 50% in patients with mild to moderate hepatic impairment. In patients with severe hepatic impairment or hepatic cirrhosis, it may be necessary to reduce the dose by more than 50% ( 2.8 ).
+The recommended starting dose for venlafaxine tablets, USP is 75 mg/day, administered in two or three divided doses, taken with food. Depending on tolerability and the need for further clinical effect, the dose may be increased to 150 mg/day. If needed, the dose should be further increased up to 225 mg/day. When increasing the dose, increments of up to 75 mg/day should be made at intervals of no less than 4 days. In outpatient settings there was no evidence of usefulness of doses greater than 225 mg/day for moderately depressed patients, but more severely depressed inpatients responded to a mean dose of 350 mg/day. Certain patients, including more severely depressed patients, may therefore respond more to higher doses, up to a maximum of 375 mg/day, generally in three divided doses (see PRECAUTIONS, General , Use in Patients with Concomitant Illness ).
 
-**2.1 General Administration Information**
+**Special Populations**
 
-Administer venlafaxine hydrochloride extended-release capsules as a single dose with food, either in the morning or in the evening at approximately the same time each day [see Clinical Pharmacology (12.3) ] . Swallow capsules whole with fluid. Do not divide, crush, chew, or place in water.
+Treatment of Pregnant Women During the Third Trimester
 
-The capsule may also be administered by carefully opening the capsule and sprinkling the entire contents on a spoonful of applesauce. This drug/food mixture should be swallowed immediately without chewing and followed with a glass of water to ensure complete swallowing of the pellets (spheroids).
+Neonates exposed to venlafaxine tablets, other SNRIs, or SSRIs, late in the third trimester have developed complications requiring prolonged hospitalization, respiratory support, and tube feeding (see PRECAUTIONS ). When treating pregnant women with venlafaxine tablets during the third trimester, the physician should carefully consider the potential risks and benefits of treatment.
 
-**2.2 Major Depressive Disorder**
+Dosage for Patients with Hepatic Impairment
 
-For most patients, the recommended starting dose for venlafaxine hydrochloride extended-release capsules is 75 mg per day, administered in a single dose. For some patients, it may be desirable to start at 37.5 mg per day for 4 to 7 days to allow new patients to adjust to the medication before increasing to 75 mg per day. Patients not responding to the initial 75 mg per day dose may benefit from dose increases to a maximum of 225 mg per day. Dose increases should be in increments of up to 75 mg per day, as needed, and should be made at intervals of not less than 4 days. In the clinical studies establishing efficacy, upward titration was permitted at intervals of 2 weeks or more.
+Given the decrease in clearance and increase in elimination half-life for both venlafaxine and ODV that is observed in patients with hepatic cirrhosis and mild and moderate hepatic impairment compared to normal subjects (see CLINICAL PHARMACOLOGY ), it is recommended that the total daily dose be reduced by 50% in patients with mild to moderate hepatic impairment. Since there was much individual variability in clearance between subjects with cirrhosis, it may be necessary to reduce the dose even more than 50%, and individualization of dosing may be desirable in some patients.
 
-**2.3 Generalized Anxiety Disorder**
+Dosage for Patients with Renal Impairment
 
-For most patients, the recommended starting dose for venlafaxine hydrochloride extended-release capsules is 75 mg per day, administered in a single dose. For some patients, it may be desirable to start at 37.5 mg per day for 4 to 7 days to allow new patients to adjust to the medication before increasing to 75 mg per day. Patients not responding to the initial 75 mg per day dose may benefit from dose increases to a maximum of 225 mg per day. Dose increases should be in increments of up to 75 mg per day, as needed, and should be made at intervals of not less than 4 days.
+Given the decrease in clearance for venlafaxine and the increase in elimination half-life for both venlafaxine and ODV that is observed in patients with renal impairment (GFR = 10 to 70 mL/min) compared to normals (see CLINICAL PHARMACOLOGY ), it is recommended that the total daily dose be reduced by 25% in patients with mild to moderate renal impairment. It is recommended that the total daily dose be reduced by 50% in patients undergoing hemodialysis. Since there was much individual variability in clearance between patients with renal impairment, individualization of dosing may be desirable in some patients.
 
-**2.4 Social Anxiety Disorder (Social Phobia)**
+Dosage for Elderly Patients
 
-The recommended dose is 75 mg per day, administered in a single dose. There was no evidence that higher doses confer any additional benefit.
+No dose adjustment is recommended for elderly patients on the basis of age. As with any antidepressant, however, caution should be exercised in treating the elderly. When individualizing the dosage, extra care should be taken when increasing the dose.
 
-**2.5 Panic Disorder**
+Maintenance Treatment
 
-The recommended starting dose is 37.5 mg per day of venlafaxine hydrochloride extended-release capsules for 7 days. Patients not responding to 75 mg per day may benefit from dose increases to a maximum of approximately 225 mg per day. Dose increases should be in increments of up to 75 mg per day, as needed, and should be made at intervals of not less than 7 days.
+It is generally agreed that acute episodes of major depressive disorder require several months or longer of sustained pharmacological therapy beyond response to the acute episode. In one study, in which patients responding during 8 weeks of acute treatment with venlafaxine hydrochloride extended-release capsules were assigned randomly to placebo or to the same dose of venlafaxine hydrochloride extended-release capsules (75, 150, or 225 mg/day, qAM) during 26 weeks of maintenance treatment as they had received during the acute stabilization phase, longer-term efficacy was demonstrated. A second longer-term study has demonstrated the efficacy of venlafaxine tablets in maintaining an antidepressant response in patients with recurrent depression who had responded and continued to be improved during an initial 26 weeks of treatment and were then randomly assigned to placebo or venlafaxine tablets for periods of up to 52 weeks on the same dose (100 to 200 mg/day, on a b.i.d. schedule) (see CLINICAL TRIALS ). Based on these limited data, it is not known whether or not the dose of venlafaxine tablets/venlafaxine hydrochloride extended-release capsules needed for maintenance treatment is identical to the dose needed to achieve an initial response. Patients should be periodically reassessed to determine the need for maintenance treatment and the appropriate dose for such treatment.
 
-**2.6 Screen for Bipolar Disorder Prior to Starting Venlafaxine Hydrochloride Extended-Release Capsules**
+Discontinuing Venlafaxine Tablets
 
-Prior to initiating treatment with venlafaxine hydrochloride extended-release capsules, screen patients for a personal or family history of bipolar disorder, mania, or hypomania [see Warnings and Precautions ( 5.6 )] .
+Symptoms associated with discontinuation of venlafaxine tablets other SNRIs, and SSRIs, have been reported (see PRECAUTIONS ). Patients should be monitored for these symptoms when discontinuing treatment. A gradual reduction in the dose rather than abrupt cessation is recommended whenever possible. If intolerable symptoms occur following a decrease in the dose or upon discontinuation of treatment, then resuming the previously prescribed dose may be considered. Subsequently, the physician may continue decreasing the dose but at a more gradual rate.
 
-**2.7 Switching Patients from Venlafaxine Hydrochloride Tablets**
+Switching a Patient To or From a Monoamine Oxidase Inhibitor (MAOI) Intended to Treat Psychiatric Disorders
 
-Patients with depression who are currently being treated with venlafaxine hydrochloride tablets may be switched to venlafaxine hydrochloride extended-release capsules at the nearest equivalent dose (mg per day), e.g., 37.5 mg venlafaxine twice a day to 75 mg venlafaxine hydrochloride extended-release capsules once daily. However, individual dosage adjustments may be necessary.
+At least 14 days should elapse between discontinuation of an MAOI intended to treat psychiatric disorders and initiation of therapy with venlafaxine tablets. Conversely, at least 7 days should be allowed after stopping venlafaxine tablets before starting an MAOI intended to treat psychiatric disorders (see CONTRAINDICATIONS ).
 
-**2.8 Dosage Recommendations for Patients with Hepatic Impairment**
+Use of Venlafaxine Tablets, USP With Other MAOls, Such as Linezolid or Methylene Blue
 
-Reduce the venlafaxine hydrochloride extended-release capsules total daily dose by 50% in patients with mild (Child-Pugh Class A) to moderate (Child-Pugh Class B) hepatic impairment. Reduce the total daily dose by 50% or more in patients with severe hepatic impairment (Child-Pugh Class C) or hepatic cirrhosis [see Use in Specific Populations (8.6) ] .
+Do not start venlafaxine tablets in a patient who is being treated with linezolid or intravenous methylene blue because there is increased risk of serotonin syndrome. In a patient who requires more urgent treatment of a psychiatric condition, other interventions, including hospitalization, should be considered (see CONTRAINDICATIONS ).
 
-**2.9 Dosage Recommendations for Patients with Renal Impairment**
+In some cases, a patient already receiving therapy with venlafaxine tablets may require urgent treatment with linezolid or intravenous methylene blue. If acceptable alternatives to linezolid or intravenous methylene blue treatment are not available and the potential benefits of linezolid or intravenous methylene blue treatment are judged to outweigh the risks of serotonin syndrome in a particular patient, venlafaxine tablets should be stopped promptly, and linezolid or intravenous methylene blue can be administered. The patient should be monitored for symptoms of serotonin syndrome for 7 days or until 24 hours after the last dose of linezolid or intravenous methylene blue, whichever comes first. Therapy with venlafaxine tablets may be resumed 24 hours after the last dose of linezolid or intravenous methylene blue (see WARNINGS ).
 
-Reduce the venlafaxine hydrochloride extended-release capsules total daily dose by 25% to 50% in patients with mild (CLcr 60 to 89 mL/min) or moderate (CLcr 30 to 59 mL/min) renal impairment. Reduce the total daily dose by 50% or more in patients undergoing hemodialysis or with severe renal impairment (CLcr<30 mL/min). Because there was much individual variability in clearance between patients with renal impairment, individualization of dosage is recommended in some patients [see Use in Specific Populations (8.7) ] .
-
-**2.10 Discontinuing Treatment with Venlafaxine Hydrochloride Extended-Release Capsules**
-
-A gradual reduction in the dose, rather than abrupt cessation, is recommended when discontinuing therapy with venlafaxine hydrochloride extended-release capsules. In clinical studies with venlafaxine hydrochloride extended-release capsules, tapering was achieved by reducing the daily dose by 75 mg at one-week intervals. Individualization of tapering may be necessary. In some patients, discontinuation may need to occur over a period of several months [see Warnings and Precautions (5.7) ] .
-
-**2.11 Switching Patients to or from a Monoamine Oxidase Inhibitor (MAOI) Antidepressant**
-
-At least 14 days must elapse between discontinuation of an MAOI antidepressant and initiation of venlafaxine hydrochloride extended-release capsules. In addition, at least 7 days must elapse after stopping venlafaxine hydrochloride extended-release capsules before starting an MAOI antidepressant [see Contraindications (4) , Warnings and Precautions (5.2) , and Drug Interactions (7.1) ].
+The risk of administering methylene blue by non-intravenous routes (such as oral tablets or by local injection) or in intravenous doses much lower than 1 mg/kg with venlafaxine tablets is unclear. The clinician should, nevertheless, be aware of the possibility of emergent symptoms of serotonin syndrome with such use (see WARNINGS ).

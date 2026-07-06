@@ -1,7 +1,7 @@
 ---
 attribution_text: Drug label information from DailyMed, U.S. National Library of Medicine.
 audience: patient
-content_hash: sha256:c9f024922860036aa4fc33313d2ebb6331d9eaa6375658af3f76c5622dabbc36
+content_hash: sha256:69bcf04223c156b9b124a20973f4d6ab6f3ea0e2cdc5c57b6dbd1aa954404a1a
 id: dailymed:amlodipine:patient-package-insert
 keywords: []
 language: en
@@ -10,186 +10,123 @@ publisher: DailyMed (U.S. National Library of Medicine)
 section: Patient Package Insert
 source: dailymed
 source_last_updated: null
-source_url: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=50112e22-5a69-47c9-90cd-82bbacae7418
-title: Amlodipine And Atorvastatin Tablet, Film Coated
+source_url: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f546047f-1cc6-4bbe-a67b-b5c9815b89af
+title: Amlodipine Besylate Tablet
 use_case: medication
 ---
 
-# Amlodipine And Atorvastatin Tablet, Film Coated — Patient Package Insert
+# Amlodipine Besylate Tablet — Patient Package Insert
 
-**PATIENT INFORMATION**
+PATIENT INFORMATION
 
-AMLODIPINE AND ATORVASTATIN TABLETS , USP
+Amlodipine besylate tablets, USP
 
-(am loe' di peen and a tor'' va stat' in)
+(am loe' di peen bes' i late)
 
-Read the patient information that comes with amlodipine and atorvastatin tablets before you start taking it, and each time you get a refill. There may be new information. This information does not replace talking with your Healthcare provider about your condition or treatment. If you have any questions about amlodipine and atorvastatin tablets, ask your healthcare provider or pharmacist.
+Read this information carefully before you start taking Amlodipine besylate tablets and each time you refill your prescription. There may be new information. This information does not replace talking with your doctor. If you have any questions about Amlodipine besylate tablets, ask your doctor. Your doctor will know if Amlodipine besylate tablets is right for you.
 
-What are amlodipine and atorvastatin tablets?
+What is amlodipine besylate tablets?
 
-Amlodipine and atorvastatin tablets are a prescription drug that combines amlodipine besylate and atorvastatin calcium in one pill.
+Amlodipine besylate tablets is a type of medicine known as a calcium channel blocker (CCB). It is used to treat high blood pressure (hypertension) and a type of chest pain called angina. It can be used by itself or with other medicines to treat these conditions.
 
-Amlodipine and atorvastatin tablets are used in adults who need both amlodipine besylate and atorvastatin calcium.
+High Blood Pressure (hypertension)
 
-Amlodipine besylate is used to treat:
+High blood pressure comes from blood pushing too hard against your blood vessels. Amlodipine besylate tablets relaxes your blood vessels, which lets your blood flow more easily and helps lower your blood pressure. Drugs that lower blood pressure lower your risk of having a stroke or heart attack.
 
-- High blood pressure (hypertension) and
-- Chest pain (angina) and
-- Blocked arteries of the heart (coronary artery disease)
+Angina
 
-Atorvastatin calcium is used to lower the levels of "bad" cholesterol and triglycerides in your blood. It can also raise the levels of "good" cholesterol.
+Angina is a pain or discomfort that keeps coming back when part of your heart does not get enough blood. Angina feels like a pressing or squeezing pain, usually in your chest under the breastbone. Sometimes you can feel it in your shoulders, arms, neck, jaws, or back.
 
-Atorvastatin calcium is also used to lower the risk for heart attack, stroke, certain types of heart surgery, and chest pain in patients who have heart disease or risk factors for heart disease such as:
+Amlodipine besylate tablets can relieve this pain.
 
-- age, smoking, high blood pressure, low levels of "good" cholesterol, heart disease in the family.
+Who should not use amlodipine besylate tablets?
 
-Atorvastatin calcium can lower the risk for heart attack or stroke in patients with diabetes and risk factors such as:
+Do not use amlodipine besylate tablets if you are allergic to amlodipine (the active ingredient in amlodipine besylate tablets), or to the inactive ingredients. Your doctor or pharmacist can give you a list of these ingredients.
 
-- diabetic eye or kidney problems, smoking, or high blood pressure.
+What should I tell my doctor before taking amlodipine besylate tablets?
 
-Amlodipine and atorvastatin tablets have not been studied in children.
+Tell your doctor about any prescription and non-prescription medicines you are taking, including natural or herbal remedies.
 
-Who should not use amlodipine and atorvastatin tablets?
+Tell your doctor if you:
 
-Do not use amlodipine and atorvastatin tablets if you :
+• ever had heart disease
 
-- Have liver problems (acute liver failure or decompensated cirrhosis).
-- Are allergic to anything in amlodipine and atorvastatin tablets. The active ingredients are atorvastatin calcium and amlodipine besylate. Stop using amlodipine and atorvastatin tablets and get medical help right away if you have symptoms of a serious allergic reaction including: swelling of your face, lips, tongue or throat problems breathing or swallowing fainting or feeling dizzy very rapid heartbeat severe skin rash or itching flu-like symptoms including fever, sore throat, cough, tiredness, and joint pain See the end of this leaflet for a complete list of ingredients.
+• ever had liver problems
 
-What should I tell my healthcare provider before taking amlodipine and atorvastatin tablets?
+• are pregnant, or plan to become pregnant. Your doctor will decide if amlodipine besylate tablets is the best treatment for you.
 
-Tell your healthcare provider about all of your health conditions, including, if you:
+• are breast-feeding. Amlodipine besylate passes into your milk.
 
-- have unexplained muscle aches or weakness
-- drink more than 2 glasses of alcohol daily
-- have heart disease
-- have diabetes
-- have thyroid problems
-- have kidney problems
-- had a stroke
-- are pregnant or plan to become pregnant. Amlodipine and atorvastatin tablets may harm your unborn baby. If you become pregnant, stop taking amlodipine and atorvastatin tablets and call your healthcare provider right away.
-- are breastfeeding or plan to breastfeed. You and your healthcare provider should decide if you will take amlodipine and atorvastatin tablets or breastfeed. You should not do both. Talk to your healthcare provider about the best way to feed your baby if you take Amlodipine and atorvastatin tablets.
+How should I take amlodipine besylate tablets?
 
-Tell your healthcare provider about all the medicines you take, including prescription and over-the-counter medicines, vitamins, and herbal supplements. Amlodipine and atorvastatin tablets and certain other medicines can increase the risk of muscle problems or other side effects. Especially tell your healthcare provider if you take medicines for:
+• Take amlodipine besylate tablets once a day, with or without food.
 
-- your immune system (cyclosporine)
-- cholesterol (gemfibrozil)
-- infections (erythromycin, clarithromycin, itraconazole, ketoconazole, posaconazole, and voriconazole)
-- birth control pills
-- heart failure (digoxin)
-- gout (colchicine)
-- niacin
-- fibrates
-- treating HIV, AIDS, or hepatitis C (anti-virals) tipranavir plus ritonavir glecaprevir plus pibrentasvir ledipasvir plus sofosbuvir simeprevir saquinavir plus ritonavir darunavir plus ritonavir fosamprenavir fosamprenavir plus ritonavir elbasvir plus grazoprevir letermovir nelfinavir
+• It may be easier to take your dose if you do it at the same time every day, such as with breakfast or dinner, or at bedtime. Do not take more than one dose of amlodipine besylate tablets at a time.
 
-You can use nitroglycerin and amlodipine and atorvastatin tablets together. If you take nitroglycerin for chest pain (angina), do not stop taking it while taking amlodipine and atorvastatin tablets.
+• If you miss a dose, take it as soon as you remember. Do not take amlodipine besylate tablets if it has been more than 12 hours since you missed your last dose. Wait and take the next dose at your regular time.
 
-Ask your healthcare provider or pharmacist for a list of medicines if you are not sure. Know all the medicines you take. Keep a list of them with you to show your healthcare provider and pharmacist when you get a new medicine.
+• Other medicines: You can use nitroglycerin and amlodipine besylate tablets together. If you take nitroglycerin for angina, don't stop taking it while you are taking amlodipine besylate tablets.
 
-How should I take amlodipine and atorvastatin tablets?
+• While you are taking amlodipine besylate tablets, do not stop taking your other prescription medicines, including any other blood pressure medicines, without talking to your doctor.
 
-- Take amlodipine and atorvastatin tablets exactly as your healthcare provider tells you to take it.
-- Do not change your dose or stop amlodipine and atorvastatin tablets without talking to your healthcare provider.
-- Your healthcare provider may do bloodtests to check your cholesterol levels during your treatment with amlodipine and atorvastatin tablets. Your dose of amlodipine and atorvastatin tablets may be changed based on these blood test results.
-- Take amlodipine and atorvastatin tablets each day at any time of day. Amlodipine and atorvastatin tablets can be taken with or without food.
-- Do not break the tablets before taking them. Talk to your healthcare provider if you have a problem swallowing pills.
-- Your healthcare provider may start you on a cholesterol-lowering diet before giving you amlodipine and atorvastatin tablets. Stay on this low-fat diet when you take amlodipine and atorvastatin tablets.
-- If you miss a dose, take it as soon as you remember. Do not take amlodipine and atorvastatin tablets if it has been more than 12 hours since you missed your last dose. Wait and take the next dose at your regular time. Do not take 2 doses of amlodipine and atorvastatin tablets at the same time. If your take too many amlodipine and atorvastatin tablets or overdose, call your doctor or Poison Control Center at 1-800-222-1222 or go to the nearest emergency room right away.
+• If you took too much amlodipine besylate tablets, call your doctor or Poison Control Center, or go to the nearest hospital emergency room right away.
 
-What should I avoid while taking amlodipine and atorvastatin tablets?
+What should I avoid while taking amlodipine besylate tablets?
 
-- Avoid drinking more than 1.2 liters of grapefruit juice each day.
+• Do not start any new prescription or non-prescription medicines or supplements, unless you check with your doctor first.
 
-What are possible side effects of amlodipine and atorvastatin tablets?
+What are the possible side effects of amlodipine besylate tablets?
 
-Amlodipine and atorvastatin tablets can cause serious side effects including:
+Amlodipine besylate tablets may cause the following side effects. Most side effects are mild or moderate:
 
-- Muscle pain, tenderness and weakness (myopathy). Muscle problems, including muscle breakdown, can be serious in some people and, rarely, cause kidney damage that can lead to death.
+• swelling of your legs or ankles
 
-Tell your healthcare provider right away if you have:
+• tiredness, extreme sleepiness
 
-- unexplained muscle pain, tenderness, or weakness, especially if you also have a fever or feel more tired than usual while you take amlodipine and atorvastatin tablets. muscle problems that do not go away after your healthcare provider has told you to stop taking amlodipine and atorvastatin tablets. Your doctor may do further tests to diagnose the cause of your muscle problems. Your chances of getting muscle problems are higher if you: are taking certain other medicines while you take amlodipine and atorvastatin tablets drink large amounts of grapefruit juice are 65 years of age or older have thyroid problems (hypothyroidism) that are not controlled have kidney problems are taking higher doses of amlodipine and atorvastatin tablets
-- Liver problems. Your healthcare provider should do blood tests to check your liver before you start taking amlodipine and atorvastatin tablets and if you have symptoms of liver problems while you take amlodipine and atorvastatin tablets. Call your healthcare provider right away if you have the following symptoms of liver problems: feel tired or weak nausea or vomiting loss of appetite upper belly pain dark amber colored urine yellowing of your skin or the whites of your eyes
-- Low blood pressure or dizziness
-- Muscle rigidity, tremor and/or abnormal muscle movement
-- Increase in blood sugar level. Your blood sugar level may increase while you are taking amlodipine and atorvastatin tablets.
-- Exercise regularly and make healthy food choices to maintain a healthy body weight.
+• stomach pain, nausea
 
-Call your healthcare provider right away if:
+• dizziness
 
-- allergic reactions including swelling of the face, lips, tongue, and/or throat that may cause difficulty in breathing or swallowing which may require treatment right away
-- you have allergic skin reaction
-- Chest pain that does not go away or gets worse. Sometimes when you start amlodipine and atorvastatin tablets or increase your dose, chest pain can get worse or a heart attack can happen. If this happens, call your healthcare provider or go to the emergency room right away.
+• flushing (hot or warm feeling in your face)
 
-Common side effects of amlodipine and atorvastatin tablets include:
+• arrhythmia (irregular heartbeat)
 
-- nasal congestion, sore throat, runny nose
-- muscle and joint pain
-- diarrhea
-- pain in extremity
-- urinary tract infection
-- upset stomach
-- nausea
-- musculoskeletal pain
-- muscle spasms
-- trouble sleeping
-- throat pain
-- swelling of your legs or ankles
+• heart palpitations (very fast heartbeat)
 
-Additional side effects have been reported: tiredness, tendon problems, memory loss, and confusion.
+• muscle rigidity, tremor and/or abnormal muscle movement
 
-Talk to your healthcare provider or pharmacist about side effects that bother you or do not go away.
+It is rare, but when you first start taking amlodipine besylate tablets or increase your dose, you may have a heart attack or your angina may get worse. If that happens, call your doctor right away or go directly to a hospital emergency room.
 
-There are other side effects of amlodipine and atorvastatin tablets. Ask your healthcare provider or pharmacist for a complete list.
+Tell your doctor if you are concerned about any side effects you experience. These are not all the possible side effects of amlodipine besylate tablets. For a complete list, ask your doctor or pharmacist.
 
-How do I store amlodipine and atorvastatin tablets?
+How do I store amlodipine besylate tablets?
 
-- Store amlodipine and atorvastatin tablets at room temperature, 68°F to 77°F (20°C to 25°C).
-- Do not keep medicine that is out-of-date or that you no longer need.
-- Keep amlodipine and atorvastatin tablets and all medicines out of the reach of children.
+Keep Amlodipine besylate tablets, USP away from children. Store at 20°C to 25°C (68°F to 77°F). [See USP controlled room temperature.] Protect from light and moisture.
 
-General information about the safe and effective use of amlodipine and atorvastatin tablets Medicines are sometimes prescribed for purposes other than those listed in a Patient Information leaflet. Do not use amlodipine and atorvastatin tablets for a condition for which it was not prescribed. Do not give amlodipine and atorvastatin tablets to other people, even if they have the same symptoms that you have. It may harm them.
+General advice about amlodipine besylate tablets
 
-If you want more information about amlodipine and atorvastatin tablets, talk with your healthcare provider. You can ask your pharmacist or healthcare provider for information about Amlodipine and atorvastatin tablets that is written for health professionals.
+Sometimes, doctors will prescribe a medicine for a condition that is not written in the patient information leaflets. Only use amlodipine besylate tablets the way your doctor told you to. Do not give amlodipine besylate tablets to other people, even if they have the same symptoms you have. It may harm them.
 
-For more information, call Apotex Corp. at 1-800-706-5575 or go to www.apotex.com.
+You can ask your pharmacist or doctor for information about Amlodipine besylate tablets, USP.
 
-What is high blood pressure (hypertension)?
+Manufactured by:
 
-You have high blood pressure when the force of blood against the walls of your arteries stays high. This can damage your heart and other parts of your body. Drugs that lower blood pressure lower your risk of having a stroke or heart attack.
+Cipla, Ltd., Verna, Goa India
 
-What is angina (chest pain)?
+Manufactured by:
 
-Angina is a pain that keeps coming back when part of your heart does not get enough blood. It feels like something is pressing or squeezing your chest under the breastbone. Sometimes you can feel it in your shoulders, arms, neck, jaw, or back.
+Cipla Ltd., MIDC Patalganga, India
 
-What is cholesterol?
+Manufactured by:
 
-Cholesterol is a fat-like substance made in your body. It is also found in foods. You need some cholesterol for good health, but too much is not good for you. Cholesterol can clog your blood vessels.
+Cipla Ltd.,Indore SEZ, Pithampur, India
 
-What is a heart attack?
+Manufactured for:
 
-A heart attack occurs when heart muscle does not get enough blood. Symptoms include chest pain, trouble breathing, nausea, and weakness. Heart muscle cells may be damaged or die. The heart cannot pump well or may stop beating.
+Cipla USA, Inc.
 
-What is a stroke?
+10 Independence Boulevard, Suite 300
 
-A stroke occurs when nerve cells in the brain do not get enough blood. The cells may be damaged or die. The damaged cells may cause weakness or problems speaking or thinking.
+Warren, NJ 07059
 
-WHAT ARE THE INGREDIENTS IN AMLODIPINE AND ATORVASTATIN TABLETS?
-
-Active ingredients: amlodipine besylate, atorvastatin calcium
-
-Inactive ingredients: calcium acetate, colloidal silicon dioxide, croscarmellose sodium, ferric oxide yellow, magnesium stearate, microcrystalline cellulose, polyethylene glycol, polyvinyl alcohol, talc and titanium dioxide. In addition, the 10 mg/10 mg, 10 mg/20 mg, 10 mg/40 mg and 10 mg/80 mg strengths also contain FD&C Blue #2.
-
-APOTEX INC.
-
-AMLODIPINE AND ATORVASTATIN TABLETS , USP
-
-5 mg/10 mg, 5 mg/20 mg, 5 mg/40 mg, 5 mg/80 mg, 10 mg/10 mg, 10 mg/20 mg, 10 mg/40 mg and 10 mg/80 mg
-
-Manufactured by:   Apotex Inc.   Toronto, Ontario  Canada M9L 1T9 | Manufactured for:   Apotex Corp.  Weston, Florida  USA 33326
-
-This Patient Information has been approved by the U.S. Food and Drug Administration.
-
-Revision: 14
-
-Date: May 2025
+Revised: 2/2020

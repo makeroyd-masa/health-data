@@ -1,7 +1,7 @@
 ---
 attribution_text: Drug label information from DailyMed, U.S. National Library of Medicine.
 audience: patient
-content_hash: sha256:bb3d262b053e6fc8e98e85311e264b16503e3b13c9023cd6bb8e69f333676d17
+content_hash: sha256:c11ed7b8d6940dfd85318a2882fe7927cb03b935bc1ac6a535f8c1c7376d5d66
 id: dailymed:azithromycin:adverse-reactions
 keywords: []
 language: en
@@ -10,40 +10,41 @@ publisher: DailyMed (U.S. National Library of Medicine)
 section: Adverse Reactions
 source: dailymed
 source_last_updated: null
-source_url: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b5d79719-b1dc-469f-a19c-f8ba615138f0
-title: Azithromycin Tablet, Film Coated
+source_url: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=db52b91e-79f7-4cc1-9564-f2eee8e31c45
+title: Zithromax (Azithromycin Dihydrate) Tablet, Film Coated Zithromax (Azithromycin
+  Dihydrate) Powder, For Suspension
 use_case: medication
 ---
 
-# Azithromycin Tablet, Film Coated — Adverse Reactions
+# Zithromax (Azithromycin Dihydrate) Tablet, Film Coated Zithromax (Azithromycin Dihydrate) Powder, For Suspension — Adverse Reactions
 
 **6 ADVERSE REACTIONS**
 
 The following clinically significant adverse reactions are described elsewhere in labeling:
 
-- Hypersensitivity [see Warnings and Precautions ( 5.1 )]
-- Hepatotoxicity [see Warnings and Precautions ( 5.2 )]
-- Infantile Hypertrophic Pyloric Stenosis (IHPS) [see Warnings and Precautions ( 5.3 )]
-- QT Prolongation [see Warnings and Precautions ( 5.4 )]
-- Cardiovascular Death [see Warnings and Precautions ( 5.5 )]
-- Clostridioides difficile- Associated Diarrhea (CDAD) [see Warnings and Precautions ( 5.6 )]
-- Exacerbation of Myasthenia Gravis [see Warnings and Precautions ( 5.7 )]
+- • Hypersensitivity [see Warnings and Precautions (5.1) ]
+- • Hepatotoxicity [see Warnings and Precautions (5.2) ]
+- • Infantile Hypertrophic Pyloric Stenosis (IHPS) [see Warnings and Precautions (5.3) ]
+- • QT Prolongation [see Warnings and Precautions (5.4) ]
+- • Cardiovascular Death [see Warnings and Precautions (5.5) ]
+- • Clostridioides difficile- Associated Diarrhea (CDAD) [see Warnings and Precautions (5.6) ]
+- • Exacerbation of Myasthenia Gravis [see Warnings and Precautions (5.7) ]
 
 Most common adverse reactions are diarrhea (5 to 14%), nausea (3 to 18%), abdominal pain (3 to 7%), or vomiting (2 to 7%). ( 6.1 )
 
-To report SUSPECTED ADVERSE REACTIONS, contact Bionpharma Inc. at 1-888-235-BION or 1-888-235-2466 or FDA at 1-800-FDA-1088 or www.fda.gov/medwatch .
+To report SUSPECTED ADVERSE REACTIONS, contact Pfizer Inc. at 1-800-438-1985 or FDA at 1-800-FDA-1088 or www.fda.gov/medwatch.
 
 **6.1 Clinical Trials Experience**
 
 Because clinical trials are conducted under widely varying conditions, adverse reaction rates observed in the clinical trials of a drug cannot be directly compared to rates in the clinical trials of another drug and may not reflect the rates observed in practice.
 
-In clinical trials, most of the reported side effects were mild to moderate in severity and were reversible upon discontinuation of the drug. Potentially serious adverse reactions of angioedema and cholestatic jaundice were reported. Approximately 0.7% of the patients (adults and pediatric patients) from the 5-day multiple-dose clinical trials discontinued azithromycin therapy because of treatment-related adverse reactions. In adults given 500 mg/day for 3 days, the discontinuation rate due to treatment-related adverse reactions was 0.6%. In clinical trials in pediatric patients given 30 mg/kg, either as a single dose or over 3 days, discontinuation from the trials due to treatment-related adverse reactions was approximately 1%. Most of the adverse reactions leading to discontinuation were related to the gastrointestinal tract, e.g., nausea, vomiting, diarrhea, or abdominal pain. [see Clinical Studies ( 14.2 )]
+In clinical trials, most of the reported side effects were mild to moderate in severity and were reversible upon discontinuation of the drug. Potentially serious adverse reactions of angioedema and cholestatic jaundice were reported. Approximately 0.7% of the patients (adults and pediatric patients) from the 5-day multiple-dose clinical trials discontinued ZITHROMAX (azithromycin) therapy because of treatment-related adverse reactions. In adults given 500 mg/day for 3 days, the discontinuation rate due to treatment-related adverse reactions was 0.6%. In clinical trials in pediatric patients given 30 mg/kg, either as a single dose or over 3 days, discontinuation from the trials due to treatment-related adverse reactions was approximately 1%. Most of the adverse reactions leading to discontinuation were related to the gastrointestinal tract, e.g., nausea, vomiting, diarrhea, or abdominal pain. [see Clinical Studies (14.2) ]
 
 Adults
 
-Multiple-dose regimens: Overall, the most common treatment-related adverse reactions in adult patients receiving multiple-dose regimens of azithromycin were related to the gastrointestinal system with diarrhea/loose stools (4 to 5%), nausea (3%), and abdominal pain (2 to 3%) being the most frequently reported.
+Multiple-dose regimens: Overall, the most common treatment-related adverse reactions in adult patients receiving multiple-dose regimens of ZITHROMAX were related to the gastrointestinal system with diarrhea/loose stools (4 to 5%), nausea (3%), and abdominal pain (2 to 3%) being the most frequently reported.
 
-No other adverse reactions occurred in patients on the multiple-dose regimens of azithromycin with a frequency greater than 1%. Adverse reactions that occurred with a frequency of 1% or less included the following:
+No other adverse reactions occurred in patients on the multiple-dose regimens of ZITHROMAX with a frequency greater than 1%. Adverse reactions that occurred with a frequency of 1% or less included the following:
 
 Cardiovascular: Palpitations, chest pain.
 
@@ -59,19 +60,19 @@ Allergic: Rash, pruritus, photosensitivity, and angioedema.
 
 Single 1-gram dose regimen:
 
-Overall, the most common adverse reactions in patients receiving a single-dose regimen of 1 gram of azithromycin were related to the gastrointestinal system and were more frequently reported than in patients receiving the multiple-dose regimen.
+Overall, the most common adverse reactions in patients receiving a single-dose regimen of 1 gram of ZITHROMAX were related to the gastrointestinal system and were more frequently reported than in patients receiving the multiple-dose regimen.
 
-Adverse reactions that occurred in patients on the single 1-gram dosing regimen of azithromycin with a frequency of 1% or greater included diarrhea/loose stools (7%), nausea (5%), abdominal pain (5%), vomiting (2%), dyspepsia (1%), and vaginitis (1%).
+Adverse reactions that occurred in patients on the single 1-gram dosing regimen of ZITHROMAX with a frequency of 1% or greater included diarrhea/loose stools (7%), nausea (5%), abdominal pain (5%), vomiting (2%), dyspepsia (1%), and vaginitis (1%).
 
 Single 2-gram dose regimen:
 
-Overall, the most common adverse reactions in patients receiving a single 2-gram dose of azithromycin were related to the gastrointestinal system. Adverse reactions that occurred in patients in this study with a frequency of 1% or greater included nausea (18%), diarrhea/loose stools (14%), vomiting (7%), abdominal pain (7%), vaginitis (2%), dyspepsia (1%), and dizziness (1%). The majority of these complaints were mild in nature.
+Overall, the most common adverse reactions in patients receiving a single 2-gram dose of ZITHROMAX were related to the gastrointestinal system. Adverse reactions that occurred in patients in this study with a frequency of 1% or greater included nausea (18%), diarrhea/loose stools (14%), vomiting (7%), abdominal pain (7%), vaginitis (2%), dyspepsia (1%), and dizziness (1%). The majority of these complaints were mild in nature.
 
 Pediatric Patients
 
 Single and Multiple-dose regimens: The types of adverse reactions in pediatric patients were comparable to those seen in adults, with different incidence rates for the dosage regimens recommended in pediatric patients.
 
-Acute Otitis Media: For the recommended total dosage regimen of 30 mg/kg, the most frequent adverse reactions (≥ 1%) attributed to treatment were diarrhea, abdominal pain, vomiting, nausea, and rash. [see Dosage and Administration ( 2 ) and Clinical Studies ( 14.2 )]
+Acute Otitis Media: For the recommended total dosage regimen of 30 mg/kg, the most frequent adverse reactions (≥1%) attributed to treatment were diarrhea, abdominal pain, vomiting, nausea, and rash. [see Dosage and Administration (2) and Clinical Studies (14.2) ]
 
 The incidence, based on dosing regimen, is described in the table below:
 
@@ -80,21 +81,21 @@ Dosage Regimen | Diarrhea % | Abdominal Pain % | Vomiting % | Nausea % | Rash %
 3-day | 2.6% | 1.7% | 2.3% | 0.4% | 0.6%
 5-day | 1.8% | 1.2% | 1.1% | 0.5% | 0.4%
 
-Community-Acquired Pneumonia: For the recommended dosage regimen of 10 mg/kg on Day 1 followed by 5 mg/kg on Days 2 to 5, the most frequent adverse reactions attributed to treatment were diarrhea/loose stools, abdominal pain, vomiting, nausea, and rash.
+Community-Acquired Pneumonia: For the recommended dosage regimen of 10 mg/kg on Day 1 followed by 5 mg/kg on Days 2–5, the most frequent adverse reactions attributed to treatment were diarrhea/loose stools, abdominal pain, vomiting, nausea, and rash.
 
 The incidence is described in the table below:
 
 Dosage Regimen | Diarrhea/Loose stools % | Abdominal Pain % | Vomiting % | Nausea % | Rash %
 5-day | 5.8% | 1.9% | 1.9% | 1.9% | 1.6%
 
-Pharyngitis/Tonsillitis: For the recommended dosage regimen of 12 mg/kg on Days 1 to 5, the most frequent adverse reactions attributed to treatment were diarrhea, vomiting, abdominal pain, nausea, and headache.
+Pharyngitis/Tonsillitis: For the recommended dosage regimen of 12 mg/kg on Days 1–5, the most frequent adverse reactions attributed to treatment were diarrhea, vomiting, abdominal pain, nausea, and headache.
 
 The incidence is described in the table below:
 
 Dosage Regimen | Diarrhea % | Abdominal Pain % | Vomiting % | Nausea % | Rash % | Headache %
 5-day | 5.4% | 3.4% | 5.6% | 1.8% | 0.7% | 1.1%
 
-With any of the treatment regimens, no other adverse reactions occurred in pediatric patients treated with azithromycin with a frequency greater than 1%. Adverse reactions that occurred with a frequency of 1% or less included the following:
+With any of the treatment regimens, no other adverse reactions occurred in pediatric patients treated with ZITHROMAX with a frequency greater than 1%. Adverse reactions that occurred with a frequency of 1% or less included the following:
 
 Cardiovascular: Chest pain.
 
@@ -132,7 +133,7 @@ Genitourinary: Interstitial nephritis and acute renal failure and vaginitis.
 
 Hematopoietic: Thrombocytopenia.
 
-Liver/Biliary: Abnormal liver function, hepatitis, cholestatic jaundice, hepatic necrosis, and hepatic failure. [see Warnings and Precautions ( 5.2 )]
+Liver/Biliary: Abnormal liver function, hepatitis, cholestatic jaundice, hepatic necrosis, and hepatic failure. [see Warnings and Precautions (5.2) ]
 
 Nervous System: Convulsions, dizziness/vertigo, headache, somnolence, hyperactivity, nervousness, agitation, and syncope.
 
@@ -148,12 +149,12 @@ Adults:
 
 Clinically significant abnormalities (irrespective of drug relationship) occurring during the clinical trials were reported as follows: with an incidence of greater than 1%: decreased hemoglobin, hematocrit, lymphocytes, neutrophils, and blood glucose; elevated serum creatine phosphokinase, potassium, ALT, GGT, AST, BUN, creatinine, blood glucose, platelet count, lymphocytes, neutrophils, and eosinophils; with an incidence of less than 1%: leukopenia, neutropenia, decreased sodium, potassium, platelet count, elevated monocytes, basophils, bicarbonate, serum alkaline phosphatase, bilirubin, LDH, and phosphate. The majority of subjects with elevated serum creatinine also had abnormal values at baseline. When follow-up was provided, changes in laboratory tests appeared to be reversible.
 
-In multiple-dose clinical trials involving more than 5,000 patients, four patients discontinued therapy because of treatment-related liver enzyme abnormalities and one because of a renal function abnormality.
+In multiple-dose clinical trials involving more than 5000 patients, four patients discontinued therapy because of treatment-related liver enzyme abnormalities and one because of a renal function abnormality.
 
 Pediatric Patients:
 
 One, Three, and Five-Day Regimens
 
-Laboratory data collected from comparative clinical trials employing two 3-day regimens (30 mg/kg or 60 mg/kg in divided doses over 3 days), or two 5-day regimens (30 mg/kg or 60 mg/kg in divided doses over 5 days) were similar for regimens of azithromycin and all comparators combined, with most clinically significant laboratory abnormalities occurring at incidences of 1 to 5%. Laboratory data for patients receiving 30 mg/kg as a single dose were collected in one single center trial. In that trial, an absolute neutrophil count between 500 to 1,500 cells/mm 3 was observed in 10/64 patients receiving 30 mg/kg as a single dose, 9/62 patients receiving 30 mg/kg given over 3 days, and 8/63 comparator patients. No patient had an absolute neutrophil count < 500 cells/mm 3 .
+Laboratory data collected from comparative clinical trials employing two 3-day regimens (30 mg/kg or 60 mg/kg in divided doses over 3 days), or two 5-day regimens (30 mg/kg or 60 mg/kg in divided doses over 5 days) were similar for regimens of azithromycin and all comparators combined, with most clinically significant laboratory abnormalities occurring at incidences of 1–5%. Laboratory data for patients receiving 30 mg/kg as a single dose were collected in one single center trial. In that trial, an absolute neutrophil count between 500–1500 cells/mm 3 was observed in 10/64 patients receiving 30 mg/kg as a single dose, 9/62 patients receiving 30 mg/kg given over 3 days, and 8/63 comparator patients. No patient had an absolute neutrophil count <500 cells/mm 3 .
 
-In multiple-dose clinical trials involving approximately 4,700 pediatric patients, no patients discontinued therapy because of treatment-related laboratory abnormalities.
+In multiple-dose clinical trials involving approximately 4700 pediatric patients, no patients discontinued therapy because of treatment-related laboratory abnormalities.

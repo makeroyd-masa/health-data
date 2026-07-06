@@ -1,7 +1,7 @@
 ---
 attribution_text: Drug label information from DailyMed, U.S. National Library of Medicine.
 audience: patient
-content_hash: sha256:baabb280ce4693a24c4ff3cd36c96141ac5601163fbae9bb0c1dc95460799478
+content_hash: sha256:f1e12409e82958de8097e4b89d66e6a7a8d557e211dfbd19fae32e28cf1bf108
 id: dailymed:venlafaxine:contraindications
 keywords: []
 language: en
@@ -10,19 +10,17 @@ publisher: DailyMed (U.S. National Library of Medicine)
 section: Contraindications
 source: dailymed
 source_last_updated: null
-source_url: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d7d1319c-500e-4ca0-83a1-a739cfa01cf7
-title: Venlafaxine Hydrochloride Capsule, Extended Release
+source_url: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=80ac757d-c629-4579-8afd-cae0ee9cd614
+title: Venlafaxine Tablet
 use_case: medication
 ---
 
-# Venlafaxine Hydrochloride Capsule, Extended Release — Contraindications
+# Venlafaxine Tablet — Contraindications
 
-**4 CONTRAINDICATIONS**
+**CONTRAINDICATIONS**
 
-Venlafaxine Hydrochloride Extended-Release Capsules are contraindicated in patients:
+Hypersensitivity to venlafaxine hydrochloride or to any excipients in the formulation.
 
-- with known hypersensitivity to venlafaxine hydrochloride, desvenlafaxine succinate or to any excipients in the formulation [see Adverse Reactions (6.2) ] .
-- taking, or within 14 days of stopping, MAOIs (including the MAOIs linezolid and intravenous methylene blue) because of the risk of serotonin syndrome [see Dosage and Administration (2.11) , Warnings and Precautions (5.2) , and Drug Interactions (7.1) ] .
+The use of MAOIs intended to treat psychiatric disorders with venlafaxine hydrochloride or within 7 days of stopping treatment with venlafaxine hydrochloride is contraindicated because of an increased risk of serotonin syndrome. The use of venlafaxine hydrochloride within 14 days of stopping an MAOI intended to treat psychiatric disorders is also contraindicated (see WARNINGS and DOSAGE AND ADMINISTRATION ).
 
-- Hypersensitivity to venlafaxine hydrochloride, desvenlafaxine succinate, or any excipients in the venlafaxine hydrochloride extended-release capsules formulation ( 4 ).
-- Concomitant use of monoaminoxidase inhibitors (MAOIs) or within 14 days of discontinuing an MAOI ( 4 , 5.2 , 7.1 ).
+Starting venlafaxine hydrochloride in a patient who is being treated with MAOIs such as linezolid or intravenous methylene blue is also contraindicated because of an increased risk of serotonin syndrome (see WARNINGS and DOSAGE AND ADMINISTRATION ).

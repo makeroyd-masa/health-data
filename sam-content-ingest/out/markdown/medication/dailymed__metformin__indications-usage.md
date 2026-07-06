@@ -1,7 +1,7 @@
 ---
 attribution_text: Drug label information from DailyMed, U.S. National Library of Medicine.
 audience: patient
-content_hash: sha256:f85ff6d6425d1cbbe2df0504b940342c25e2bbf55c190cbae3b4588cac558838
+content_hash: sha256:e3ae012766ba95d2770b5733838cf85612f17a45f9509cddd5f37f76dd295360
 id: dailymed:metformin:indications-usage
 keywords: []
 language: en
@@ -10,15 +10,15 @@ publisher: DailyMed (U.S. National Library of Medicine)
 section: Indications & Usage
 source: dailymed
 source_last_updated: null
-source_url: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=11d52559-bfde-4c2a-9602-f18fb3187617
-title: Metformin Hydrochloride Tablet, Extended Release
+source_url: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=1e7ab8da-4ece-499c-b0fb-34e37d991c1c
+title: Metformin Hydrochloride Tablet
 use_case: medication
 ---
 
-# Metformin Hydrochloride Tablet, Extended Release — Indications & Usage
+# Metformin Hydrochloride Tablet — Indications & Usage
 
-**1 INDICATIONS AND USAGE**
+**1 INDICATIONS & USAGE**
 
-Metformin hydrochloride extended-release tablets are indicated as an adjunct to diet and exercise to improve glycemic control in adults with type 2 diabetes mellitus.
+Metformin hydrochloride tablets are indicated as an adjunct to diet and exercise to improve glycemic control in adults and pediatric patients 10 years of age and older with type 2 diabetes mellitus.
 
-Metformin hydrochloride extended-release tablets are biguanide indicated as an adjunct to diet and exercise to improve glycemic control in adults with type 2 diabetes mellitus. ( 1 )
+Metformin hydrochloride tablets are a biguanide indicated as an adjunct to diet and exercise to improve glycemic control in adults and pediatric patients 10 years of age and older with type 2 diabetes mellitus.( 1 )

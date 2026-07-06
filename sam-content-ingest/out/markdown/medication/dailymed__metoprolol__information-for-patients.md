@@ -1,7 +1,7 @@
 ---
 attribution_text: Drug label information from DailyMed, U.S. National Library of Medicine.
 audience: patient
-content_hash: sha256:51293cc56dd027fdcb29163f5fafd34671f70051799e2a7b1ffa30c97b7510bc
+content_hash: sha256:197f2fcc479998ef78cba4459437a386fedd9d9177c2ada4f55494c5dae888dd
 id: dailymed:metoprolol:information-for-patients
 keywords: []
 language: en
@@ -10,7 +10,7 @@ publisher: DailyMed (U.S. National Library of Medicine)
 section: Information for Patients
 source: dailymed
 source_last_updated: null
-source_url: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=a1997b48-8d66-437a-a253-ca996331b0c3
+source_url: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=bd77ec6e-c58c-440b-81d6-8a462b2fdc9c
 title: Metoprolol Succinate Tablet, Extended Release
 use_case: medication
 ---
@@ -41,4 +41,4 @@ Zydus Pharmaceuticals (USA) Inc.
 
 Pennington, NJ 08534
 
-Rev.: 10/23
+Rev.: 05/26

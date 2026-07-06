@@ -1,46 +1,109 @@
 # Medication seed (PRD §6.4). Source: DailyMed SPL labels.
-# Selection: one SPL per drug — latest spl_version, generic preferred.
-# Production sourcing: derive this list from RxNorm's Current Prescribable Content and
-# pin by `rxcui` for precision. `name` uses drug_name search; add `rxcui:` to pin exactly.
+# Each name is validated against RxNorm's Current Prescribable Content (RxNav Prescribe
+# API) and tagged with its canonical ingredient RxCUI; DailyMed is queried by name and
+# the result set is filtered to single-ingredient products. Selection: latest spl_version,
+# generic preferred. Pin a specific product by adding `rxcui:` to an entry.
+# List ~= the most-commonly-prescribed US medications (generic names).
 prefer_generic: true
 drugs:
-  - name: ibuprofen
-  - name: acetaminophen
-  - name: aspirin
-  - name: naproxen
-  - name: metformin
-  - name: lisinopril
   - name: atorvastatin
+  - name: levothyroxine
+  - name: lisinopril
+  - name: metformin
   - name: amlodipine
   - name: metoprolol
   - name: omeprazole
+  - name: simvastatin
   - name: losartan
   - name: albuterol
   - name: gabapentin
   - name: hydrochlorothiazide
   - name: sertraline
-  - name: levothyroxine
-  - name: simvastatin
   - name: montelukast
   - name: escitalopram
-  - name: amoxicillin
-  - name: azithromycin
-  - name: prednisone
-  - name: trazodone
+  - name: rosuvastatin
+  - name: bupropion
   - name: furosemide
   - name: pantoprazole
-  - name: citalopram
-  - name: fluoxetine
-  - name: warfarin
-  - name: clopidogrel
+  - name: trazodone
   - name: duloxetine
-  - name: rosuvastatin
+  - name: pravastatin
+  - name: fluoxetine
+  - name: carvedilol
+  - name: tamsulosin
+  - name: citalopram
+  - name: clopidogrel
+  - name: meloxicam
+  - name: prednisone
+  - name: potassium chloride
+  - name: glipizide
+  - name: propranolol
+  - name: venlafaxine
+  - name: warfarin
+  - name: pregabalin
+  - name: cyclobenzaprine
+  - name: allopurinol
+  - name: tramadol
+  - name: clonazepam
+  - name: atenolol
+  - name: lorazepam
+  - name: spironolactone
+  - name: alprazolam
+  - name: ibuprofen
+  - name: naproxen
+  - name: acetaminophen
+  - name: aspirin
+  - name: amoxicillin
+  - name: azithromycin
+  - name: doxycycline
+  - name: cephalexin
+  - name: ciprofloxacin
+  - name: prednisolone
+  - name: fluticasone
   - name: cetirizine
   - name: loratadine
   - name: famotidine
-  - name: meloxicam
-  - name: bupropion
-  - name: venlafaxine
-  - name: tamsulosin
-  - name: pravastatin
-  - name: glipizide
+  - name: ranitidine
+  - name: ondansetron
+  - name: hydroxyzine
+  - name: amitriptyline
+  - name: mirtazapine
+  - name: buspirone
+  - name: quetiapine
+  - name: lamotrigine
+  - name: levetiracetam
+  - name: topiramate
+  - name: oxycodone
+  - name: hydrocodone
+  - name: morphine
+  - name: methylphenidate
+  - name: lisdexamfetamine
+  - name: insulin glargine
+  - name: glimepiride
+  - name: sitagliptin
+  - name: empagliflozin
+  - name: dulaglutide
+  - name: semaglutide
+  - name: liraglutide
+  - name: canagliflozin
+  - name: apixaban
+  - name: rivaroxaban
+  - name: clonidine
+  - name: diltiazem
+  - name: verapamil
+  - name: valsartan
+  - name: irbesartan
+  - name: ezetimibe
+  - name: fenofibrate
+  - name: finasteride
+  - name: sildenafil
+  - name: tadalafil
+  - name: levofloxacin
+  - name: metronidazole
+  - name: nitrofurantoin
+  - name: sulfamethoxazole
+  - name: fluconazole
+  - name: valacyclovir
+  - name: montelukast sodium
+  - name: budesonide
+  - name: tiotropium

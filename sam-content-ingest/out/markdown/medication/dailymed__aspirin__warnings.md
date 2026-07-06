@@ -1,7 +1,7 @@
 ---
 attribution_text: Drug label information from DailyMed, U.S. National Library of Medicine.
 audience: patient
-content_hash: sha256:138c6750ea556417dcd8651f6817588cda22ca9bb61af8eb142a9ad55658c819
+content_hash: sha256:26edd66751b562a124d1a9dd931afe9e7eff1d11e19401eb5e825729e5a91c86
 id: dailymed:aspirin:warnings
 keywords: []
 language: en
@@ -10,16 +10,16 @@ publisher: DailyMed (U.S. National Library of Medicine)
 section: Warnings
 source: dailymed
 source_last_updated: null
-source_url: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=82cc404b-fcf5-4e48-ab1a-09d8c47f9e04
-title: Aspirin Tablet, Delayed Release
+source_url: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=65cdce0f-be04-43ba-8c68-bdce7983cfa1
+title: Pain Relief Aspirin Chewable, Low Dose (Aspirin) Tablet, Chewable
 use_case: medication
 ---
 
-# Aspirin Tablet, Delayed Release — Warnings
+# Pain Relief Aspirin Chewable, Low Dose (Aspirin) Tablet, Chewable — Warnings
 
 **Warnings**
 
-Reye’s syndrome: Children and teenagers who have or are recovering from chicken pox or flu-like symptoms should not use this product. When using this product, if changes in behavior with nausea and vomiting occur, consult a doctor because these symptoms could be an early sign of Reye's syndrome, a rare but serious illness.
+Reye's syndrome: Children and teenagers who have or are recovering from chicken pox or flu-like symptoms should not use this product. When using this product, if changes in behavior with nausea and vomiting occur, consult a doctor because these symptoms could be an early sign of Reye's syndrome, a rare but serious illness.
 
 Allergy alert: Aspirin may cause a severe allergic reaction, which may include:
 
@@ -33,13 +33,14 @@ Stomach bleeding warning: This product contains an NSAID, which may cause severe
 - take a blood thinning (anticoagulant) or steroid drug
 - are age 60 or older
 - take other drugs containing prescription or nonprescription NSAIDs [aspirin, ibuprofen, naproxen, or others]
-- have had stomach ulcers or bleeding problems
-- take more or for a longer time than directed
 - have 3 or more alcoholic drinks every day while using this product
+- take more or for a longer time than directed
+- have had stomach ulcers or bleeding problems
 
 **Do not use**
 
 - if you are allergic to aspirin or any other pain reliever/fever reducer
+- for at least 7 days after tonsillectomy or oral surgery unless directed by a doctor
 - if you have ever had an allergic reaction to this product or any of its ingredients
 
 **Ask a doctor before use if**

@@ -1,7 +1,7 @@
 ---
 attribution_text: Drug label information from DailyMed, U.S. National Library of Medicine.
 audience: patient
-content_hash: sha256:66d74879e28cfc2867eb8141a101ddfc33fb7498b2c6a008982001c873a8e3fe
+content_hash: sha256:a5103b5d810fa6ea552b5557ee5a4746f8d398b2d85d03a6df87bb2d5b99e286
 id: dailymed:venlafaxine:adverse-reactions
 keywords: []
 language: en
@@ -10,234 +10,202 @@ publisher: DailyMed (U.S. National Library of Medicine)
 section: Adverse Reactions
 source: dailymed
 source_last_updated: null
-source_url: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=d7d1319c-500e-4ca0-83a1-a739cfa01cf7
-title: Venlafaxine Hydrochloride Capsule, Extended Release
+source_url: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=80ac757d-c629-4579-8afd-cae0ee9cd614
+title: Venlafaxine Tablet
 use_case: medication
 ---
 
-# Venlafaxine Hydrochloride Capsule, Extended Release — Adverse Reactions
+# Venlafaxine Tablet — Adverse Reactions
 
-**6 ADVERSE REACTIONS**
+**ADVERSE REACTIONS**
 
-The following adverse reactions are discussed in more detail in other sections of the labeling:
+**Associated with Discontinuation of Treatment**
 
-- Hypersensitivity [see Contraindications (4) ]
-- Suicidal Thoughts and Behaviors in Adolescents and Young Adults [see Warnings and Precautions (5.1) ]
-- Serotonin Syndrome [see Warnings and Precautions (5.2) ]
-- Elevated Blood Pressure [see Warnings and Precautions (5.3) ]
-- Increased Risk of Bleeding [see Warnings and Precautions (5.4) ]
-- Angle-Closure Glaucoma [see Warnings and Precautions (5.5) ]
-- Activation of Mania/Hypomania [see Warnings and Precautions (5.6) ]
-- Discontinuation Syndrome [see Warnings and Precautions (5.7) ]
-- Seizure [see Warnings and Precautions (5.8) ]
-- Hyponatremia [see Warnings and Precautions (5.9) ]
-- Weight and Height Changes in Pediatric Patients [see Warnings and Precautions (5.10) ]
-- Appetite Changes in Pediatric Patients [see Warnings and Precautions (5.11) ]
-- Interstitial Lung Disease and Eosinophilic Pneumonia [see Warnings and Precautions (5.12) ]
-- Sexual Dysfunction [see Warnings and Precautions (5.13) ]
+Nineteen percent (537/2,897) of venlafaxine patients in Phase 2 and Phase 3 depression studies discontinued treatment due to an adverse event. The more common events (≥1%) associated with discontinuation and considered to be drug-related (ie, those events associated with dropout at a rate approximately twice or greater for venlafaxine compared to placebo) included:
 
-Most common adverse reactions (incidence ≥5% and at least twice the rate of placebo): nausea, somnolence, dry mouth, sweating, abnormal ejaculation, anorexia, constipation, impotence (men), and libido decreased ( 6.1 ).
+CNS | Venlafaxine | Placebo
+Somnolence | 3% | 1%
+Insomnia | 3% | 1%
+Dizziness | 3% | —
+Nervousness | 2% | —
+Dry mouth | 2% | —
+Anxiety | 2% | 1%
+Gastrointestinal |  | 
+Nausea | 6% | 1%
+Urogenital |  | 
+Abnormal ejaculation* | 3% | —
+Other |  | 
+Headache | 3% | 1%
+Asthenia | 2% | —
+Sweating | 2% | —
+— Less than 1%
+* Percentages based on the number of males.
 
-To report SUSPECTED ADVERSE REACTIONS, contact Epic Pharma, LLC at 1-888-374-2791 or FDA at 1-800-FDA-1088 or www.fda.gov/medwatch.
+**Incidence in Controlled Trials**
 
-**6.1 Clinical Studies Experience**
+Commonly Observed Adverse Events in Controlled Clinical Trials
 
-Because clinical trials are conducted under widely varying conditions, adverse reaction rates observed in the clinical trials of a drug cannot be directly compared to rates in the clinical studies of another drug and may not reflect the rates observed in clinical practice.
+The most commonly observed adverse events associated with the use of venlafaxine hydrochloride (incidence of 5% or greater) and not seen at an equivalent incidence among placebo-treated patients (ie, incidence for venlafaxine hydrochloride at least twice that for placebo), derived from the 1% incidence table below, were asthenia, sweating, nausea, constipation, anorexia, vomiting, somnolence, dry mouth, dizziness, nervousness, anxiety, tremor, and blurred vision as well as abnormal ejaculation/orgasm and impotence in men.
 
-Most Common Adverse Reactions
+Adverse Events Occurring at an Incidence of 1% or More Among Venlafaxine Hydrochloride-Treated Patients
 
-The most commonly observed adverse reactions in the clinical study database in venlafaxine hydrochloride extended-release capsules treated patients in MDD, GAD, SAD, and PD (incidence ≥5% and at least twice the rate of placebo) were: nausea (30.0%), somnolence (15.3%), dry mouth (14.8%), sweating (11.4%), abnormal ejaculation (9.9%), anorexia (9.8%), constipation (9.3%), impotence (5.3%), and decreased libido (5.1%).
+The table that follows enumerates adverse events that occurred at an incidence of 1% or more, and were more frequent than in the placebo group, among venlafaxine hydrochloride-treated patients who participated in short-term (4 to 8 week) placebo-controlled trials in which patients were administered doses in a range of 75 to 375 mg/day. This table shows the percentage of patients in each group who had at least one episode of an event at some time during their treatment. Reported adverse events were classified using a standard COSTART-based Dictionary terminology.
 
-Adverse Reactions Reported as Reasons for Discontinuation of Treatment
+The prescriber should be aware that these figures cannot be used to predict the incidence of side effects in the course of usual medical practice where patient characteristics and other factors differ from those which prevailed in the clinical trials. Similarly, the cited frequencies cannot be compared with figures obtained from other clinical investigations involving different treatments, uses and investigators. The cited figures, however, do provide the prescribing physician with some basis for estimating the relative contribution of drug and nondrug factors to the side effect incidence rate in the population studied.
 
-Combined across short-term, placebo-controlled premarketing studies for all indications, 12% of the 3,558 patients who received venlafaxine hydrochloride extended-release capsules (37.5 to 225 mg) discontinued treatment due to an adverse experience, compared with 4% of the 2,197 placebo-treated patients in those studies.
+TABLE 2 Treatment-Emergent Adverse Experience Incidence in 4- to 8- Week Placebo-Controlled Clinical Trials 1
+Body System | Preferred Term | Venlafaxine Hydrochloride (n=1,033) | Placebo (n=609)
+Body as a Whole | Headache | 25% | 24%
+ | Asthenia | 12% | 6%
+ | Infection | 6% | 5%
+ | Chills | 3% | –
+ | Chest pain | 2% | 1%
+ | Trauma | 2% | 1%
+Cardiovascular | Vasodilatation | 4% | 3%
+ | Increased blood pressure / hypertension | 2% | –
+ | Tachycardia | 2% | –
+ | Postural hypotension | 1% | –
+Dermatological | Sweating | 12% | 3%
+ | Rash | 3% | 2%
+ | Pruritus | 1% | –
+Gastrointestinal | Nausea | 37% | 11%
+ | Constipation | 15% | 7%
+ | Anorexia | 11% | 2%
+ | Diarrhea | 8% | 7%
+ | Vomiting | 6% | 2%
+ | Dyspepsia | 5% | 4%
+ | Flatulence | 3% | 2%
+Metabolic | Weight loss | 1% | –
+Nervous System | Somnolence | 23% | 9%
+ | Dry mouth | 22% | 11%
+ | Dizziness | 19% | 7%
+ | Insomnia | 18% | 10%
+ | Nervousness | 13% | 6%
+ | Anxiety | 6% | 3%
+ | Tremor | 5% | 1%
+ | Abnormal dreams | 4% | 3%
+ | Hypertonia | 3% | 2%
+ | Paresthesia | 3% | 2%
+ | Libido decreased | 2% | –
+ | Agitation | 2% | –
+ | Confusion | 2% | 1%
+ | Thinking abnormal | 2% | 1%
+ | Depersonalization | 1% | –
+ | Depression | 1% | –
+ | Urinary retention | 1% | –
+ | Twitching | 1% | –
+Respiration | Yawn | 3% | –
+Special Senses | Blurred vision | 6% | 2%
+ | Taste perversion | 2% | –
+ | Tinnitus | 2% | –
+ | Mydriasis | 2% | –
+Urogenital System | Abnormal ejaculation/orgasm | 12% 2 | – 2
+ | Impotence | 6% 2 | – 2
+ | Urinary frequency | 3% | 2%
+ | Urination impaired | 2% | –
+ | Orgasm disturbance | 2% 3 | – 3
+—Incidence less than 1%.
+1  Events reported by at least 1% of patients treated with venlafaxine hydrochloride are included, and are rounded to the nearest %. Events for which the venlafaxine hydrochloride incidence was equal to or less than placebo are not listed in the table, but included the following: abdominal pain, pain, back pain, flu syndrome, fever, palpitation, increased appetite, myalgia, arthralgia, amnesia, hypesthesia, rhinitis, pharyngitis, sinusitis, cough increased, and dysmenorrhea 3  .
+2  Incidence based on number of male patients.
+3  Incidence based on number of female patients.
 
-The most common adverse reactions leading to discontinuation in ≥1% of the venlafaxine hydrochloride extended-release capsules treated patients in the short-term studies (up to 12 weeks) across indications are shown in Table 7.
+Dose Dependency of Adverse Events
 
-Body System 
-        Adverse Reaction | Venlafaxine Hydrochloride Extended-Release Capsules 
-        n = 3,558 | Placebo 
-        n = 2,197
-Body as a whole |  | 
-Asthenia | 1.7 | 0.5
-Headache | 1.5 | 0.8
-Digestive system |  | 
-Nausea | 4.3 | 0.4
-Nervous system |  | 
-Dizziness | 2.2 | 0.8
-Insomnia | 2.1 | 0.6
-Somnolence | 1.7 | 0.3
-Skin and appendages | 1.5 | 0.6
-Sweating | 1.0 | 0.2
+A comparison of adverse event rates in a fixed-dose study comparing venlafaxine hydrochloride 75, 225, and 375 mg/day with placebo revealed a dose dependency for some of the more common adverse events associated with venlafaxine hydrochloride use, as shown in the table that follows. The rule for including events was to enumerate those that occurred at an incidence of 5% or more for at least one of the venlafaxine groups and for which the incidence was at least twice the placebo incidence for at least one venlafaxine hydrochloride group. Tests for potential dose relationships for these events (Cochran-Armitage Test, with a criterion of exact 2-sided p-value ≤0.05) suggested a dose-dependency for several adverse events in this list, including chills, hypertension, anorexia, nausea, agitation, dizziness, somnolence, tremor, yawning, sweating, and abnormal ejaculation.
 
-Common Adverse Reactions in Placebo-controlled Studies
+TABLE 3 Treatment-Emergent Adverse Experience Incidence in a Dose Comparison Trial
+ |  | Venlafaxine Hydrochloride (mg/day)
+Body System / Preferred Term | Placebo (n=92) | 75 (n=89) | 225 (n=89) | 375 (n=88)
+Body as a Whole
+Abdominal pain | 3.3% | 3.4% | 2.2% | 8.0%
+Asthenia | 3.3% | 16.9% | 14.6% | 14.8%
+Chills | 1.1% | 2.2% | 5.6% | 6.8%
+Infection | 2.2% | 2.2% | 5.6% | 2.3%
+Cardiovascular System
+Hypertension | 1.1% | 1.1% | 2.2% | 4.5%
+Vasodilatation | 0.0% | 4.5% | 5.6% | 2.3%
+Digestive System
+Anorexia | 2.2% | 14.6% | 13.5% | 17.0%
+Dyspepsia | 2.2% | 6.7% | 6.7% | 4.5%
+Nausea | 14.1% | 32.6% | 38.2% | 58.0%
+Vomiting | 1.1% | 7.9% | 3.4% | 6.8%
+Nervous System
+Agitation | 0.0% | 1.1% | 2.2% | 4.5%
+Anxiety | 4.3% | 11.2% | 4.5% | 2.3%
+Dizziness | 4.3% | 19.1% | 22.5% | 23.9%
+Insomnia | 9.8% | 22.5% | 20.2% | 13.6%
+Libido decreased | 1.1% | 2.2% | 1.1% | 5.7%
+Nervousness | 4.3% | 21.3% | 13.5% | 12.5%
+Somnolence | 4.3% | 16.9% | 18.0% | 26.1%
+Tremor | 0.0% | 1.1% | 2.2% | 10.2%
+Respiratory System
+Yawn | 0.0% | 4.5% | 5.6% | 8.0%
+Skin and Appendages
+Sweating | 5.4% | 6.7% | 12.4% | 19.3%
+Special Senses
+Abnormality of accommodation | 0.0% | 9.1% | 7.9% | 5.6%
+Urogenital System
+Abnormal ejaculation / orgasm | 0.0% | 4.5% | 2.2% | 12.5%
+Impotence       (Number of men) | 0.0% (n=63) | 5.8% (n=52) | 2.1% (n=48) | 3.6% (n=56)
 
-The number of patients receiving multiple doses of venlafaxine hydrochloride extended-release capsules during the premarketing assessment for each approved indication is shown in Table 8. The conditions and duration of exposure to venlafaxine in all development programs varied greatly, and included (in overlapping categories) open and double-blind studies, uncontrolled and controlled studies, inpatient (venlafaxine hydrochloride tablets only) and outpatient studies, fixed-dose, and titration studies.
+Adaptation to Certain Adverse Events
 
-Indication | Venlafaxine Hydrochloride Extended-Release Capsules
-MDD | 705
-    
-      a
-GAD | 1,381
-SAD | 819
-PD | 1,314
-a In addition, in the premarketing assessment of venlafaxine hydrochloride tablets, multiple doses were administered to 2,897 patients in studies for MDD.
-
-The incidences of common adverse reactions (those that occurred in ≥2% of venlafaxine hydrochloride extended-release capsules treated patients [357 MDD patients, 1,381 GAD patients, 819 SAD patients, and 1,001 PD patients] and more frequently than placebo) in venlafaxine hydrochloride extended-release capsules treated patients in short-term, placebo-controlled, fixed- and flexible-dose clinical studies (doses 37.5 to 225 mg per day) are shown in Table 9.
-
-The adverse reaction profile did not differ substantially between the different patient populations.
-
-Body System 
-        Adverse Reaction | Venlafaxine Hydrochloride Extended-Release Capsules 
-        n = 3,558 | Placebo 
-        n = 2,197
-Body as a whole |  | 
-Asthenia | 12.6 | 7.8
-Cardiovascular system |  | 
-Hypertension | 3.4 | 2.6
-Palpitation | 2.2 | 2.0
-Vasodilatation | 3.7 | 1.9
-Digestive system |  | 
-Anorexia | 9.8 | 2.6
-Constipation | 9.3 | 3.4
-Diarrhea | 7.7 | 7.2
-Dry mouth | 14.8 | 5.3
-Nausea | 30.0 | 11.8
-Vomiting | 4.3 | 2.7
-Nervous system |  | 
-Abnormal dreams | 2.9 | 1.4
-Dizziness | 15.8 | 9.5
-Insomnia | 17.8 | 9.5
-Libido decreased | 5.1 | 1.6
-Nervousness | 7.1 | 5.0
-Paresthesia | 2.4 | 1.4
-Somnolence | 15.3 | 7.5
-Tremor | 4.7 | 1.6
-Respiratory system |  | 
-Yawn | 3.7 | 0.2
-Skin and appendages |  | 
-Sweating (including night sweats) | 11.4 | 2.9
-Special senses |  | 
-Abnormal vision | 4.2 | 1.6
-Urogenital system |  | 
-Abnormal ejaculation/orgasm (men)
-    
-      a | 9.9 | 0.5
-Anorgasmia (men)
-    
-      a | 3.6 | 0.1
-Anorgasmia (women)
-    
-      b | 2.0 | 0.2
-Impotence (men)
-    
-      a | 5.3 | 1.0
-a Percentages based on the number of men (venlafaxine hydrochloride extended-release capsules, n=1,440; placebo, n=923) 
-      
-                                           b Percentages based on the number of women (venlafaxine hydrochloride extended-release capsules, n=2,118; placebo, n=1,274)
-
-Other Adverse Reactions Observed in Clinical Studies
-
-Body as a Whole – Photosensitivity reaction, chills
-
-Cardiovascular System – Postural hypotension, syncope, hypotension, tachycardia
-
-Digestive System – Gastrointestinal hemorrhage [see Warnings and Precautions (5.4) ] , bruxism
-
-Hemic/Lymphatic System – Ecchymosis [see Warnings and Precautions (5.4) ]
-
-Metabolic/Nutritional – Hypercholesterolemia, weight gain [see Warnings and Precautions (5.10) ] , weight loss [see Warnings and Precautions (5.10) ]
-
-Nervous System – Seizures [see Warnings and Precautions (5.8) ] , manic reaction [see Warnings and Precautions (5.6) ] , agitation, confusion, akathisia, hallucinations, hypertonia, myoclonus, depersonalization, apathy
-
-Skin and Appendages – Urticaria, pruritus, rash, alopecia
-
-Special Senses – Mydriasis, abnormality of accommodation, tinnitus, taste perversion
-
-Urogenital System – Urinary retention, urination impaired, urinary incontinence, urinary frequency increased, menstrual disorders associated with increased bleeding or increased irregular bleeding (e.g., menorrhagia, metrorrhagia)
+Over a 6 week period, there was evidence of adaptation to some adverse events with continued therapy (e.g., dizziness and nausea), but less to other effects (e.g., abnormal ejaculation and dry mouth).
 
 Vital Sign Changes
 
-In placebo-controlled premarketing studies, there were increases in mean blood pressure (see Table 10 ). Across most indications, a dose-related increase in mean supine systolic and diastolic blood pressure was evident in patients treated with venlafaxine hydrochloride extended-release capsules. Across all clinical studies in MDD, GAD, SAD and PD, 1.4% of patients in the venlafaxine hydrochloride extended-release capsules groups experienced an increase in SDBP of ≥15 mm Hg along with a blood pressure ≥105 mm Hg, compared to 0.9% of patients in the placebo groups. Similarly, 1% of patients in the venlafaxine hydrochloride extended-release capsules groups experienced an increase in SSBP of ≥20 mm Hg with a blood pressure ≥180 mm Hg, compared to 0.3% of patients in the placebo groups.
+Venlafaxine hydrochloride treatment (averaged over all dose groups) in clinical trials was associated with a mean increase in pulse rate of approximately 3 beats per minute, compared to no change for placebo. In a flexible-dose study, with doses in the range of 200 to 375 mg/day and mean dose greater than 300 mg/day, the mean pulse was increased by about 2 beats per minute compared with a decrease of about 1 beat per minute for placebo.
 
- | Venlafaxine Hydrochloride Extended-Release Capsules | Placebo
-Indication | ≤75 mg per day | >75 mg per day |  | 
-(Duration) | SSBP | SDBP | SSBP | SDBP | SSBP | SDBP
-MDD |  |  |  |  |  | 
-(8 to12 weeks) | -0.28 | 0.37 | 2.93 | 3.56 | -1.08 | -0.10
-GAD |  |  |  |  |  | 
-(8 weeks) | -0.28 | 0.02 | 2.40 | 1.68 | -1.26 | -0.92
-(6 months) | 1.27 | -0.69 | 2.06 | 1.28 | -1.29 | -0.74
-SAD |  |  |  |  |  | 
-(12 weeks) | -0.29 | -1.26 | 1.18 | 1.34 | -1.96 | -1.22
-(6 months) | -0.98 | -0.49 | 2.51 | 1.96 | -1.84 | -0.65
-PD |  |  |  |  |  | 
-(10 to 2 weeks) | -1.15 | 0.97 | -0.36 | 0.16 | -1.29 | -0.99
-
-Venlafaxine hydrochloride extended-release capsules treatment was associated with sustained hypertension (defined as Supine Diastolic Blood Pressure [SDBP] ≥90 mm Hg and ≥10 mm Hg above baseline for three consecutive on-therapy visits (see Table 11 ). An insufficient number of patients received mean doses of venlafaxine hydrochloride extended-release capsules over 300 mg per day in clinical studies to fully evaluate the incidence of sustained increases in blood pressure at these higher doses.
-
-Indication | Dose Range (mg per day) | Incidence (%)
-MDD | 75 to 375
-    
-      a | 19/705 (3)
-GAD | 37.5 to 225 | 5/1,011 (0.5)
-SAD | 75 to 225 | 5/771 (0.6)
-PD | 75 to 225 | 9/973 (0.9)
-a Maximum recommended dosage for venlafaxine hydrochloride extended-release capsules is 225 mg once daily.
-
-Venlafaxine hydrochloride extended-release capsules were associated with mean increases in pulse rate compared with placebo in premarketing placebo-controlled studies (see Table 12 ) [see Warnings and Precautions (5.3 , 5.4) ] .
-
-Indication 
-          (Duration) | Venlafaxine Hydrochloride Extended-Release Capsules | Placebo
-MDD 
-          (12 weeks) | 2 | 1
-GAD 
-          (8 weeks) | 2 | <1
-SAD 
-          (12 weeks) | 3 | 1
-PD 
-          (12 weeks) | 1 | <1
+In controlled clinical trials, venlafaxine hydrochloride was associated with mean increases in diastolic blood pressure ranging from 0.7 to 2.5 mm Hg averaged over all dose groups, compared to mean decreases ranging from 0.9 to 3.8 mm Hg for placebo. However, there is a dose dependency for blood pressure increase (see WARNINGS ).
 
 Laboratory Changes
 
-Serum Cholesterol
+Of the serum chemistry and hematology parameters monitored during clinical trials with venlafaxine hydrochloride, a statistically significant difference with placebo was seen only for serum cholesterol. In premarketing trials, treatment with venlafaxine tablets was associated with a mean final on-therapy increase in total cholesterol of 3 mg/dL.
 
-Venlafaxine hydrochloride extended-release capsules were associated with mean final increases in serum cholesterol concentrations compared with mean final decreases for placebo in premarketing MDD, GAD, SAD and PD clinical studies (Table 13).
+Patients treated with venlafaxine tablets for at least 3 months in placebo-controlled 12-month extension trials had a mean final on-therapy increase in total cholesterol of 9.1 mg/dL compared with a decrease of 7.1 mg/dL among placebo-treated patients. This increase was duration dependent over the study period and tended to be greater with higher doses. Clinically relevant increases in serum cholesterol, defined as 1) a final on-therapy increase in serum cholesterol ≥50 mg/dL from baseline and to a value ≥ 261 mg/dL or 2) an average on-therapy increase in serum cholesterol ≥ 50 mg/dL from baseline and to a value ≥ 26 mg/dL, were recorded in 5.3% of venlafaxine-treated patients and 0% of placebo-treated patients (see PRECAUTIONS, General , Serum Cholesterol Elevation) .
 
-Indication 
-          (Duration) | Venlafaxine Hydrochloride Extended-Release Capsules | Placebo
-MDD |  | 
-(12 weeks) | +1.5 | -7.4
-GAD |  | 
-(8 weeks) | +1.0 | -4.9
-(6 months) | +2.3 | -7.7
-SAD |  | 
-(12 weeks) | +7.9 | -2.9
-(6 months) | +5.6 | -4.2
-PD |  | 
-(12 weeks) | +5.8 | -3.7
+ECG Changes
 
-Venlafaxine hydrochloride extended-release capsules treatment for up to 12 weeks in premarketing placebo-controlled trials for major depressive disorder was associated with a mean final on-therapy increase in serum cholesterol concentration of approximately 1.5 mg/dL compared with a mean final decrease of 7.4 mg/dL for placebo. Venlafaxine hydrochloride extended-release capsules treatment for up to 8 weeks and up to 6 months in premarketing placebo-controlled GAD trials was associated with mean final on-therapy increases in serum cholesterol concentration of approximately 1.0 mg/dL and 2.3 mg/dL, respectively while placebo subjects experienced mean final decreases of 4.9 mg/dL and 7.7 mg/dL, respectively. Venlafaxine hydrochloride extended-release capsules treatment for up to 12 weeks and up to 6 months in premarketing placebo-controlled Social Anxiety Disorder trials was associated with mean final on-therapy increases in serum cholesterol concentration of approximately 7.9 mg/dL and 5.6 mg/dL, respectively, compared with mean final decreases of 2.9 and 4.2 mg/dL, respectively, for placebo. Venlafaxine hydrochloride extended-release capsules treatment for up to 12 weeks in premarketing placebo-controlled panic disorder trials was associated with mean final on-therapy increases in serum cholesterol concentration of approximately 5.8 mg/dL compared with a mean final decrease of 3.7 mg/dL for placebo.
+In an analysis of ECGs obtained in 769 patients treated with venlafaxine hydrochloride and 450 patients treated with placebo in controlled clinical trials, the only statistically significant difference observed was for heart rate, i.e., a mean increase from baseline of 4 beats per minute for venlafaxine hydrochloride. In a flexible- dose study, with doses in the range of 200 to 375 mg/day and mean dose greater than 300 mg/day, the mean change in heart rate was 8.5 beats per minute compared with 1.7 beats per minute for placebo (see PRECAUTIONS, General , Use in Patients with Concomitant Illness) .
 
-Patients treated with venlafaxine hydrochloride tablets (immediate-release) for at least 3 months in placebo-controlled 12-month extension trials had a mean final on-therapy increase in total cholesterol of 9.1 mg/dL compared with a decrease of 7.1 mg/dL among placebo-treated patients. This increase was duration dependent over the study period and tended to be greater with higher doses. Clinically relevant increases in serum cholesterol, defined as 1) a final on-therapy increase in serum cholesterol ≥50 mg/dL from baseline and to a value ≥261 mg/dL, or 2) an average on-therapy increase in serum cholesterol ≥50 mg/dL from baseline and to a value ≥261 mg/dL, were recorded in 5.3% of venlafaxine-treated patients and 0.0% of placebo-treated patients.
+Other Events Observed During the Premarketing Evaluation of Venlafaxine
 
-Serum Triglycerides
+During its premarketing assessment, multiple doses of venlafaxine hydrochloride were administered to 2,897 patients in Phase 2 and Phase 3 studies. In addition, in premarketing assessment of venlafaxine hydrochloride extended-release capsules, multiple doses were administered to 705 patients in Phase 3 major depressive disorder studies and venlafaxine hydrochloride was administered to 96 patients. During its premarketing assessment, multiple doses of venlafaxine hydrochloride extended-release capsules were also administered to 1,381 patients in Phase 3 GAD studies and 277 patients in Phase 3 Social Anxiety Disorder studies. The conditions and duration of exposure to venlafaxine in both development programs varied greatly, and included (in overlapping categories) open and double-blind studies, uncontrolled and controlled studies, inpatient (venlafaxine tablets only) and outpatient studies, fixed-dose and titration studies. Untoward events associated with this exposure were recorded by clinical investigators using terminology of their own choosing. Consequently, it is not possible to provide a meaningful estimate of the proportion of individuals experiencing adverse events without first grouping similar types of untoward events into a smaller number of standardized event categories.
 
-Venlafaxine hydrochloride extended-release capsules were associated with mean final on-therapy increases in fasting serum triglycerides compared with placebo in premarketing clinical studies of SAD and PD up to 12 weeks (pooled data) and 6 months duration (Table 14).
+In the tabulations that follow, reported adverse events were classified using a standard COSTART-based Dictionary terminology. The frequencies presented, therefore, represent the proportion of the 5,356 patients exposed to multiple doses of either formulation of venlafaxine who experienced an event of the type cited on at least one occasion while receiving venlafaxine. All reported events are included except those already listed in Table 2 and those events for which a drug cause was remote. If the COSTART term for an event was so general as to be uninformative, it was replaced with a more informative term. It is important to emphasize that, although the events reported occurred during treatment with venlafaxine, they were not necessarily caused by it.
 
-Indication 
-          (Duration) | Venlafaxine Hydrochloride Extended-Release Capsules | Placebo
-SAD 
-          (12 weeks) | 8.2 | 0.4
-SAD 
-          (6 months) | 11.8 | 1.8
-PD 
-          (12 weeks) | 5.9 | 0.9
-PD 
-          (6 months) | 9.3 | 0.3
+Events are further categorized by body system and listed in order of decreasing frequency using the following definitions: frequent adverse events are defined as those occurring on one or more occasions in at least 1/100 patients; infrequent adverse events are those occurring in 1/100 to 1/1,000 patients; rare events are those occurring in fewer than 1/1,000 patients.
 
-**6.2 Postmarketing Experience**
+Body as a whole — Frequent: accidental injury, chest pain substernal, neck pain; Infrequent: face edema, intentional injury, malaise, moniliasis, neck rigidity, pelvic pain, photosensitivity reaction, suicide attempt, withdrawal syndrome; Rare: appendicitis, bacteremia, carcinoma, cellulitis.
 
-The following adverse reactions have been identified during post-approval use of venlafaxine hydrochloride extended-release capsules. Because these reactions are reported voluntarily from a population of uncertain size, it is not always possible to reliably estimate their frequency or establish a causal relationship to drug exposure.
+Cardiovascular system — Frequent: migraine; Infrequent: angina pectoris, arrhythmia, extrasystoles, hypotension, peripheral vascular disorder (mainly cold feet and/or cold hands), syncope, thrombophlebitis; Rare: aortic aneurysm, arteritis, first-degree atrioventricular block, bigeminy, bradycardia, bundle branch block, capillary fragility, cardiovascular disorder (mitral valve and circulatory disturbance), cerebral ischemia, coronary artery disease, congestive heart failure, heart arrest, mucocutaneous hemorrhage, myocardial infarct, pallor.
 
-Body as a Whole – Anaphylaxis, angioedema Cardiovascular System – QT prolongation, ventricular fibrillation, ventricular tachycardia (including torsade de pointes), takotsubo cardiomyopathy Digestive System – Pancreatitis Hemic/Lymphatic System – Mucous membrane bleeding [see Warnings and Precautions (5.4) ] , blood dyscrasias (including agranulocytosis, aplastic anemia, neutropenia and pancytopenia), prolonged bleeding time, thrombocytopenia Metabolic/Nutritional – Hyponatremia [see Warnings and Precautions (5.9) ] , Syndrome of Inappropriate Antidiuretic Hormone (SIADH) secretion [see Warnings and Precautions (5.9) ] , abnormal liver function tests, hepatitis, prolactin increased Musculoskeletal – Rhabdomyolysis Nervous System – Neuroleptic Malignant Syndrome (NMS) [see Warnings and Precautions (5.2) ] , serotonergic syndrome [see Warnings and Precautions (5.2) ] , delirium, extrapyramidal reactions (including dystonia and dyskinesia), impaired coordination and balance, tardive dyskinesia Respiratory, Thoracic and Mediastinal Disorders – Anosmia, dyspnea, hyposmia, interstitial lung disease, pulmonary eosinophilia [see Warnings and Precautions (5.12) ] Skin and Appendages – Stevens-Johnson syndrome, toxic epidermal necrolysis, erythema multiforme Special Senses – Angle-closure glaucoma [see Warnings and Precautions (5.5) ]
+Digestive system — Frequent: eructation; Infrequent: bruxism, colitis, dysphagia, tongue edema, esophagitis, gastritis, gastroenteritis, gastrointestinal ulcer, gingivitis, glossitis, rectal hemorrhage, hemorrhoids, melena, oral moniliasis, stomatitis, mouth ulceration; Rare: cheilitis, cholecystitis, cholelithiasis, duodenitis, esophageal spasm, hematemesis, gastrointestinal hemorrhage, gum hemorrhage, hepatitis, ileitis, jaundice, intestinal obstruction, parotitis, periodontitis, proctitis, increased salivation, soft stools, tongue discoloration.
+
+Endocrine system — Rare: goiter, hyperthyroidism, hypothyroidism, thyroid nodule, thyroiditis.
+
+Hemic and lymphatic system — Frequent: ecchymosis; Infrequent: anemia, leukocytosis, leukopenia, lymphadenopathy, thrombocythemia, thrombocytopenia; Rare: basophilia,bleeding time increased, cyanosis, eosinophilia, lymphocytosis, multiple myeloma, purpura.
+
+Metabolic and nutritional — Frequent: edema, weight gain; Infrequent: alkaline phosphatase increased, dehydration, hypercholesteremia, hyperglycemia, hyperlipemia, hypokalemia, SGOT (AST) increased, SGPT (ALT) increased, thirst; Rare: alcohol intolerance, bilirubinemia, BUN increased, creatinine increased, diabetes mellitus, glycosuria, gout, healing abnormal, hemochromatosis, hypercalcinuria, hyperkalemia, hyperphosphatemia, hyperuricemia, hypocholesteremia, hypoglycemia, hyponatremia, hypophosphatemia, hypoproteinemia, uremia.
+
+Musculoskeletal system — Infrequent: arthritis, arthrosis, bone pain, bone spurs, bursitis, leg cramps, myasthenia, tenosynovitis; Rare: pathological fracture, myopathy, osteoporosis, osteosclerosis, plantar fasciitis, rheumatoid arthritis, tendon rupture
+
+Nervous system — Frequent: trismus, vertigo; Infrequent: akathisia, apathy, ataxia, circumoral paresthesia, CNS stimulation, emotional lability, euphoria, hallucinations, hostility, hyperesthesia, hyperkinesia, hypotonia, incoordination, libido increased, manic reaction, myoclonus, neuralgia, neuropathy, psychosis, seizure, abnormal speech, stupor; Rare: akinesia, alcohol abuse, aphasia, bradykinesia, buccoglossal syndrome, cerebrovascular accident, loss of consciousness, delusions, dementia, dystonia, facial paralysis, feeling drunk, abnormal gait, Guillain-Barre Syndrome, hyperchlorhydria, hypokinesia, impulse control difficulties, neuritis, nystagmus, paranoid reaction, paresis, psychotic depression, reflexes decreased, reflexes increased, suicidal ideation, torticollis.
+
+Respiratory system — Frequent: bronchitis, dyspnea; Infrequent: asthma, chest congestion, epistaxis, hyperventilation, laryngismus, laryngitis, pneumonia, voice alteration; Rare: atelectasis, hemoptysis, hypoventilation, hypoxia, larynx edema, pleurisy, pulmonary embolus, sleep apnea.
+
+Skin and appendages — Infrequent: acne, alopecia, brittle nails, contact dermatitis, dry skin, eczema, skin hypertrophy, maculopapular rash, psoriasis, urticaria; Rare: erythema nodosum, exfoliative dermatitis, lichenoid dermatitis, hair discoloration, skin discoloration, furunculosis, hirsutism, leukoderma, petechial rash, pustular rash, vesiculobullous rash, seborrhea, skin atrophy, skin striae.
+
+Special senses — Frequent: abnormality of accommodation, abnormal vision; Infrequent: cataract, conjunctivitis, corneal lesion, diplopia, dry eyes, eye pain, hyperacusis, otitis media, parosmia, photophobia, taste loss, visual field defect; Rare: blepharitis, chromatopsia, conjunctival edema, deafness, exophthalmos, angle-closure glaucoma, retinal hemorrhage, subconjunctival hemorrhage, keratitis, labyrinthitis, miosis, papilledema, decreased pupillary reflex, otitis externa, scleritis, uveitis.
+
+Urogenital system — Frequent: metrorrhagia*, prostatic disorder (prostatitis and enlarged prostate)*, vaginitis*; Infrequent: albuminuria, amenorrhea*, cystitis, dysuria, hematuria, leukorrhea*, menorrhagia*, nocturia, bladder pain, breast pain, polyuria, pyuria, urinary incontinence, urinary urgency, vaginal hemorrhage*; Rare: abortion*, anuria, balanitis*, breast discharge, breast engorgement, breast enlargement, endometriosis*, fibrocystic breast, calcium crystalluria, cervicitis*, ovarian cyst*, prolonged erection*, gynecomastia (male)*, hypomenorrhea*, kidney calculus, kidney pain, kidney function abnormal, female lactation*, mastitis, menopause*, oliguria, orchitis*, pyelonephritis, salpingitis*, urolithiasis, uterine hemorrhage*, uterine spasm*, vaginal dryness*.
+
+*Based on the number of men and women as appropriate.
+
+**Postmarketing Reports**
+
+Voluntary reports of other adverse events temporally associated with the use of venlafaxine that have been received since market introduction and that may have no causal relationship with the use of venlafaxine include the following: agranulocytosis, anaphylaxis, anosmia, angioedema, aplastic anemia, catatonia, congenital anomalies, impaired coordination and balance, CPK increased, deep vein thrombophlebitis, delirium, EKG abnormalities such as QT prolongation; cardiac arrhythmias including atrial fibrillation, supraventricular tachycardia, ventricular extrasystole, and rare reports of ventricular fibrillation and ventricular tachycardia, including torsade de pointes; toxic epidermal necrolysis/Stevens-Johnson syndrome, erythema multiforme, extrapyramidal symptoms (including dyskinesia and tardive dyskinesia), angle-closure glaucoma, hemorrhage (including eye and gastrointestinal bleeding), hyposmia, hepatic events (including GGT elevation; abnormalities of unspecified liver function tests; liver damage, necrosis, or failure; and fatty liver), interstitial lung disease, involuntary movements, LDH increased, neutropenia, night sweats, pancreatitis, pancytopenia, panic, prolactin increased, renal failure, rhabdomyolysis, shock-like electrical sensations or tinnitus (in some cases, subsequent to the discontinuation of venlafaxine or tapering of dose), and syndrome of inappropriate antidiuretic hormone secretion (usually in the elderly).
+
+There have been reports of elevated clozapine levels that were temporally associated with adverse events, including seizures, following the addition of venlafaxine. There have been reports of increases in prothrombin time, partial thromboplastin time, or INR when venlafaxine was given to patients receiving warfarin therapy.
+
+To report SUSPECTED ADVERSE REACTIONS, contact Avet Pharmaceuticals Inc. at 1-866-901-DRUG (3784) or FDA at 1-800-FDA-1088 or www.fda.gov/medwatch.

@@ -1,0 +1,100 @@
+---
+attribution_text: Drug label information from DailyMed, U.S. National Library of Medicine.
+audience: patient
+content_hash: sha256:4e4fc6a5581f9e915725f09c517b60f1385d9276f27bf87bd4e8e6460cd4a837
+id: dailymed:propranolol:drug-interactions
+keywords: []
+language: en
+license: public_domain
+publisher: DailyMed (U.S. National Library of Medicine)
+section: Drug Interactions
+source: dailymed
+source_last_updated: null
+source_url: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=16291f1b-1ce4-480a-a1fc-c20bbac4cbe7
+title: Propranolol Hydrochloride Tablet
+use_case: medication
+---
+
+# Propranolol Hydrochloride Tablet — Drug Interactions
+
+**Drug Interactions**
+
+**Interactions with Substrates, Inhibitors or Inducers of Cytochrome P-450 Enzymes**
+
+Because propranolol's metabolism involves multiple pathways in the cytochrome P-450 system (CYP2D6, 1A2, 2C19), co-administration with drugs that are metabolized by, or effect the activity (induction or inhibition) of one or more of these pathways may lead to clinically relevant drug interactions (see Drug Interactions under PRECAUTIONS ).
+
+**Substrates or Inhibitors of CYP2D6**
+
+Blood levels and/or toxicity of propranolol may be increased by co-administration with substrates or inhibitors of CYP2D6, such as amiodarone, cimetidine, delavudin, fluoxetine, paroxetine, quinidine, and ritonavir. No interactions were observed with either ranitidine or lansoprazole.
+
+**Substrates or Inhibitors of CYP1A2**
+
+Blood levels and/or toxicity of propranolol may be increased by co-administration with substrates or inhibitors of CYP1A2, such as imipramine, cimetidine, ciprofloxacin, fluvoxamine, isoniazid, ritonavir, theophylline, zileuton, zolmitriptan, and rizatriptan.
+
+**Substrates or Inhibitors of CYP2C19**
+
+Blood levels and/or toxicity of propranolol may be increased by co-administration with substrates or inhibitors of CYP2C19, such as fluconazole, cimetidine, fluoxetine, fluvoxamine, teniposide, and tolbutamide. No interaction was observed with omeprazole.
+
+**Inducers of Hepatic Drug Metabolism**
+
+Blood levels of propranolol may be decreased by co-administration with inducers such as rifampin, ethanol, phenytoin, and phenobarbital. Cigarette smoking also induces hepatic metabolism and has been shown to increase up to 77% the clearance of propranolol, resulting in decreased plasma concentrations.
+
+**Cardiovascular Drugs**
+
+**Antiarrhythmics**
+
+The AUC of propafenone is increased by more than 200% by co-administration of propranolol.
+
+The metabolism of propranolol is reduced by co-administration of quinidine, leading to a two‑three fold increased blood concentration and greater degrees of clinical beta-blockade.
+
+The metabolism of lidocaine is inhibited by co-administration of propranolol, resulting in a 25% increase in lidocaine concentrations.
+
+**Calcium Channel Blockers**
+
+The mean C max and AUC of propranolol are increased, respectively, by 50% and 30% by co‑administration of nisoldipine and by 80% and 47%, by co‑administration of nicardipine.
+
+The mean C max and AUC of nifedipine are increased by 64% and 79%, respectively, by co‑administration of propranolol.
+
+Propranolol does not affect the pharmacokinetics of verapamil and norverapamil. Verapamil does not affect the pharmacokinetics of propranolol.
+
+**Non-Cardiovascular Drugs**
+
+**Migraine Drugs**
+
+Administration of zolmitriptan or rizatriptan with propranolol resulted in increased concentrations of zolmitriptan (AUC increased by 56% and C max by 37%) or rizatriptan (the AUC and C max were increased by 67% and 75%, respectively).
+
+**Theophylline**
+
+Co-administration of theophylline with propranolol decreases theophylline oral clearance by 30% to 52%.
+
+**Benzodiazepines**
+
+Propranolol can inhibit the metabolism of diazepam, resulting in increased concentrations of diazepam and its metabolites. Diazepam does not alter the pharmacokinetics of propranolol.
+
+The pharmacokinetics of oxazepam, triazolam, lorazepam, and alprazolam are not affected by co-administration of propranolol.
+
+**Neuroleptic Drugs**
+
+Co-administration of long-acting propranolol at doses greater than or equal to 160 mg/day resulted in increased thioridazine plasma concentrations ranging from 55% to 369% and increased thioridazine metabolite (mesoridazine) concentrations ranging from 33% to 209%.
+
+Co-administration of chlorpromazine with propranolol resulted in a 70% increase in propranolol plasma level.
+
+**Anti-Ulcer Drugs**
+
+Co-administration of propranolol with cimetidine, a non-specific CYP450 inhibitor, increased propranolol AUC and C max by 46% and 35%, respectively. Co-administration with aluminum hydroxide gel (1200 mg) may result in a decrease in propranolol concentrations.
+
+Co-administration of metoclopramide with the long-acting propranolol did not have a significant effect on propranolol's pharmacokinetics.
+
+**Lipid Lowering Drugs**
+
+Co-administration of cholestyramine or colestipol with propranolol resulted in up to 50% decrease in propranolol concentrations.
+
+Co-administration of propranolol with lovastatin or pravastatin, decreased 18% to 23% the AUC of both, but did not alter their pharmacodynamics. Propranolol did not have an effect on the pharmacokinetics of fluvastatin.
+
+**Warfarin**
+
+Concomitant administration of propranolol and warfarin has been shown to increase warfarin bioavailability and increase prothrombin time.
+
+**Alcohol**
+
+Concomitant use of alcohol may increase plasma levels of propranolol.

@@ -1,7 +1,7 @@
 ---
 attribution_text: Drug label information from DailyMed, U.S. National Library of Medicine.
 audience: patient
-content_hash: sha256:18093543a283b1f0a7f256f74025f0b86df16a58d6080d39e7616418be5de72e
+content_hash: sha256:9a939e3b8b0794453580bdeffa776d32a11a06a2fa7e21961cc7e10439c82a83
 id: dailymed:hydrochlorothiazide:adverse-reactions
 keywords: []
 language: en
@@ -10,65 +10,39 @@ publisher: DailyMed (U.S. National Library of Medicine)
 section: Adverse Reactions
 source: dailymed
 source_last_updated: null
-source_url: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=b3228678-7992-4148-b4ab-aa0d8b1b8570
-title: Spironolactone And Hydrochlorothiazide Tablet
+source_url: https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=2b21f3fc-4164-401a-803e-b982dea97e19
+title: Hydrochlorothiazide Capsule
 use_case: medication
 ---
 
-# Spironolactone And Hydrochlorothiazide Tablet — Adverse Reactions
+# Hydrochlorothiazide Capsule — Adverse Reactions
 
 **ADVERSE REACTIONS**
 
-The following adverse reactions have been reported and, within each category (body system), are listed in order of decreasing severity.
-
-**Hydrochlorothiazide:**
+The adverse reactions associated with hydrochlorothiazide have been shown to be dose related. In controlled clinical trials, the adverse events reported with doses of 12.5 mg hydrochlorothiazide once daily were comparable to placebo. The following adverse reactions have been reported for doses of hydrochlorothiazide 25 mg and greater and, within each category, are listed in the order of decreasing severity.
 
 Body as a whole: Weakness.
 
-Cardiovascular: Hypotension including orthostatic hypotension (may be aggravated by alcohol, barbiturates, narcotics, or antihypertensive drugs).
+Cardiovascular: Hypotension including orthostatic hypotension (may be aggravated by alcohol, barbiturates, narcotics or antihypertensive drugs).
 
-Digestive: Pancreatitis, jaundice (intrahepatic cholestatic jaundice), diarrhea, vomiting, sialoadenitis, cramping, constipation, gastric irritation, nausea, anorexia.
-
-Eye Disorders: Acute myopia and acute angle-closure glaucoma (see Warnings ).
+Digestive: Pancreatitis, jaundice (intrahepatic cholestatic jaundice), diarrhea, vomiting, sialadenitis, cramping, constipation, gastric irritation, nausea, anorexia.
 
 Hematologic: Aplastic anemia, agranulocytosis, leukopenia, hemolytic anemia, thrombocytopenia.
 
-Hypersensitivity: Anaphylactic reactions, necrotizing angitis (vasculitis and cutaneous vasculitis), respiratory distress including pneumonitis and pulmonary edema, photosensitivity, fever, urticaria, rash, purpura.
+Hypersensitivity: Anaphylactic reactions, necrotizing angiitis (vasculitis and cutaneous vasculitis), respiratory distress including pneumonitis and pulmonary edema, photosensitivity, fever, urticaria, rash, purpura.
 
-Metabolic: Electrolyte imbalance (see Precautions ), hyperglycemia, glycosuria, hyperuricemia.
+Metabolic: Electrolyte imbalance (see PRECAUTIONS ), hyperglycemia, glycosuria, hyperuricemia.
 
 Musculoskeletal: Muscle spasm.
 
-Nervous system/psychiatric: Vertigo, paresthesias, dizziness, headache, restlessness.
+Nervous System/Psychiatric: Vertigo, paresthesia, dizziness, headache, restlessness.
 
-Renal: Renal failure, renal dysfunction, interstitial nephritis (see Warnings ).
+Renal: Renal failure, renal dysfunction, interstitial nephritis (see WARNINGS ).
 
-Skin: Erythema multiforme, pruritus.
+Skin: Erythema multiforme including Stevens-Johnson syndrome, exfoliative dermatitis including toxic epidermal necrolysis, alopecia.
 
-Special senses: Transient blurred vision, xanthopsia.
+Special Senses: Transient blurred vision, xanthopsia.
 
-**Spironolactone:**
+Urogenital: Impotence.
 
-Digestive: Gastric bleeding, ulceration, gastritis, diarrhea and cramping, nausea, vomiting.
-
-Reproductive: Gynecomastia (see Precautions ), inability to achieve or maintain erection, irregular menses or amenorrhea, postmenopausal bleeding, breast pain. Carcinoma of the breast has been reported in patients taking spironolactone but a cause and effect relationship has not been established.
-
-Hematologic: Leukopenia (including agranulocytosis), thrombocytopenia.
-
-Hypersensitivity: Fever, urticaria, maculopapular or erythematous cutaneous eruptions, anaphylactic reactions, vasculitis.
-
-Metabolism: Hyperkalemia, electrolyte disturbances (see Warnings and Precautions ).
-
-Musculoskeletal: Leg cramps.
-
-Nervous system/psychiatric: Lethargy, mental confusion, ataxia, dizziness, headache, drowsiness.
-
-Liver/biliary: A very few cases of mixed cholestatic/hepatocellular toxicity, with one reported fatality, have been reported with spironolactone administration.
-
-Renal: Renal dysfunction (including renal failure).
-
-Skin: Stevens-Johnson Syndrome (SJS), toxic epidermal necrolysis (TEN), drug rash with eosinophilia and systemic symptoms (DRESS), alopecia, pruritus.
-
-**Post Marketing Experience**
-
-Non-melanoma Skin Cancer: Hydrochlorothiazide is associated with an increased risk of non-melanoma skin cancer. In a study conducted in the Sentinel System, increased risk was predominantly for squamous cell carcinoma (SCC) and in white patients taking large cumulative doses. The increased risk for SCC in the overall population was approximately 1 additional case per 16,000 patients per year, and for white patients taking a cumulative dose of ≥50,000 mg the risk increase was approximately 1 additional SCC case for every 6,700 patients per year.
+Whenever adverse reactions are moderate or severe, thiazide dosage should be reduced or therapy withdrawn.

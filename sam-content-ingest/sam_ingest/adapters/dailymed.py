@@ -8,7 +8,9 @@ latest spl_version, preferring the generic label. Labels are public domain.
 
 from __future__ import annotations
 
+import json
 import logging
+import re
 from typing import Iterable
 
 from lxml import etree
@@ -19,8 +21,22 @@ from .base import BaseAdapter
 log = logging.getLogger("sam_ingest.adapters.dailymed")
 
 _BASE = "https://dailymed.nlm.nih.gov/dailymed/services/v2"
+# RxNorm "Prescribe" namespace = the Current Prescribable Content subset (PRD §6.4).
+_RXNAV_PRESCRIBE = "https://rxnav.nlm.nih.gov/REST/Prescribe"
 _NS = {"v3": "urn:hl7-org:v3"}
 _SPL_TTL = 14 * 24 * 3600  # labels change infrequently; version-checked separately
+_RXNAV_TTL = 30 * 24 * 3600
+
+
+def _active_ingredients(title: str) -> list[str]:
+    """Active ingredients from an SPL title: '(A, B)' or 'A AND B ...' -> [A, B]."""
+    m = re.search(r"\(([^)]*)\)", title)
+    src = m.group(1) if m else title.split("[")[0]
+    return [s.strip() for s in re.split(r",| AND ", src) if s.strip()]
+
+
+def _is_single_ingredient(title: str) -> bool:
+    return len(_active_ingredients(title)) == 1
 
 # Consumer-relevant SPL sections by LOINC code -> canonical label (PRD §6.4).
 # Canonical labels give stable block ids across drugs regardless of the SPL's own title.
@@ -60,27 +76,50 @@ class DailyMedAdapter(BaseAdapter):
                 continue
             yield ref
 
+    def _resolve_rxnorm(self, name: str) -> str | None:
+        """Canonical ingredient RxCUI from RxNorm's current prescribable content, or None
+        if the name isn't in that set."""
+        try:
+            resp = self.client.get(f"{_RXNAV_PRESCRIBE}/rxcui.json",
+                                   params={"name": name}, ttl=_RXNAV_TTL)
+            ids = json.loads(resp.text()).get("idGroup", {}).get("rxnormId", [])
+        except Exception as e:  # noqa: BLE001 - RxNav hiccup shouldn't drop the drug
+            log.warning("RxNorm lookup failed for %r: %s", name, e)
+            return None
+        return ids[0] if ids else None
+
     def _resolve_one(self, *, name, rxcui, prefer_generic) -> SourceRef | None:
-        """One SPL per drug: latest spl_version, preferring the generic label."""
-        base_params = {"rxcui": rxcui} if rxcui else {"drug_name": name}
-        # Try generic first, then fall back to any label.
+        """One SPL per drug: prefer a single-ingredient label, latest spl_version, generic.
+
+        The drug is validated against RxNorm's Current Prescribable Content and tagged with
+        its canonical ingredient RxCUI; DailyMed is queried by name and the result set is
+        filtered to single-ingredient products so we don't pick a combination drug.
+        """
+        ingredient_rxcui = rxcui or self._resolve_rxnorm(name)
+        if ingredient_rxcui is None:
+            log.info("%r not in RxNorm prescribable set — ingesting by name only", name)
+
         for extra in ([{"name_type": "g"}, {}] if prefer_generic else [{}]):
-            params = {**base_params, **extra, "pagesize": "100"}
+            params = {"drug_name": name, **extra, "pagesize": "100"}
             resp = self.client.get(f"{_BASE}/spls.json", params=params, ttl=_SPL_TTL)
             data = _json_data(resp.text())
-            if data:
-                best = max(data, key=lambda d: int(d.get("spl_version", 0)))
-                return SourceRef(
-                    url=f"{_BASE}/spls/{best['setid']}.xml",
-                    source_id=best["setid"],
-                    title=_clean_title(best.get("title", name or rxcui)),
-                    meta={
-                        "rxcui": rxcui,
-                        "spl_version": str(best.get("spl_version", "")),
-                        "published_date": best.get("published_date"),
-                        "drug_name": name,
-                    },
-                )
+            if not data:
+                continue
+            single = [d for d in data if _is_single_ingredient(d.get("title", ""))]
+            pool = single or data
+            best = max(pool, key=lambda d: int(d.get("spl_version", 0)))
+            return SourceRef(
+                url=f"{_BASE}/spls/{best['setid']}.xml",
+                source_id=best["setid"],
+                title=_clean_title(best.get("title", name)),
+                meta={
+                    "rxcui": ingredient_rxcui,
+                    "spl_version": str(best.get("spl_version", "")),
+                    "published_date": best.get("published_date"),
+                    "drug_name": name,
+                    "single_ingredient": bool(single),
+                },
+            )
         return None
 
     def fetch(self, ref: SourceRef, *, refresh: bool = False) -> RawItem:
